@@ -1,0 +1,45 @@
+{
+  "project": "little-prince-across-the-stars",
+  "budgets": {
+    "character": {"tri_warn": 20000, "tri_max": 40000},
+    "prop": {"tri_warn": 4000, "tri_max": 8000},
+    "environment": {"tri_warn": 30000, "tri_max": 60000},
+    "total_tri_max": 250000,
+    "texture_max_px": 2048
+  },
+  "assets": [
+    {
+      "name": "char_little-prince",
+      "kind": "character",
+      "file": "assets/char_little-prince_lod0.glb",
+      "triangles": 18500,
+      "uv": true,
+      "textures": 2,
+      "texture_px": 2048,
+      "rigged": true,
+      "notes": "T-pose four-view source; auto-rig; test arm/leg/turn"
+    },
+    {
+      "name": "prop_watering-can",
+      "kind": "prop",
+      "file": "assets/prop_watering-can_lod0.glb",
+      "triangles": 3400,
+      "uv": true,
+      "textures": 1,
+      "texture_px": 1024,
+      "rigged": false,
+      "notes": "grip contact refined with arm IK"
+    },
+    {
+      "name": "env_b612-ground",
+      "kind": "environment",
+      "file": "assets/env_b612-ground_lod0.glb",
+      "triangles": 26000,
+      "uv": true,
+      "textures": 3,
+      "texture_px": 2048,
+      "rigged": false,
+      "notes": "built directly in DCC"
+    }
+  ]
+}

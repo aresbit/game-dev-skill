@@ -1,0 +1,65 @@
+# LPWeb* JS<->engine bridge  —  LittlePrince / B612 web build
+#
+# FACTS below are extracted verbatim from the shipped artifacts:
+#   - Build/framework.js.br   (Emscripten runtime; jslib merged into the framework, Unity >=2021 style)
+#   - Build/code.wasm.br      (import table: reports/wasm/imports.txt, js_bridge_imports.txt)
+#   - reports/il2cpp/names.txt, literals_raw.txt  (C# side: class WebPlatform, [DllImport("__Internal")])
+#   - reports/web/index.html, reports/web/loading.custom.js  (page side: the window.__lp* consumers)
+#
+# The C# glue imports these from module "env" as [DllImport("__Internal")] extern methods and they are
+# registered in framework.js under the wasmImports "env" table (see framework.js wasmImports map, e.g.
+#   "LPWebGetLang":_LPWebGetLang, "LPWebSetLang":_LPWebSetLang, ... ).
+# All strings cross as UTF-8 C strings (char*); the engine owns the returned pointer (LPWebGetLang mallocs).
+
+## 1. wasm import map (engine -> JS).  wasmImports entry name  =>  JS function `_Name` in framework.js
+env.LPWebGetLang            => _LPWebGetLang()
+env.LPWebSetLang            => _LPWebSetLang(langPtr)              // char* lang
+env.LPWebCanvasScale        => _LPWebCanvasScale()                 // f64 css-px scale of #unity-canvas
+env.LPWebDevicePixelRatio   => _LPWebDevicePixelRatio()            // f64 window.devicePixelRatio
+env.LPWebDownloadLoaded     => _LPWebDownloadLoaded(specPtr)       // char* "name:expected,name:expected,.." -> i32 bytes
+env.LPWebDownloadPending    => _LPWebDownloadPending(specPtr)      // char* same spec -> i32 count not done
+env.LPWebLoadMilestone      => _LPWebLoadMilestone(phasePtr,targetPtr)   // char*,char*
+env.LPWebRecordFrame        => _LPWebRecordFrame(unityDeltaMs,busy,paused)
+env.LPWebReportFrame        => _LPWebReportFrame(fps,ms,dx,lookScale,canvasScale,yaw,music,listener,busy)
+env.LPWebSetTextureDump     => _LPWebSetTextureDump(jsonPtr)       // char* JSON
+
+## 2. JS function bodies (verbatim, from framework.js.br)
+function _LPWebGetLang(){var s=(window.__lpLang||"")+"";var n=lengthBytesUTF8(s)+1,buf=_malloc(n);stringToUTF8(s,buf,n);return buf}
+function _LPWebSetLang(langPtr){var lang=UTF8ToString(langPtr);if(typeof window.__lpSetLang==="function")window.__lpSetLang(lang);else window.__lpLang=lang}
+function _LPWebCanvasScale(){var c=document.querySelector("#unity-canvas");return c&&c.clientWidth>0?c.width/c.clientWidth:window.devicePixelRatio||1}
+function _LPWebDevicePixelRatio(){return window.devicePixelRatio||1}
+function _LPWebDownloadLoaded(specPtr){var net=window.__lpNet;if(!net)return-1;var items=UTF8ToString(specPtr).split(","),sum=0;for(var i=0;i<items.length;i++){var pair=items[i].split(":"),e=net.entries[pair[0]];if(!e)continue;sum+=e.cached?parseInt(pair[1])||e.total||0:e.loaded}return sum}
+function _LPWebDownloadPending(specPtr){var net=window.__lpNet;if(!net)return-1;var items=UTF8ToString(specPtr).split(","),n=0;for(var i=0;i<items.length;i++){var e=net.entries[items[i].split(":")[0]];if(e&&!e.done)n++}return n}
+function _LPWebLoadMilestone(phasePtr,targetPtr){var event={phase:UTF8ToString(phasePtr),target:UTF8ToString(targetPtr),at:performance.now(),visibility:document.visibilityState,focus:document.hasFocus()};var events=window.__lpJourneyMarks||(window.__lpJourneyMarks=[]);events.push(event);if(events.length>500)events.shift()}
+function _LPWebRecordFrame(unityDeltaMs,busy,paused){var trace=window.__lpFrameTrace||(window.__lpFrameTrace={schema:1,capacity:18e3,count:0,total:0,writeIndex:0,lastAt:null,frames:[]});var at=performance.now();trace.frames[trace.writeIndex]=[at,trace.lastAt===null?null:at-trace.lastAt,unityDeltaMs,busy,paused,document.visibilityState==="visible",document.hasFocus()];trace.lastAt=at;trace.writeIndex=(trace.writeIndex+1)%trace.capacity;trace.count=Math.min(trace.count+1,trace.capacity);trace.total++}
+function _LPWebReportFrame(fps,ms,dx,lookScale,canvasScale,yaw,music,listener,busy){window.__lpStats={fps:fps,ms:ms,dx:dx,lookScale:lookScale,canvasScale:canvasScale,yaw:yaw,music:music,listener:listener,busy:busy,t:Date.now()}}
+function _LPWebSetTextureDump(jsonPtr){window.__lpTextureDump=JSON.parse(UTF8ToString(jsonPtr))}
+
+## 3. window.* globals produced / consumed across the bridge
+PRODUCED by custom JS, CONSUMED by engine:
+  window.__lpLang        (string)  set by page head bootstrap; read by _LPWebGetLang
+  window.__lpSetLang     (fn)      defined by body bootstrap; called by _LPWebSetLang (switches page + writes lp-lang)
+  window.__lpNet         (object)  {entries:{name:{loaded,total,done,cached,status,attempt,phase,...}},failed:url}
+                                   installed by LPWebLoading.installDownloadMeter(); read by _LPWebDownloadLoaded/Pending
+  window.__lpFrameTrace  (object)  ring per-frame trace (schema:1, capacity:18000); written by _LPWebRecordFrame
+  window.__lpStats       (object)  latest fps/ms/... snapshot; written by _LPWebReportFrame
+  window.__lpJourneyMarks(array)   {phase,target,at,visibility,focus} marks; by _LPWebLoadMilestone
+  window.__lpTextureDump (object)  parsed JSON; by _LPWebSetTextureDump
+PRODUCED by page, read by page (config/diagnostics):
+  window.__lpUnity   = createUnityInstance() result (diagnostics only; .Module.HEAPU8.byteLength)
+  globalThis.LPWebDecodedSizes    (index.html line 192)  bundle name -> decoded byte size (int)
+  globalThis.LPWebBundleTransport (index.html line 192)  bundle name -> {url,encoding:"br"|"identity",decodedBytes,encodedBytes,sha256,encodedSha256,quality}
+  globalThis.LPWebBundleContent   (index.html line 192)  bundle name -> content tag (first 16 hex of sha256)
+  globalThis.LPWebLoading         (loading.custom.js)    {cacheVersion,cacheControl,installDownloadMeter,installCacheReader}
+
+## 4. localStorage keys
+  "lp-lang"   the player's language choice. Written by page (window.__lpSetLang, index.html:272) and read at
+              startup (index.html:31). The in-game settings page writes it too via WebPlatform.jslib LPWebSetLang
+              (i.e. _LPWebSetLang -> window.__lpSetLang -> localStorage.setItem("lp-lang", ...)).
+  (save game: IndexedDB via Unity, autoSyncPersistentDataPath:true -> journey.json; not a localStorage key.)
+
+## 5. C# side (facts from reports/il2cpp/names.txt, literals_raw.txt)
+  class WebPlatform   (names.txt:75173)  - holds the [DllImport("__Internal")] extern declarations
+  symbols LPWebReportFrame/LPWebLoadMilestone/LPWebSetTextureDump/LPWebRecordFrame/LPWebCanvasScale/
+          LPWebDevicePixelRatio/LPWebDownloadLoaded/LPWebDownloadPending/LPWebGetLang/LPWebSetLang
+  (names.txt:75181..75193) - the C# entrypoints; the __Internal import names equal the wasmImports keys above.

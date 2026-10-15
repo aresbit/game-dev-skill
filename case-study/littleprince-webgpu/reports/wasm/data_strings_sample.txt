@@ -1,0 +1,2001 @@
+# first 2000 data-segment ASCII runs (in order)
+{null}
+Patch indices out of bounds, patchX:{0} patchY:{1} patches size:{2}
+{0}/{1}
+You can attach a managed debugger now if you want. Debugger is using port: {0}. PID: {1}
+You can attach a managed debugger now if you want. Debugger is using port: {0}
+ Source mesh name: {0}
+You can attach a native debugger now if you want. PID: {0}
+var<private> posTex: array<vec4<f32>, 3> = array<vec4<f32>, 3>(
+    vec4<f32>(-1.0, 1.0, 0.0, 0.0),
+    vec4<f32>(3.0, 1.0, 2.0, 0.0),
+    vec4<f32>(-1.0, -3.0, 0.0, 2.0));
+struct VertexOutput
+    @builtin(position) position: vec4<f32>,
+    @location(0) uv: vec2<f32>
+@vertex
+fn vertexMain(@builtin(vertex_index) vertexIndex: u32) -> VertexOutput
+    var output: VertexOutput;
+    output.uv = posTex[vertexIndex].zw;
+    output.position = vec4<f32>(posTex[vertexIndex].xy, 0.0, 1.0);
+    return output;
+struct Uniforms
+    color: vec4<f32>,
+    depth: f32
+@binding(0) @group(0) var<uniform> uniforms: Uniforms;
+var<private> pos: array<vec2<f32>, 3> = array<vec2<f32>, 3>(
+    vec2<f32>(-1.0, 1.0),
+    vec2<f32>(3.0, 1.0),
+    vec2<f32>(-1.0, -3.0));
+struct VertexOutput
+    @builtin(position) position: vec4<f32>
+@vertex
+fn vertexMain(@builtin(vertex_index) vertexIndex: u32) -> VertexOutput
+    var output: VertexOutput;
+    output.position = vec4<f32>(pos[vertexIndex], uniforms.depth, 1.0);
+    return output;
+struct Output {
+    @location(0) out1: vec4<f32>
+@fragment
+fn fragmentMain() -> Output
+    var o: Output;
+    o.out1 = uniforms.color;
+    return o;
+struct Uniforms
+    color: array<vec4<f32>, 8u>,
+    depth: f32
+@binding(0) @group(0) var<uniform> uniforms: Uniforms;
+var<private> pos: array<vec2<f32>, 3> = array<vec2<f32>, 3>(
+    vec2<f32>(-1.0, 1.0),
+    vec2<f32>(3.0, 1.0),
+    vec2<f32>(-1.0, -3.0));
+struct VertexOutput
+    @builtin(position) position: vec4<f32>
+@vertex
+fn vertexMain(@builtin(vertex_index) vertexIndex: u32) -> VertexOutput
+    var output: VertexOutput;
+    output.position = vec4<f32>(pos[vertexIndex], uniforms.depth, 1.0);
+    return output;
+struct Output {
+    @location(0) out1: vec4<f32>,
+    @location(1) out2: vec4<f32>,
+    @location(2) out3: vec4<f32>,
+    @location(3) out4: vec4<f32>,
+    @location(4) out5: vec4<f32>,
+    @location(5) out6: vec4<f32>,
+    @location(6) out7: vec4<f32>,
+    @location(7) out8: vec4<f32>
+@fragment
+fn fragmentMain() -> Output
+    var o: Output;
+    o.out1 = uniforms.color[0];
+    o.out2 = uniforms.color[1];
+    o.out3 = uniforms.color[2];
+    o.out4 = uniforms.color[3];
+    o.out5 = uniforms.color[4];
+    o.out6 = uniforms.color[5];
+    o.out7 = uniforms.color[6];
+    o.out8 = uniforms.color[7];
+    return o;
+struct Uniforms
+    color: array<vec4<f32>, 7u>,
+    depth: f32
+@binding(0) @group(0) var<uniform> uniforms: Uniforms;
+var<private> pos: array<vec2<f32>, 3> = array<vec2<f32>, 3>(
+    vec2<f32>(-1.0, 1.0),
+    vec2<f32>(3.0, 1.0),
+    vec2<f32>(-1.0, -3.0));
+struct VertexOutput
+    @builtin(position) position: vec4<f32>
+@vertex
+fn vertexMain(@builtin(vertex_index) vertexIndex: u32) -> VertexOutput
+    var output: VertexOutput;
+    output.position = vec4<f32>(pos[vertexIndex], uniforms.depth, 1.0);
+    return output;
+struct Output {
+    @location(0) out1: vec4<f32>,
+    @location(1) out2: vec4<f32>,
+    @location(2) out3: vec4<f32>,
+    @location(3) out4: vec4<f32>,
+    @location(4) out5: vec4<f32>,
+    @location(5) out6: vec4<f32>,
+    @location(6) out7: vec4<f32>
+@fragment
+fn fragmentMain() -> Output
+    var o: Output;
+    o.out1 = uniforms.color[0];
+    o.out2 = uniforms.color[1];
+    o.out3 = uniforms.color[2];
+    o.out4 = uniforms.color[3];
+    o.out5 = uniforms.color[4];
+    o.out6 = uniforms.color[5];
+    o.out7 = uniforms.color[6];
+    return o;
+struct Uniforms
+    color: array<vec4<f32>, 6u>,
+    depth: f32
+@binding(0) @group(0) var<uniform> uniforms: Uniforms;
+var<private> pos: array<vec2<f32>, 3> = array<vec2<f32>, 3>(
+    vec2<f32>(-1.0, 1.0),
+    vec2<f32>(3.0, 1.0),
+    vec2<f32>(-1.0, -3.0));
+struct VertexOutput
+    @builtin(position) position: vec4<f32>
+@vertex
+fn vertexMain(@builtin(vertex_index) vertexIndex: u32) -> VertexOutput
+    var output: VertexOutput;
+    output.position = vec4<f32>(pos[vertexIndex], uniforms.depth, 1.0);
+    return output;
+struct Output {
+    @location(0) out1: vec4<f32>,
+    @location(1) out2: vec4<f32>,
+    @location(2) out3: vec4<f32>,
+    @location(3) out4: vec4<f32>,
+    @location(4) out5: vec4<f32>,
+    @location(5) out6: vec4<f32>
+@fragment
+fn fragmentMain() -> Output
+    var o: Output;
+    o.out1 = uniforms.color[0];
+    o.out2 = uniforms.color[1];
+    o.out3 = uniforms.color[2];
+    o.out4 = uniforms.color[3];
+    o.out5 = uniforms.color[4];
+    o.out6 = uniforms.color[5];
+    return o;
+struct Uniforms
+    color: array<vec4<f32>, 5u>,
+    depth: f32
+@binding(0) @group(0) var<uniform> uniforms: Uniforms;
+var<private> pos: array<vec2<f32>, 3> = array<vec2<f32>, 3>(
+    vec2<f32>(-1.0, 1.0),
+    vec2<f32>(3.0, 1.0),
+    vec2<f32>(-1.0, -3.0));
+struct VertexOutput
+    @builtin(position) position: vec4<f32>
+@vertex
+fn vertexMain(@builtin(vertex_index) vertexIndex: u32) -> VertexOutput
+    var output: VertexOutput;
+    output.position = vec4<f32>(pos[vertexIndex], uniforms.depth, 1.0);
+    return output;
+struct Output {
+    @location(0) out1: vec4<f32>,
+    @location(1) out2: vec4<f32>,
+    @location(2) out3: vec4<f32>,
+    @location(3) out4: vec4<f32>,
+    @location(4) out5: vec4<f32>
+@fragment
+fn fragmentMain() -> Output
+    var o: Output;
+    o.out1 = uniforms.color[0];
+    o.out2 = uniforms.color[1];
+    o.out3 = uniforms.color[2];
+    o.out4 = uniforms.color[3];
+    o.out5 = uniforms.color[4];
+    return o;
+struct Uniforms
+    color: array<vec4<f32>, 4u>,
+    depth: f32
+@binding(0) @group(0) var<uniform> uniforms: Uniforms;
+var<private> pos: array<vec2<f32>, 3> = array<vec2<f32>, 3>(
+    vec2<f32>(-1.0, 1.0),
+    vec2<f32>(3.0, 1.0),
+    vec2<f32>(-1.0, -3.0));
+struct VertexOutput
+    @builtin(position) position: vec4<f32>
+@vertex
+fn vertexMain(@builtin(vertex_index) vertexIndex: u32) -> VertexOutput
+    var output: VertexOutput;
+    output.position = vec4<f32>(pos[vertexIndex], uniforms.depth, 1.0);
+    return output;
+struct Output {
+    @location(0) out1: vec4<f32>,
+    @location(1) out2: vec4<f32>,
+    @location(2) out3: vec4<f32>,
+    @location(3) out4: vec4<f32>
+@fragment
+fn fragmentMain() -> Output
+    var o: Output;
+    o.out1 = uniforms.color[0];
+    o.out2 = uniforms.color[1];
+    o.out3 = uniforms.color[2];
+    o.out4 = uniforms.color[3];
+    return o;
+struct Uniforms
+    color: array<vec4<f32>, 3u>,
+    depth: f32
+@binding(0) @group(0) var<uniform> uniforms: Uniforms;
+var<private> pos: array<vec2<f32>, 3> = array<vec2<f32>, 3>(
+    vec2<f32>(-1.0, 1.0),
+    vec2<f32>(3.0, 1.0),
+    vec2<f32>(-1.0, -3.0));
+struct VertexOutput
+    @builtin(position) position: vec4<f32>
+@vertex
+fn vertexMain(@builtin(vertex_index) vertexIndex: u32) -> VertexOutput
+    var output: VertexOutput;
+    output.position = vec4<f32>(pos[vertexIndex], uniforms.depth, 1.0);
+    return output;
+struct Output {
+    @location(0) out1: vec4<f32>,
+    @location(1) out2: vec4<f32>,
+    @location(2) out3: vec4<f32>
+@fragment
+fn fragmentMain() -> Output
+    var o: Output;
+    o.out1 = uniforms.color[0];
+    o.out2 = uniforms.color[1];
+    o.out3 = uniforms.color[2];
+    return o;
+struct Uniforms
+    color: array<vec4<f32>, 2u>,
+    depth: f32
+@binding(0) @group(0) var<uniform> uniforms: Uniforms;
+var<private> pos: array<vec2<f32>, 3> = array<vec2<f32>, 3>(
+    vec2<f32>(-1.0, 1.0),
+    vec2<f32>(3.0, 1.0),
+    vec2<f32>(-1.0, -3.0));
+struct VertexOutput
+    @builtin(position) position: vec4<f32>
+@vertex
+fn vertexMain(@builtin(vertex_index) vertexIndex: u32) -> VertexOutput
+    var output: VertexOutput;
+    output.position = vec4<f32>(pos[vertexIndex], uniforms.depth, 1.0);
+    return output;
+struct Output {
+    @location(0) out1: vec4<f32>,
+    @location(1) out2: vec4<f32>
+@fragment
+fn fragmentMain() -> Output
+    var o: Output;
+    o.out1 = uniforms.color[0];
+    o.out2 = uniforms.color[1];
+    return o;
+var<private> posTex: array<vec4<f32>, 3> = array<vec4<f32>, 3>(
+    vec4<f32>(-1.0, 1.0, 0.0, 0.0),
+    vec4<f32>(3.0, 1.0, 2.0, 0.0),
+    vec4<f32>(-1.0, -3.0, 0.0, 2.0));
+struct VertexOutput
+    @builtin(position) position: vec4<f32>,
+    @location(0) uv : vec2<f32>
+struct Uniforms
+    transform: vec4<f32>
+@binding(0) @group(0) var<uniform> uniforms: Uniforms;
+@vertex
+fn vertexMain(@builtin(vertex_index) vertexIndex: u32) -> VertexOutput
+    var output: VertexOutput;
+    output.uv = (posTex[vertexIndex].zw * uniforms.transform.zw) + uniforms.transform.xy;
+    output.position = vec4<f32>(posTex[vertexIndex].xy, 0.0, 1.0);
+    return output;
+@binding(1) @group(0) var imgSampler: sampler;
+@binding(2) @group(0) var img: texture_2d<f32>;
+@fragment
+fn fragmentMain(input: VertexOutput) -> @location(0) vec4<f32>
+    return textureSample(img, imgSampler, input.uv);
+struct VertexOutput
+    @builtin(position) position: vec4<f32>,
+    @location(0) uv : vec2<f32>
+@binding(0) @group(0) var imgSampler: sampler;
+@binding(1) @group(0) var img: texture_2d<f32>;
+@fragment
+fn fragmentMain(input: VertexOutput) -> @location(0) vec4<f32>
+    var c = textureSample(img, imgSampler, input.uv);
+    var rgb = c.rgb;
+    return vec4<f32>(
+        mix(rgb * 12.92, pow(rgb, vec3<f32>(0.41666)) * 1.055 - vec3<f32>(0.055), step(vec3<f32>(0.003130), rgb)),
+        c.a);
+struct VertexOutput
+    @builtin(position) position: vec4<f32>,
+    @location(0) uv : vec2<f32>
+@binding(0) @group(0) var imgSampler: sampler;
+@binding(1) @group(0) var img: texture_2d<f32>;
+@fragment
+fn fragmentMain(input: VertexOutput) -> @location(0) vec4<f32>
+    return textureSample(img, imgSampler, input.uv);    
+zzzz
+Zzzz
+com.unity.editor.platforms.pzazz
+Cannot create an AudioClip with a sample frequency less than 1000 Hz (input: %d); frequency capped to 1000 Hz
+InitialModule.customEmitterVelocity.z
+ShapeModule.boxThickness.z
+m_LocalPosition.z
+ShapeModule.m_Position.z
+ShapeModule.m_Rotation.z
+ShapeModule.m_Scale.z
+RootT.z
+MotionT.z
+RootQ.z
+MotionQ.z
+Cannot resolve proxy
+::Scripting::Unity::IO::LowLevel::Unsafe::PriorityProxy
+::Scripting::Unity::Jobs::LowLevel::Unsafe::JobsUtilityProxy
+::Scripting::UnityEngine::TerrainUtils::TerrainUtilityProxy
+::Scripting::UnityEngine::ScriptingUtilityProxy
+::Scripting::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtilityProxy
+::Scripting::UnityEngine::StackTraceUtilityProxy
+::Scripting::UnityEngine::GUIUtilityProxy
+::Scripting::UnityEngine::UIElements::UIR::UtilityProxy
+::Scripting::UnityEngine::GUILayoutEntryProxy
+::Scripting::UnityEngine::Rendering::GPUDrivenMaterialFilterEntryProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::PlayerEmitCanvasGeometryProxy
+::Scripting::Unity::Profiling::ProfilerCategoryProxy
+::Scripting::Unity::Collections::LeakCategoryProxy
+::Scripting::UnityEngine::AssemblyIsEditorAssemblyProxy
+::Scripting::Unity::Hierarchy::HierarchyProxy
+::Scripting::UnityEngine::GradientColorKeyProxy
+::Scripting::UnityEngine::GradientAlphaKeyProxy
+::Scripting::UnityEngine::CubemapArrayProxy
+::Scripting::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArrayProxy
+::Scripting::UnityEngine::Texture2DArrayProxy
+::Scripting::UnityEngine::DisplayProxy
+::Scripting::UnityEngine::UIVertexProxy
+::Scripting::UnityEngine::CacheIndexProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::ProcessMouseInWindowProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::PresentAfterDrawProxy
+::Scripting::UnityEngine::ContextMenuProxy
+::Scripting::UnityEngine::UnitySynchronizationContextProxy
+::Scripting::UnityEngine::Audio::ControlContextProxy
+::Scripting::UnityEngine::Rendering::BatchCullingContextProxy
+::Scripting::UnityEngine::Rendering::BatchRendererCullingOutputProxy
+::Scripting::UnityEngine::Playables::ScriptPlayableOutputProxy
+::Scripting::UnityEngine::Audio::AudioPlayableOutputProxy
+::Scripting::UnityEngine::Animations::AnimationPlayableOutputProxy
+::Scripting::UnityEngine::Experimental::Playables::TexturePlayableOutputProxy
+::Scripting::UnityEngine::Playables::PlayableOutputProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::ProcessRemoteInputProxy
+::Scripting::UnityEngine::PlayerLoop::PreUpdate::CheckTexFieldInputProxy
+::Scripting::UnityEngine::ColorGamutProxy
+::Scripting::Unity::Hierarchy::HierarchyCommandListProxy
+::Scripting::UnityEngine::Rendering::AsyncGPUReadbackRequestProxy
+::Scripting::UnityEngine::ResourceRequestProxy
+::Scripting::UnityEngine::Analytics::SubsystemsAnalyticStartProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::AIUpdatePostScriptProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UpdateCaptureScreenshotProxy
+::Scripting::UnityEngine::FontProxy
+::Scripting::UnityEngine::ContactPairPointProxy
+::Scripting::UnityEngine::WhitePointProxy
+::Scripting::UnityEngine::Animations::ParentConstraintProxy
+::Scripting::UnityEngine::Animations::LookAtConstraintProxy
+::Scripting::UnityEngine::Animations::PositionConstraintProxy
+::Scripting::UnityEngine::Animations::RotationConstraintProxy
+::Scripting::UnityEngine::Animations::AimConstraintProxy
+::Scripting::UnityEngine::Animations::ScaleConstraintProxy
+::Scripting::UnityEngine::Events::UnityEventProxy
+::Scripting::UnityEngine::AnimationEventProxy
+::Scripting::UnityEngine::EventProxy
+::Scripting::UnityEngine::GUIContentProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::PlayerSendFramePostPresentProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::XRPostPresentProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::ResetFrameStatsAfterPresentProxy
+::Scripting::UnityEngine::RequireComponentProxy
+::Scripting::UnityEngine::DisallowMultipleComponentProxy
+::Scripting::UnityEngine::ComponentProxy
+::Scripting::UnityEngine::Flare::FlareElementProxy
+::Scripting::UnityEngine::GradientProxy
+::Scripting::UnityEngine::RectIntProxy
+::Scripting::UnityEngine::BoundsIntProxy
+::Scripting::UnityEngine::Vector3IntProxy
+::Scripting::UnityEngine::Vector2IntProxy
+::Scripting::UnityEngine::XR::MeshGenerationResultProxy
+::Scripting::UnityEngine::Rendering::CullingSplitProxy
+::Scripting::UnityEngine::RaycastHitProxy
+::Scripting::UnityEngine::ControllerColliderHitProxy
+::Scripting::UnityEngine::BoneWeightProxy
+::Scripting::UnityEngine::Rendering::VisibleLightProxy
+::Scripting::UnityEngine::Playables::PlayableAssetProxy
+::Scripting::UnityEngine::RectOffsetProxy
+::Scripting::UnityEngine::Rendering::ShaderKeywordSetProxy
+::Scripting::UnityEngine::Rendering::PlatformKeywordSetProxy
+::Scripting::UnityEngine::Analytics::VRDeviceAnalyticAspectProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::UpdateKinectProxy
+::Scripting::UnityEngine::FailedToLoadScriptObjectProxy
+::Scripting::UnityEngine::GameObjectProxy
+::Scripting::UnityEngine::ScriptableObjectProxy
+::Scripting::UnityEngine::BlobObjectProxy
+::Scripting::UnityEngine::ObjectProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::UpdateMainGameViewRectProxy
+::Scripting::UnityEngine::RectProxy
+::Scripting::UnityEngine::ExecuteAlwaysProxy
+::Scripting::UnityEngine::XR::MeshGenerationStatusProxy
+::Scripting::Unity::IO::Archive::ArchiveStatusProxy
+::Scripting::UnityEngine::PlayerLoop::Initialization::SynchronizeInputsProxy
+::Scripting::UnityEngine::LowLevelPhysics2D::PhysicsEventsProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::GUIClearEventsProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::DeliverIosPlatformEventsProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::DispatchEventQueueEventsProxy
+::Scripting::UnityEngine::PlayerLoop::PreUpdate::SendMouseEventsProxy
+::Scripting::UnityEngine::SendMouseEventsProxy
+::Scripting::UnityEngine::PlayerLoop::PreUpdate::IMGUISendQueuedEventsProxy
+::Scripting::UnityEngine::PatchExtentsProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::ProfilerSynchronizeStatsProxy
+::Scripting::UnityEngine::UIElements::Layout::LayoutDataAccessProxy
+::Scripting::UnityEngine::Internal_SubsystemDescriptorsProxy
+::Scripting::UnityEngine::PlayerLoop::Initialization::UpdateCameraMotionVectorsProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::ShaderHandleErrorsProxy
+::Scripting::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFiltersProxy
+::Scripting::UnityEngine::Rendering::ScriptableCullingParametersProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UpdateAllRenderersProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::ClearIntermediateRenderersProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::ClearImmediateRenderersProxy
+::Scripting::UnityEngine::ManagedStreamHelpersProxy
+::Scripting::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpersProxy
+::Scripting::UnityEngine::NoAllocHelpersProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::GraphicsWarmupPreloadedShadersProxy
+::Scripting::UnityEngine::XR::MeshGenerationOptionsProxy
+::Scripting::UnityEngine::ApiRestrictionsProxy
+::Scripting::UnityEngine::Rendering::CommandBufferExtensionsProxy
+::Scripting::UnityEngineInternal::WebRequestUtilsProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UIElementsRepaintPanelsProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::UIElementsUpdatePanelsProxy
+::Scripting::UnityEngine::PlayerLoop::Update::ScriptRunDelayedTasksProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::ExecuteGameCenterCallbacksProxy
+::Scripting::UnityEngine::TerrainCallbacksProxy
+::Scripting::UnityEngine::Rendering::GPUDrivenCallbacksProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::TriggerEndOfFrameCallbacksProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::ResetInputAxisProxy
+::Scripting::UnityEngine::QualitySettingsProxy
+::Scripting::UnityEngine::HDROutputSettingsProxy
+::Scripting::UnityEngine::Rendering::GraphicsSettingsProxy
+::Scripting::UnityEngine::AudioSettingsProxy
+::Scripting::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettingsProxy
+::Scripting::UnityEngine::Rendering::ShadowDrawingSettingsProxy
+::Scripting::UnityEngine::LightingSettingsProxy
+::Scripting::UnityEngine::Audio::ScriptableGeneratorBindingsProxy
+::Scripting::UnityEngine::Rendering::RayTracingSubMeshFlagsProxy
+::Scripting::UnityEngine::XR::EyesProxy
+::Scripting::UnityEngine::Rendering::CoreCameraValuesProxy
+::Scripting::UnityEngine::XR::MeshVertexAttributesProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::PlayerUpdateCanvasesProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UpdateCustomRenderTexturesProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UpdateVideoTexturesProxy
+::Scripting::UnityEngine::Rendering::SupportedRenderingFeaturesProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::ClearLinesProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdate::ClearLinesProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UpdateLightProbeProxyVolumesProxy
+::Scripting::UnityEngine::Rendering::CameraPropertiesProxy
+::Scripting::UnityEngine::ColorPrimariesProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UpdateAllSkinnedMeshesProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::ProcessWebSendMessagesProxy
+::Scripting::UnityEngine::XR::InputDevicesProxy
+::Scripting::UnityEngine::LightProbesProxy
+::Scripting::UnityEngine::LowLevelPhysics2D::PhysicsNativeMethodsProxy
+::Scripting::UnityEngine::BoundsProxy
+::Scripting::UnityEngine::WaitForSecondsProxy
+::Scripting::UnityEditor::Analytics::VCProviderAnalyticsProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdate::DirectorFixedUpdatePostPhysicsProxy
+::Scripting::UnityEngine::PhysicsProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::ExecuteMainThreadJobsProxy
+::Scripting::UnityEngine::CanvasProxy
+::Scripting::UnityEngine::MonoBehaviourProxy
+::Scripting::UnityEngine::StateMachineBehaviourProxy
+::Scripting::UnityEngine::Playables::PlayableBehaviourProxy
+::Scripting::UnityEngine::BehaviourProxy
+::Scripting::Unity::Hierarchy::HierarchySearchQueryDescriptorProxy
+::Scripting::UnityEngine::XR::XRDisplaySubsystemDescriptorProxy
+::Scripting::UnityEngine::XR::XRInputSubsystemDescriptorProxy
+::Scripting::UnityEngine::XR::XRMeshSubsystemDescriptorProxy
+::Scripting::UnityEngine::Subsystems::ExampleSubsystemDescriptorProxy
+::Scripting::UnityEngine::IntegratedSubsystemDescriptorProxy
+::Scripting::UnityEngine::Rendering::VertexAttributeDescriptorProxy
+::Scripting::UnityEngine::Rendering::GraphicsTextureDescriptorProxy
+::Scripting::UnityEngine::TextEditorProxy
+::Scripting::UnityEngine::HideInInspectorProxy
+::Scripting::UnityEngine::Rendering::SpeedTreeWindParamsBufferIteratorProxy
+::Scripting::UnityEngine::TextGeneratorProxy
+::Scripting::UnityEngine::AnimatorProxy
+::Scripting::Unity::Collections::AllocatorProxy
+::Scripting::UnityEngine::Rendering::GPUDrivenProcessorProxy
+::Scripting::UnityEngine::ColorProxy
+::Scripting::UnityEngine::ContactPairProxy
+::Scripting::UnityEngine::ClassLibraryInitializerProxy
+::Scripting::UnityEngine::TerrainLayerProxy
+::Scripting::UnityEngine::MeshFilterProxy
+::Scripting::Unity::Hierarchy::HierarchySearchFilterProxy
+::Scripting::UnityEngine::AnimatorControllerParameterProxy
+::Scripting::UnityEngine::SkinnedMeshRendererProxy
+::Scripting::UnityEngine::MeshRendererProxy
+::Scripting::UnityEngine::SpriteRendererProxy
+::Scripting::UnityEngine::LowLevelPhysics2D::PhysicsWorldRendererProxy
+::Scripting::UnityEngine::UIElements::UIRendererProxy
+::Scripting::UnityEngine::RendererProxy
+::Scripting::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapperProxy
+::Scripting::UnityEngine::AsyncInstantiateOperationHelperProxy
+::Scripting::UnityEngine::Profiling::CustomSamplerProxy
+::Scripting::UnityEngine::Profiling::SamplerProxy
+::Scripting::UnityEngine::RuntimeAnimatorControllerProxy
+::Scripting::UnityEngine::AnimatorOverrideControllerProxy
+::Scripting::UnityEngine::Bindings::ExceptionMarshallerProxy
+::Scripting::Unity::Profiling::Memory::MemoryProfilerProxy
+::Scripting::UnityEngine::Profiling::ProfilerProxy
+::Scripting::UnityEngine::UnhandledExceptionHandlerProxy
+::Scripting::UnityEngine::Networking::CertificateHandlerProxy
+::Scripting::UnityEngine::Networking::DownloadHandlerProxy
+::Scripting::Unity::Profiling::ProfilerMarkerProxy
+::Scripting::UnityEngine::Rendering::PassIdentifierProxy
+::Scripting::UnityEngine::ObjectDispatcherProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::UpdateInputManagerProxy
+::Scripting::UnityEngine::U2D::SpriteAtlasManagerProxy
+::Scripting::UnityEngine::SubsystemManagerProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::UpdateNetworkManagerProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::UpdateAsyncReadbackManagerProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::UpdateStreamingManagerProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::UpdateTextureStreamingManagerProxy
+::Scripting::UnityEngine::CustomRenderTextureManagerProxy
+::Scripting::UnityEngine::Rendering::RenderPipelineManagerProxy
+::Scripting::UnityEngine::SceneManagement::SceneManagerProxy
+::Scripting::UnityEngine::GraphicsBufferProxy
+::Scripting::UnityEngine::ComputeBufferProxy
+::Scripting::UnityEngine::ImageEffectUsesCommandBufferProxy
+::Scripting::UnityEngine::Rendering::CommandBufferProxy
+::Scripting::Unity::Profiling::ProfilerRecorderProxy
+::Scripting::UnityEngine::Profiling::RecorderProxy
+::Scripting::UnityEngine::DefaultExecutionOrderProxy
+::Scripting::UnityEngine::InputForUI::EventProviderProxy
+::Scripting::UnityEngine::Experimental::Audio::AudioSampleProviderProxy
+::Scripting::UnityEngine::ComputeShaderProxy
+::Scripting::UnityEngine::Audio::GeneratorInstance::GeneratorHeaderProxy
+::Scripting::UnityEngine::Audio::ProcessorHeaderProxy
+::Scripting::UnityEngine::ContactPairHeaderProxy
+::Scripting::UnityEngine::Audio::ControlHeaderProxy
+::Scripting::UnityEngine::AvatarProxy
+::Scripting::UnityEngine::GUILayoutGroupProxy
+::Scripting::UnityEngine::Rendering::BatchRendererGroupProxy
+::Scripting::UnityEngine::Experimental::U2D::SpriteRendererGroupProxy
+::Scripting::UnityEngine::GUIScrollGroupProxy
+::Scripting::UnityEngine::CullingGroupProxy
+::Scripting::UnityEngine::Analytics::SubsystemsAnalyticStopProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::GpuTimestampProxy
+::Scripting::UnityEngine::AudioClipProxy
+::Scripting::UnityEngine::CubemapProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UpdateAudioProxy
+::Scripting::UnityEngine::DisplayInfoProxy
+::Scripting::UnityEngine::CharacterInfoProxy
+::Scripting::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfoProxy
+::Scripting::UnityEngine::UICharInfoProxy
+::Scripting::UnityEngine::AnimatorClipInfoProxy
+::Scripting::UnityEngine::AnimatorTransitionInfoProxy
+::Scripting::UnityEngine::EnumInfoProxy
+::Scripting::UnityEngine::XR::MeshInfoProxy
+::Scripting::UnityEngine::AnimatorStateInfoProxy
+::Scripting::UnityEngine::UILineInfoProxy
+::Scripting::Unity::IO::Archive::ArchiveFileInfoProxy
+::Scripting::UnityEngine::Rendering::GPUDrivenMeshLodInfoProxy
+::Scripting::UnityEngine::Rendering::ReflectionProbeBlendInfoProxy
+::Scripting::UnityEngine::Analytics::SubsystemsAnalyticInfoProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UpdateVideoProxy
+::Scripting::UnityEngine::PlayerLoop::PreUpdate::UpdateVideoProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UpdateResolutionProxy
+::Scripting::UnityEngine::ResolutionProxy
+::Scripting::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescriptionProxy
+::Scripting::UnityEngine::UnityExceptionProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::PhysicsResetInterpolatedTransformPositionProxy
+::Scripting::UnityEngine::YieldInstructionProxy
+::Scripting::UnityEngine::TransferFunctionProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::PollHtcsPlayerConnectionProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::PollPlayerConnectionProxy
+::Scripting::UnityEngine::Networking::PlayerConnection::PlayerConnectionProxy
+::Scripting::UnityEngine::UIElements::UIElementsInitializationProxy
+::Scripting::Unity::Properties::Internal::PropertiesInitializationProxy
+::Scripting::UnityEngine::PlayerLoop::InitializationProxy
+::Scripting::UnityEngine::PreferBinarySerializationProxy
+::Scripting::UnityEngine::AsyncInstantiateOperationProxy
+::Scripting::UnityEngine::Networking::UnityWebRequestAsyncOperationProxy
+::Scripting::UnityEngine::AsyncOperationProxy
+::Scripting::UnityEngine::ApplicationProxy
+::Scripting::UnityEngine::BuildCompressionProxy
+::Scripting::UnityEngine::AssemblyVersionProxy
+::Scripting::UnityEngine::QuaternionProxy
+::Scripting::UnityEngine::GUISkinProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::DirectorUpdateAnimationBeginProxy
+::Scripting::UnityEngine::TerrainProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UIElementsRenderBatchModeOffscreenProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::UpdateCanvasRectTransformProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UpdateCanvasRectTransformProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UpdateRectTransformProxy
+::Scripting::UnityEngine::RectTransformProxy
+::Scripting::UnityEngine::XR::MeshTransformProxy
+::Scripting::UnityEngine::DetailInstanceTransformProxy
+::Scripting::UnityEngine::TransformProxy
+::Scripting::UnityEngine::XR::XRDisplaySubsystemProxy
+::Scripting::UnityEngine::XR::XRInputSubsystemProxy
+::Scripting::UnityEngine::XR::XRMeshSubsystemProxy
+::Scripting::UnityEngine::Subsystems::ExampleSubsystemProxy
+::Scripting::UnityEngine::IntegratedSubsystemProxy
+::Scripting::UnityEngineInternal::Input::NativeInputSystemProxy
+::Scripting::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystemProxy
+::Scripting::UnityEngine::Animations::AnimationStreamProxy
+::Scripting::UnityEngine::Animations::AnimationHumanStreamProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::ParticleSystemBeginUpdateAllProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::ParticleSystemEndUpdateAllProxy
+::Scripting::Unity::Hierarchy::HierarchyViewModelProxy
+::Scripting::UnityEngine::LowLevel::PlayerLoopSystemInternalProxy
+::Scripting::UnityEngine::MaterialProxy
+::Scripting::UnityEngine::RenderingLayerMaskProxy
+::Scripting::UnityEngine::LayerMaskProxy
+::Scripting::UnityEngine::AvatarMaskProxy
+::Scripting::UnityEngine::MeshProxy
+::Scripting::UnityEngine::Playables::PlayableGraphProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::ThreadedLoadingDebugProxy
+::Scripting::UnityEngine::DebugProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::FinishFrameRenderingProxy
+::Scripting::UnityEngine::Rendering::OnDemandRenderingProxy
+::Scripting::UnityEngine::Experimental::GlobalIllumination::LightmappingProxy
+::Scripting::UnityEngine::XR::InputTrackingProxy
+::Scripting::UnityEngine::Animations::GenericBindingProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::UpdatePreloadingProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::UpdateContentLoadingProxy
+::Scripting::UnityEngine::Mesh::LodSelectionCurveProxy
+::Scripting::UnityEngine::AnimationCurveProxy
+::Scripting::UnityEngine::UIElements::UIElementsRuntimeUtilityNativeProxy
+::Scripting::UnityEngine::UIElements::Layout::LayoutNativeProxy
+::Scripting::UnityEngine::Rendering::GPUDrivenRendererGroupDataNativeProxy
+::Scripting::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeProxy
+::Scripting::UnityEngine::ImageEffectOpaqueProxy
+::Scripting::UnityEngine::PropertyAttributeProxy
+::Scripting::UnityEngine::ExcludeFromObjectFactoryAttributeProxy
+::Scripting::Unity::Collections::LowLevel::Unsafe::NativeContainerIsAtomicWriteOnlyAttributeProxy
+::Scripting::Unity::Collections::WriteOnlyAttributeProxy
+::Scripting::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnlyAttributeProxy
+::Scripting::Unity::Collections::ReadOnlyAttributeProxy
+::Scripting::Unity::Collections::LowLevel::Unsafe::NativeSetThreadIndexAttributeProxy
+::Scripting::Unity::Collections::LowLevel::Unsafe::NativeContainerNeedsThreadIndexAttributeProxy
+::Scripting::UnityEngine::ExcludeFromPresetAttributeProxy
+::Scripting::UnityEngine::GUITargetAttributeProxy
+::Scripting::UnityEngine::ExtensionOfNativeClassAttributeProxy
+::Scripting::UnityEngine::SharedBetweenAnimatorsAttributeProxy
+::Scripting::UnityEngine::Serialization::FormerlySerializedAsAttributeProxy
+::Scripting::Unity::Collections::LowLevel::Unsafe::NativeContainerAttributeProxy
+::Scripting::Unity::Profiling::IgnoredByDeepProfilerAttributeProxy
+::Scripting::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttributeProxy
+::Scripting::Unity::Collections::DeallocateOnJobCompletionAttributeProxy
+::Scripting::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttributeProxy
+::Scripting::Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttributeProxy
+::Scripting::Unity::Collections::NativeDisableParallelForRestrictionAttributeProxy
+::Scripting::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsMinMaxWriteRestrictionAttributeProxy
+::Scripting::UnityEngine::Animations::DiscreteEvaluationAttributeProxy
+::Scripting::UnityEngine::HideInCallstackAttributeProxy
+::Scripting::Unity::Collections::NativeMatchesParallelForLengthAttributeProxy
+::Scripting::Unity::Collections::NativeFixedLengthAttributeProxy
+::Scripting::UnityEngine::Scripting::PreserveAttributeProxy
+::Scripting::UnityEngine::InspectorNameAttributeProxy
+::Scripting::Unity::Collections::LowLevel::Unsafe::NativeSetClassTypeToNullOnScheduleAttributeProxy
+::Scripting::UnityEngine::MakeSerializableAttributeProxy
+::Scripting::UnityEngine::Animations::NotKeyableAttributeProxy
+::Scripting::UnityEngine::TestTools::ExcludeFromCoverageAttributeProxy
+::Scripting::UnityEngine::RuntimeInitializeOnLoadMethodAttributeProxy
+::Scripting::UnityEngine::HelpURLAttributeProxy
+::Scripting::UnityEngine::SpriteProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::PlayerSendFrameCompleteProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::DirectorDeferredEvaluateProxy
+::Scripting::UnityEngine::ScrollViewStateProxy
+::Scripting::UnityEngine::SliderStateProxy
+::Scripting::UnityEngine::AnimationStateProxy
+::Scripting::UnityEngine::PlayerLoop::Initialization::SynchronizeStateProxy
+::Scripting::UnityEngine::Rendering::GraphicsTextureStateProxy
+::Scripting::Unity::IO::LowLevel::Unsafe::FileStateProxy
+::Scripting::UnityEngine::XR::MeshChangeStateProxy
+::Scripting::UnityEngine::XR::XRNodeStateProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::UpdateAsyncInstantiateProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::AccessibilityUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::TilemapRendererEarlyUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::Initialization::XREarlyUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::Physics2DEarlyUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreUpdate::NewInputUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::UnityWebRequestUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::EndGraphicsJobsAfterScriptUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::InsightsUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::AnalyticsCoreStatsUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::SortingGroupsUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::PerformanceAnalyticsUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreUpdate::PhysicsUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::Update::ScriptRunBehaviourUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::Update::DirectorUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::ConstraintManagerUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::SpriteAtlasManagerUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::TangoUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::LegacyAnimationUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdate::LegacyFixedAnimationUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::PhysicsSkinnedClothBeginUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreUpdate::PhysicsClothUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::PhysicsSkinnedClothFinishUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::AccessibilityLateUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::ObjectDispatcherPostLateUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::XRPostLateUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::EndGraphicsJobsAfterScriptLateUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::PhysicsLateUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::ScriptRunBehaviourLateUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::DirectorLateUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::Physics2DLateUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::PresentBeforeUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::ARCoreUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::EnlightenRuntimeUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::TimeUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::BatchModeUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreUpdate::WindUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdate::NewInputFixedUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdate::PhysicsFixedUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdate::ScriptRunBehaviourFixedUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdate::DirectorFixedUpdateProxy
+::Scripting::UnityEngine::WaitForFixedUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdate::AudioFixedUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdate::PhysicsClothFixedUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdate::XRFixedUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdate::Physics2DFixedUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::Initialization::AsyncUploadTimeSlicedUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::VFXUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::XRUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreUpdate::InputForUIUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreUpdate::AIUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PreUpdate::Physics2DUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::RenderAs2DUpdateProxy
+::Scripting::UnityEngine::PlayerLoop::UpdateProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdate::ScriptRunDelayedFixedFrameRateProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::ScriptRunDelayedDynamicFrameRateProxy
+::Scripting::UnityEngine::PlayerLoop::Update::ScriptRunDelayedDynamicFrameRateProxy
+::Scripting::UnityEngine::Playables::FrameRateProxy
+::Scripting::UnityEngine::Events::UnityEventBaseProxy
+::Scripting::UnityEngine::Analytics::AnalyticsEventBaseProxy
+::Scripting::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseProxy
+::Scripting::UnityEngine::Analytics::SubsystemsAnalyticBaseProxy
+::Scripting::UnityEngine::Analytics::VRDeviceAnalyticBaseProxy
+::Scripting::UnityEngine::LowerResBlitTextureProxy
+::Scripting::UnityEngine::Rendering::GraphicsTextureProxy
+::Scripting::UnityEngine::CustomRenderTextureProxy
+::Scripting::UnityEngine::RenderTextureProxy
+::Scripting::UnityEngine::TextureProxy
+::Scripting::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStoreProxy
+::Scripting::UnityEngine::SplatPrototypeProxy
+::Scripting::UnityEngine::DetailPrototypeProxy
+::Scripting::UnityEngine::TreePrototypeProxy
+::Scripting::UnityEngine::Rendering::GraphicsDeviceTypeProxy
+::Scripting::UnityEngine::Rendering::ShaderKeywordTypeProxy
+::Scripting::UnityEngine::UIElements::Layout::LayoutConfigDataTypeProxy
+::Scripting::UnityEngine::UIElements::Layout::LayoutNodeDataTypeProxy
+::Scripting::Unity::Profiling::ProfilerMarker::AutoScopeProxy
+::Scripting::UnityEngine::BlendShapeProxy
+::Scripting::UnityEngine::CustomRenderTextureUpdateZoneProxy
+::Scripting::UnityEngine::SkeletonBoneProxy
+::Scripting::UnityEngine::HumanBoneProxy
+::Scripting::UnityEngine::U2D::SpriteBoneProxy
+::Scripting::UnityEngine::XR::BoneProxy
+::Scripting::UnityEngine::SetupCoroutineProxy
+::Scripting::UnityEngine::CoroutineProxy
+::Scripting::UnityEngine::AttributeHelperEngineProxy
+::Scripting::UnityEngine::PlaneProxy
+::Scripting::UnityEngine::PlayerLoop::TimeUpdate::WaitForLastPresentationAndUpdateTimeProxy
+::Scripting::UnityEngine::PlayerLoop::Initialization::DirectorSampleTimeProxy
+::Scripting::UnityEngine::PlayerLoop::FixedUpdate::DirectorFixedSampleTimeProxy
+::Scripting::UnityEngine::KeyframeProxy
+::Scripting::UnityEngine::PlayerLoop::Initialization::ProfilerStartFrameProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::ScriptRunDelayedStartupFrameProxy
+::Scripting::UnityEngine::WaitForEndOfFrameProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::InputEndFrameProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::ProfilerEndFrameProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::XRPreEndFrameProxy
+::Scripting::UnityEngine::PropertyNameProxy
+::Scripting::UnityEngine::AssemblyFullNameProxy
+::Scripting::UnityEngine::GUIStyleProxy
+::Scripting::Unity::Profiling::ProfilerRecorderSampleProxy
+::Scripting::UnityEngine::CachedAssetBundleProxy
+::Scripting::UnityEngine::Playables::PlayableOutputHandleProxy
+::Scripting::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandleProxy
+::Scripting::UnityEngine::TransformHandleProxy
+::Scripting::Unity::IO::Archive::ArchiveHandleProxy
+::Scripting::UnityEngine::SceneManagement::SceneHandleProxy
+::Scripting::UnityEngine::Playables::PlayableHandleProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::RendererNotifyInvisibleProxy
+::Scripting::UnityEngine::Animations::AnimationScriptPlayableProxy
+::Scripting::UnityEngine::Animations::AnimationOffsetPlayableProxy
+::Scripting::UnityEngine::Experimental::Playables::MaterialEffectPlayableProxy
+::Scripting::UnityEngine::Animations::AnimationLayerMixerPlayableProxy
+::Scripting::UnityEngine::Audio::AudioMixerPlayableProxy
+::Scripting::UnityEngine::Animations::AnimationMixerPlayableProxy
+::Scripting::UnityEngine::Experimental::Playables::TextureMixerPlayableProxy
+::Scripting::UnityEngine::Animations::AnimatorControllerPlayableProxy
+::Scripting::UnityEngine::Audio::AudioClipPlayableProxy
+::Scripting::UnityEngine::Animations::AnimationClipPlayableProxy
+::Scripting::UnityEngine::Animations::AnimationPosePlayableProxy
+::Scripting::UnityEngine::Animations::AnimationRemoveScalePlayableProxy
+::Scripting::UnityEngine::Animations::AnimationMotionXToDeltaPlayableProxy
+::Scripting::UnityEngine::Experimental::Playables::CameraPlayableProxy
+::Scripting::UnityEngine::Playables::PlayableProxy
+::Scripting::UnityEngine::AnimationEventBlittableProxy
+::Scripting::UnityEngine::AwaitableProxy
+::Scripting::UnityEngine::ImageEffectAfterScaleProxy
+::Scripting::UnityEngine::MeshLodRangeProxy
+::Scripting::UnityEngine::XR::InputFeatureUsageProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::DirectorRenderImageProxy
+::Scripting::UnityEngine::ExecuteInEditModeProxy
+::Scripting::Unity::Collections::NativeLeakDetectionModeProxy
+::Scripting::UnityEngine::Audio::AudioResourceProxy
+::Scripting::UnityEngine::Animations::ConstraintSourceProxy
+::Scripting::UnityEngine::SerializeReferenceProxy
+::Scripting::UnityEngine::TrackedReferenceProxy
+::Scripting::UnityEngine::Rendering::GraphicsFenceProxy
+::Scripting::UnityEngine::TreeInstanceProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UpdateSubstanceProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::MemoryFrameMaintenanceProxy
+::Scripting::UnityEngine::XR::InputDeviceProxy
+::Scripting::UnityEngine::WebCamDeviceProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::UpdateMasterServerInterfaceProxy
+::Scripting::Unity::IO::Archive::ArchiveFileInterfaceProxy
+::Scripting::UnityEngine::Rendering::VisibleReflectionProbeProxy
+::Scripting::UnityEngine::ReflectionProbeProxy
+::Scripting::UnityEngine::Rendering::ShaderKeywordProxy
+::Scripting::UnityEngine::Rendering::LocalKeywordProxy
+::Scripting::UnityEngine::Rendering::GlobalKeywordProxy
+::Scripting::UnityEngine::XR::HandProxy
+::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::DirectorUpdateAnimationEndProxy
+::Scripting::UnityEngine::SerializeFieldProxy
+::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::PlayerSendFrameStartedProxy
+::Scripting::Unity::Hierarchy::HierarchyFlattenedProxy
+::Scripting::UnityEngine::EntityIdProxy
+::Scripting::UnityEngine::XR::MeshIdProxy
+::Scripting::UnityEditor::Analytics::StallSummaryAnalyticProxy
+::Scripting::UnityEditor::Analytics::PackageManagerTestAnalyticProxy
+::Scripting::UnityEditor::Analytics::TestAnalyticProxy
+::Scripting::UnityEditor::Analytics::AssetExportAnalyticProxy
+::Scripting::UnityEditor::Analytics::AssetImportAnalyticProxy
+::Scripting::UnityEditor::Analytics::LicensingInitAnalyticProxy
+::Scripting::UnityEditor::Analytics::AssetImportStatusAnalyticProxy
+::Scripting::UnityEngine::Analytics::VRDeviceActiveControllersAnalyticProxy
+::Scripting::UnityEngine::Analytics::VRDeviceMirrorAnalyticProxy
+::Scripting::UnityEditor::Analytics::LicensingErrorAnalyticProxy
+::Scripting::UnityEngine::Analytics::VRDeviceUserAnalyticProxy
+::Scripting::UnityEditor::Analytics::StallMarkerAnalyticProxy
+::Scripting::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalyticProxy
+::Scripting::UnityEngine::Analytics::ShaderRuntimeInfoAnalyticProxy
+::Scripting::UnityEditor::Analytics::CollabOperationAnalyticProxy
+::Scripting::UnityEditor::Analytics::ProjectSettingsInformationAnalyticProxy
+::Scripting::UnityEditor::Analytics::AssetDatabaseRefreshAnalyticProxy
+::Scripting::UnityEngine::Analytics::UaaLApplicationLaunchAnalyticProxy
+::Scripting::UnityEditor::Analytics::NavmeshBakingAnalyticProxy
+::Scripting::UnityEditor::Analytics::PackageManagerBaseAnalyticProxy
+::Scripting::UnityEngine::BatchRendererGroupRuntimeAnalyticProxy
+::Scripting::UnityEditor::Analytics::BuildAssetBundleAnalyticProxy
+::Scripting::UnityEngine::Analytics::BatchRenderGroupUsageAnalyticProxy
+::Scripting::UnityEditor::Analytics::PackageManagerResetPackageAnalyticProxy
+::Scripting::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalyticProxy
+::Scripting::UnityEditor::Analytics::PackageManagerStartServerPackageAnalyticProxy
+::Scripting::UnityEditor::Analytics::PackageManagerRemovePackageAnalyticProxy
+::Scripting::UnityEditor::Analytics::PackageManagerResolvePackageAnalyticProxy
+::Scripting::UnityEditor::Analytics::PackageManagerEmbedPackageAnalyticProxy
+::Scripting::UnityEditor::Analytics::PackageManagerAddPackageAnalyticProxy
+::Scripting::UnityEditor::Analytics::SendGameBuildAnalyticProxy
+::Scripting::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetricProxy
+::Scripting::Unity::Collections::NativeArrayDisposeJobProxy
+::Scripting::UnityEngine::Rendering::AsyncRequestNativeArrayDataProxy
+::Scripting::UnityEngine::Rendering::ShadowSplitDataProxy
+::Scripting::UnityEngine::Rendering::GPUDrivenRendererEditorDataProxy
+::Scripting::UnityEngine::Rendering::GPUDrivenPackedRendererDataProxy
+::Scripting::UnityEngine::LightmapDataProxy
+::Scripting::UnityEngine::TerrainDataProxy
+::Scripting::UnityEngine::Rendering::GPUDrivenPackedMaterialDataProxy
+::Scripting::UnityEngine::BootConfigDataProxy
+::Scripting::UnityEngine::UIElements::Layout::LayoutStyleDataProxy
+::Scripting::UnityEngine::Rendering::GPUDrivenRendererMeshLodDataProxy
+::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::PlayerCleanupCachedDataProxy
+::Scripting::UnityEngine::PreloadDataProxy
+::Scripting::UnityEngine::CameraProxy
+::Scripting::UnityEngine::ImageEffectTransformsToLDRProxy
+::Scripting::UnityEngine::GUIProxy
+::Scripting::UnityEngine::Experimental::GlobalIllumination::LightDataGIProxy
+::Scripting::UnityEngine::LODProxy
+::Scripting::UnityEngine::Rendering::BatchMaterialIDProxy
+::Scripting::UnityEngine::Rendering::BatchMeshIDProxy
+::Scripting::UnityEngine::Rendering::BatchIDProxy
+::Scripting::UnityEngine::Texture3DProxy
+::Scripting::UnityEngine::ContactPoint2DProxy
+::Scripting::UnityEngine::RaycastHit2DProxy
+::Scripting::UnityEngine::PhysicsJobOptions2DProxy
+::Scripting::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelSettings2DProxy
+::Scripting::UnityEngine::Physics2DProxy
+::Scripting::UnityEngine::ContactFilter2DProxy
+::Scripting::UnityEngine::Collider2DProxy
+::Scripting::UnityEngine::Collision2DProxy
+::Scripting::UnityEngine::Texture2DProxy
+::Scripting::UnityEngine::PhysicsShape2DProxy
+::Scripting::UnityEngine::ResourcesAPIInternal::EntitiesAssetGCProxy
+::Scripting::UnityEngine::Hash128Proxy
+::Scripting::UnityEngine::Matrix4x4Proxy
+::Scripting::UnityEngine::Vector4Proxy
+::Scripting::UnityEngine::Events::UnityEvent_4Proxy
+::Scripting::UnityEngine::Vector3Proxy
+::Scripting::UnityEngine::Events::UnityEvent_3Proxy
+::Scripting::UnityEngine::Vector2Proxy
+::Scripting::UnityEngine::Events::UnityEvent_2Proxy
+::Scripting::UnityEngine::Rendering::SphericalHarmonicsL2Proxy
+::Scripting::UnityEngine::Color32Proxy
+::Scripting::UnityEngine::BoneWeight1Proxy
+::Scripting::UnityEngine::Events::UnityEvent_1Proxy
+::Scripting::UnityEngine::IntegratedSubsystemDescriptor_1Proxy
+::Scripting::UnityEngine::IntegratedSubsystem_1Proxy
+::Scripting::UnityEngine::ExposedReference_1Proxy
+Use Proxy
+navy
+UnityEngine.Terrain::SetConnectivityDirty
+invalid property
+SerializedTextureProperty
+SerializedProperty
+%s cannot be empty
+Empty
+m_MinPenetrationForPenalty
+sensitivity
+androidResizeableActivity
+PhysicsWorld.gravity
+m_ClothGravity
+m_UseGravity
+definition.m_Gravity
+Unprocessable Entity
+m_LogVerbosity
+LightsModule.intensity
+UnityEngine.RenderSettings::set_ambientIntensity
+UnityEngine.RenderSettings::get_ambientIntensity
+m_AmbientIntensity
+m_IndirectIntensity
+LightsModule.alphaAffectsIntensity
+UnityEngine.Rendering.GraphicsSettings::set_lightsUseLinearIntensity
+UnityEngine.Rendering.GraphicsSettings::get_lightsUseLinearIntensity
+m_LightsUseLinearIntensity
+UnityEngine.RenderSettings::set_reflectionIntensity
+UnityEngine.RenderSettings::get_reflectionIntensity
+m_ReflectionIntensity
+m_BounceIntensity
+m_Intensity
+density
+m_DetailObjectDensity
+targetPixelDensity
+UnityEngine.RenderSettings::set_fogDensity
+UnityEngine.RenderSettings::get_fogDensity
+unity_FogDensity
+m_FogDensity
+m_Density
+setPriority
+m_StreamingMipmapsPriority
+m_RendererPriority
+m_LayerOverridePriority
+memorysetup-profiler-bucket-allocator-granularity
+memorysetup-bucket-allocator-granularity
+switchNVNDefaultPoolsGranularity
+switchNVNOtherPoolsGranularity
+switchNVNShaderPoolsGranularity
+switchGpuScratchPoolGranularity
+.unity
+infinity
+m_PostInfinity
+m_PreInfinity
+-Infinity
+Unity
+JobsUtility
+EditorUtility
+TerrainUtility
+ScriptingUtility
+ProfilerUnsafeUtility
+StackTraceUtility
+GUIUtility
+_ST_HistoryShared_Bend_Oscillation_Turbulence_Flexibility
+_ST_Shared_Bend_Oscillation_Turbulence_Flexibility
+_ST_HistoryBranch2_Bend_Oscillation_Turbulence_Flexibility
+_ST_Branch2_Bend_Oscillation_Turbulence_Flexibility
+_ST_HistoryBranch1_Bend_Oscillation_Turbulence_Flexibility
+_ST_Branch1_Bend_Oscillation_Turbulence_Flexibility
+kGL_ARB_ES3_compatibility
+kGL_ARB_ES3_2_compatibility
+kGL_ARB_ES2_compatibility
+kGL_ARB_ES3_1_compatibility
+m_RuntimeCompatibility
+Accessibility
+unity_DOTSInstancing_IndirectInstanceVisibility
+UnityDOTSInstancing_InstanceVisibility
+UnityInstancingDOTS_InstanceVisibility
+setRelativeAudibility
+EmissionModule.m_Bursts.Array.data[7].probability
+EmissionModule.m_Bursts.Array.data[6].probability
+EmissionModule.m_Bursts.Array.data[5].probability
+EmissionModule.m_Bursts.Array.data[4].probability
+EmissionModule.m_Bursts.Array.data[3].probability
+EmissionModule.m_Bursts.Array.data[2].probability
+EmissionModule.m_Bursts.Array.data[1].probability
+EmissionModule.m_Bursts.Array.data[0].probability
+emitProbability
+UnityEngine.ParticleSystem/NoiseModule::set_quality
+m_CurrentQuality
+UnityGraphicsQuality
+textureQuality
+_WindQuality
+m_Quality
+unity_DynamicDirectionality
+inheritVelocity
+customEmitterVelocity
+RightEyeAngularVelocity
+LeftEyeAngularVelocity
+CenterEyeAngularVelocity
+DeviceAngularVelocity
+CameraAngularVelocity
+m_DefaultMaxDepenetrationVelocity
+RightEyeVelocity
+LeftEyeVelocity
+CenterEyeVelocity
+multiplyDragByParticleVelocity
+DeviceVelocity
+CameraVelocity
+memorysetup-remapper-allocator-initial-capacity
+Cannot start ProfilerRecorder with 0 capacity
+m_SplashScreenOverlayOpacity
+Self-Illumin/Glossy
+Reflective/Glossy
+Lightmapped/Glossy
+Alpha/Glossy
+ Glossy
+ManagedReferencesRegistry
+ShaderNameRegistry
+Missing Huffman code table entry
+GUILayoutEntry
+m_IsEntry
+SortingLayerEntry
+GPUDrivenMaterialFilterEntry
+RenderBufferManager::Buffers::BufferEntry
+androidApplicationEntry
+RenderBufferManager::Textures::TextureEntry
+geometry
+PostLateUpdate/PlayerEmitCanvasGeometry
+progGeometry
+ImmediateGeometry
+BatchedGeometry
+DynamicGeometry
+_ST_WindBranchAdherencesHistory
+_ST_WindTurbulencesHistory
+_ST_WindVectorHistory
+_ST_WindBranchAnchorHistory
+_ST_WindBranchWhipHistory
+_ST_WindGlobalHistory
+_ST_WindBranchTwitchHistory
+_ST_WindLeaf2TwitchHistory
+_ST_WindLeaf1TwitchHistory
+_ST_WindBranchHistory
+_ST_WindFrondRippleHistory
+_ST_WindLeaf2RippleHistory
+_ST_WindLeaf1RippleHistory
+_ST_WindLeaf2TumbleHistory
+_ST_WindLeaf1TumbleHistory
+SpeedTreeWindHistory
+territory
+insufficient memory
+Row has too many bytes to allocate in memory
+Failed to load font from memory
+Invalid context for allocating audio kernel memory
+Invalid context for freeing audio kernel memory
+sPLT out of memory
+text chunk: out of memory
+crnd_malloc: out of memory
+Out of memory
+CallLowMemory
+SwitchIntoFastMemory
+SwitchOutOfFastMemory
+UnityEngine.ParticleSystem::ResetPreMappedBufferMemory
+Invalid argument for SaveEXRImageToMemory
+XboxOneGpuOnionMemory
+switchQueueControlMemory
+OutOfMemory
+switchQueueComputeMemory
+switchNVNGraphicsFirmwareMemory
+m_StateMachineMemory
+switchQueueCommandMemory
+Unity.Burst.LowLevel.BurstCompilerService::GetOrCreateSharedMemory
+UnityEngine.Bindings.BindingsAllocator::FreeNativeOwnedMemory
+XboxOneGpuGarlicMemory
+SwitchDynLibMemory
+PhysicalGPUMemory
+Unity.Profiling.Memory
+App Resident Memory
+Profiler Reserved Memory
+Audio Reserved Memory
+Video Reserved Memory
+Total Reserved Memory
+GC Reserved Memory
+App Committed Memory
+Profiler Used Memory
+Audio Used Memory
+Video Used Memory
+System Used Memory
+System Total Used Memory
+GC Used Memory
+category
+ProfilerCategory
+LeakCategory
+macAppStoreCategory
+kGL_EXT_disjoint_timer_query
+kGL_NV_timer_query
+kGL_ARB_timer_query
+LightProbesQuery
+NavMeshQuery
+February
+January
+xrsdk-pre-init-library
+need dictionary
+missing LZ dictionary
+IDictionary
+kGL_OES_get_program_binary
+kGL_ARB_get_program_binary
+androidUseSwappy
+Hidden/BlitCopy
+Hidden/CubeCopy
+Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpy
+OnDestroy
+UnityEngine.RectOffset::InternalDestroy
+UnityEngine.AsyncOperation::InternalDestroy
+OnPlayableDestroy
+UnityEngine.Event::Internal_Destroy
+UnityEngine.TextGenerator::Internal_Destroy
+UnityEngine.Rendering.GPUDrivenProcessor::Internal_Destroy
+UnityEngine.AnimationCurve::Internal_Destroy
+UnityEngine.ObjectGUIState::Internal_Destroy
+UnityEngine.GUIStyle::Internal_Destroy
+UnityEngine.TouchScreenKeyboard::Internal_Destroy
+UnityEngine.LightProbesQuery::Destroy
+Unity.Hierarchy.Hierarchy::Destroy
+Unity.Hierarchy.HierarchyCommandList::Destroy
+UnityEngine.TextCore.Text.FontAsset::Destroy
+UnityEngine.Rendering.BatchRendererGroup::Destroy
+UnityEngine.TextCore.Text.TextGenerationInfo::Destroy
+Unity.Hierarchy.HierarchyViewModel::Destroy
+UnityEngine.Playables.PlayableGraph::Destroy
+Unity.Hierarchy.HierarchyFlattened::Destroy
+UnityEngine.UIElements.UIPainter2D::Destroy
+com.unity.tiny
+July
+Moved Permanently
+Render pass '%s' validation: Shader resolve not set up correctly
+Legacy Shaders/Particles/Alpha Blended Premultiply
+NumpadMultiply
+ScriptOnly
+EditorOnly
+metalFramebufferOnly
+partially
+UnityEngine.SystemInfo::GetOperatingSystemFamily
+AddComponent asking for invalid type using [ExtensionOfNativeClass] in its ancestor but cannot be found in the assembly
+AssemblyIsEditorAssembly
+RuntimeAssembly
+unity_AmbientSky
+Renderer::kSystemParentHierarchy
+SortingGroup::kSystemParentHierarchy
+m_RigidbodyTransformChangeParentHierarchy
+m_ColliderTransformChangeParentHierarchy
+m_HasTransformHierarchy
+CreateHierarchy
+SortingGroup::kSystemChildHierarchy
+Unity.Hierarchy
+DrawProceduralIndirect can't draw quads if platform does not support quad topology
+m_LightProbeOutsideHullStrategy
+OnNotify
+OnSceneContactModify
+grey
+UnityGrey
+linearGrey
+UnityLinearGrey
+publickey
+UnityEngine.Input::get_anyKey
+SortKey
+GetKey
+GradientColorKey
+StateKey
+m_RenderDataKey
+GradientAlphaKey
+Rigidbody
+UnityEngine.ParticleSystem/NoiseModule::set_frequency
+NoiseModule.frequency
+setFrequency
+getFrequency
+PhysicsWorld.contactFrequency
+definition.m_ContactFrequency
+accelerometerFrequency
+getFinalFrequency
+UnityEngineInternal.Input.NativeInputSystem::SetPollingFrequency
+UnityEngineInternal.Input.NativeInputSystem::GetPollingFrequency
+m_UpdateFrequency
+m_Frequency
+UnityEngine.ContactFilter2D::CheckConsistency
+SerializedShaderDependency
+ResourceManager_Dependency
+Failed Dependency
+isLegacy
+m_Legacy
+Bad Gateway
+OnTriggerStay
+OnCollisionStay
+i-tay
+cubearray
+2darray
+kGL_ARB_shader_viewport_layer_array
+kGL_EXT_texture_cube_map_array
+kGL_OES_texture_cube_map_array
+kGL_ARB_texture_cube_map_array
+SetKeys: Invalid input ColorKey array
+SetKeys: Invalid input AlphaKey array
+Metal does not support YUV2 texture format for Cubemap array
+Cannot call GetGlyphIndex on an empty text glyph array
+SetGlobalMatrixArray
+AttachmentIndexArray
+m_BlendTreeConstantIndexArray
+m_RootMotionSkeletonIndexArray
+m_HumanSkeletonIndexArray
+m_HumanSkeletonReverseIndexArray
+m_IndexArray
+unity_RendererBounds_MaxArray
+m_ChildPairAvgMagInvArray
+m_ChildNeighborListArray
+m_AnyStateTransitionConstantArray
+m_TransitionConstantArray
+m_ConditionConstantArray
+m_SelectorStateConstantArray
+m_StateConstantArray
+m_BlendTreeConstantArray
+CreateAsyncInstantiateOperationResultArray
+m_SynchronizedLayerLastAutoWeightArray
+m_SynchronizedLayerAutoWeightArray
+unity_PrevWorldToObjectArray
+unity_WorldToObjectArray
+SetGlobalFloatArray
+UnityEngine.Jobs.TransformAccessArray::DestroyTransformAccessArray
+DestroyWorldTransformAccessArray
+CreateWorldTransformAccessArray
+m_AxesArray
+m_ChildPairVectorArray
+SetGlobalVectorArray
+unity_SpriteRendererColorArray
+m_NeighborArray
+m_HumanLayerArray
+unity_RenderingLayerArray
+m_LayerArray
+unity_SHBrArray
+unity_SHArArray
+unity_SpriteFlipArray
+CubemapArray
+m_LeafInfoArray
+NativeContainerSupportsDeferredConvertListToArray
+m_ChildPositionArray
+unity_ProbesOcclusionArray
+unity_RendererBounds_MinArray
+m_GoalArray
+UnityEngine.TextCore.LowLevel.FontEngine::GetLigatureSubstitutionRecordsFromMarshallingArray
+unity_SHBgArray
+unity_SHAgArray
+NativeArray
+unity_RendererUserValueArray
+m_ValueArray
+m_StateMachineArray
+m_SampleArray
+m_ChildMagnitudeArray
+m_NodeArray
+unity_LODFadeArray
+UnityDefaultCubeArray
+unity_PrevObjectToWorldArray
+unity_ObjectToWorldArray
+m_ChildThresholdArray
+DynamicArray
+unity_SHBbArray
+unity_SHAbArray
+MeshDataArray
+unity_DynamicLightmapSTArray
+unity_LightmapSTArray
+m_DoFArray
+m_TDoFArray
+m_ChildBlendEventIDArray
+m_SkeletonNameIDArray
+m_IDArray
+UnityDefault2DArray
+Metal does not support YUV2 texture format for Texture2DArray
+unity_SHCArray
+gray
+linearGray
+WireOverlay
+UIOverlay
+m_TargetDisplay
+useHDRDisplay
+The Animator Controller (%s) you have used is not valid. Animations will not play
+startDelay
+setDelay
+m_ReflectionsDelay
+OnBehaviourDelay
+m_ReverbDelay
+OnBehaviourPlay
+UnityEngine.Playables.PlayableGraph::Play
+Thursday
+Tuesday
+Wednesday
+Saturday
+Sunday
+Monday
+Friday
+flip_y
+InitialModule.customEmitterVelocity.y
+m_AnchorMax.y
+m_Pivot.y
+ShapeModule.boxThickness.y
+m_AnchoredPosition.y
+ShapeModule.m_Position.y
+ShapeModule.m_Rotation.y
+m_AnchorMin.y
+TrailModule.textureScale.y
+ShapeModule.m_Scale.y
+ColorBySpeedModule.range.y
+RotationBySpeedModule.range.y
+SizeBySpeedModule.range.y
+UVModule.speedRange.y
+LifetimeByEmitterSpeedModule.m_Range.y
+m_SizeDelta.y
+RootT.y
+MotionT.y
+RootQ.y
+MotionQ.y
+m_CookieSize2D.y
+%m/%d/%y
+Linux
+i-lux
+psaux
+start table morx
+end table morx
+start table kerx
+end table kerx
+m_CustomSkybox
+RenderFX/Skybox
+FontBBox
+sgn-mx
+GLSL: Invalid type in hlslcc vectorized matrix
+unity_LightmapMatrix
+invertProjectionMatrix
+m_LayerCollisionMatrix
+SetGlobalMatrix
+UnmarkLateLatchMatrix
+unity_GUIClipTextureMatrix
+wavemultiprefix
+eventPrefix
+MAX_ALLOC_CHUNK is wrong, please fix
+ALIGN_TYPE is wrong, please fix
+setMix
+ADTM: Trying to process a processor in a manager that isn't yet processing, you need to do have called BeginMix
+m_Convex
+kGL_EXT_draw_elements_base_vertex
+kGL_OES_draw_elements_base_vertex
+kGL_ARB_draw_elements_base_vertex
+Hidden/Nature/Tree Creator Bark Rendertex
+firstVertex
+_glesVertex
+progVertex
+SpriteVertex
+baseVertex
+BlendShapeVertex
+__TextureBlit_Vertex
+UIVertex
+sparsetex
+msaatex
+Invalid detail prototype index
+invalid index
+GC_init_gcj_vector: bad index
+GC_init_gcj_malloc: bad index
+UnityEngineInternal.DisplayInternal::PrimaryDisplayIndex
+rowIndex
+m_StartIndex
+UnityEngine.TextCore.Text.TextSelectionService::NextCodePointIndex
+UnityEngine.TextCore.Text.TextSelectionService::PreviousCodePointIndex
+depthAttachmentIndex
+probeOcclusionLightIndex
+m_ProbeOcclusionLightIndex
+m_StateMachineMotionSetIndex
+ProbeSetIndex
+passIndex
+subPassIndex
+atlasIndex
+m_StateMachineSynchronizedLayerIndex
+m_LayerIndex
+renderParameterIndex
+UnityEngine.Jobs.TransformAccessArray::GetSortedToUserIndex
+rendererIndex
+m_SamplerIndex
+subShaderIndex
+m_LightmapIndex
+m_PackedSpriteNamesToIndex
+UnityEngine.Playables.PlayableHandle::SetInputWeightFromIndex
+UnityEngine.TextCore.Text.TextSelectionService::GetCharacterHeightFromIndex
+m_OriginalIndex
+ShapeModule.m_UseMeshMaterialIndex
+ShapeModule.m_MeshMaterialIndex
+Invalid indices for FindPreviousBreakIndex
+UnityStereoEyeIndex
+unity_StereoEyeIndex
+shadingRateIndex
+m_RootMotionBoneIndex
+m_HumanBoneIndex
+m_HandBoneIndex
+m_StateMachineIndex
+frameIndex
+m_NameIndex
+i->first.serializedFileIndex != serializedFileIndex
+CacheIndex
+foveationImageIndex
+m_ImageIndex
+_ArraySliceIndex
+_faceIndex
+m_SubsoundIndex
+preloadIndex
+Unity.Jobs.LowLevel.Unsafe.JobsUtility::get_ThreadIndex
+m_ThreadIndex
+m_BlobIndex
+m_Index
+Invalid BodyPart Index
+Invalid Transform Index
+_MainTex
+unity_MipmapStreaming_DebugTex
+_AlphaTex
+New-Cylinder.fbx
+icosahedron.fbx
+icosphere.fbx
+New-Sphere.fbx
+New-Plane.fbx
+New-Capsule.fbx
+Cube.fbx
+pyramid.fbx
+Quad.fbx
+kGL_EXT_blend_minmax
+unity_SpecCube1_BoxMax
+unity_SpecCube0_BoxMax
+ShaderChunkCountMax
+m_AnchorMax
+m_MaskMapRemapMax
+m_DiffuseRemapMax
+ShaderChunkSizeMax
+VariantsWarmupTimeMax
+VariantsCompilationTimeMax
+unity_RendererBounds_Max
+m_Max
+Baselib_Memory_AllocatePagesEx
+Not a JPEG file: starts with 0x%02x 0x%02x
+Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
+Unexpected marker 0x%02x
+Unsupported marker type 0x%02x
+Unsupported JPEG process: SOF type 0x%02x
+Define Huffman Table 0x%02x
+Define Arithmetic Table 0x%02x: 0x%02x
+-+   0X0x
+-0X+0X 0X-0x+0x 0x
+InitialModule.customEmitterVelocity.x
+m_AnchorMax.x
+5.x.x
+m_Pivot.x
+ShapeModule.boxThickness.x
+m_AnchoredPosition.x
+ShapeModule.m_Position.x
+ShapeModule.m_Rotation.x
+m_AnchorMin.x
+TrailModule.textureScale.x
+ShapeModule.m_Scale.x
+ColorBySpeedModule.range.x
+RotationBySpeedModule.range.x
+SizeBySpeedModule.range.x
+UVModule.speedRange.x
+LifetimeByEmitterSpeedModule.m_Range.x
+m_SizeDelta.x
+RootT.x
+MotionT.x
+RootQ.x
+MotionQ.x
+m_CookieSize2D.x
+Bogus DAC value 0x%x
+Unknown Message ID: %x
+png_write_info was never called before png_write_row
+Uninitialized row
+yellow
+sequential row overflow
+Unexpected mark stack overflow
+GL_STACK_OVERFLOW_KHR: OpenGL stack overflow
+Huffman code size table overflow
+InvokeSampleFramesOverflow
+TempOverflow
+m_Overflow
+GL_STACK_UNDERFLOW_KHR: OpenGL stack underflow
+displayWindow
+EarlyUpdate/ProcessMouseInWindow
+resizableWindow
+dataWindow
+unity_WorldToShadow
+unity_World2Shadow
+randomRow
+kGL_OVR_multiview
+UnityEngine.SystemInfo::SupportsMultiview
+canMultiview
+kGL_EXT_texture_view
+kGL_OES_texture_view
+kGL_ARB_texture_view
+field of view
+UnityEngine.Camera::FocalLengthToFieldOfView
+UnityEngine.Camera::VerticalToHorizontalFieldOfView
+UnityEngine.Camera::HorizontalToVerticalFieldOfView
+glTextureView
+Internal_BuiltinRuntimeReflectionSystem_New
+Overloaded New
+PostLateUpdate/PresentAfterDraw
+UnityPerDraw
+UnityRaw
+settingsRaw
+UnityEngine.Rendering.AsyncGPUReadbackRequest::GetDataRaw
+RootQ.w
+MotionQ.w
+unity_ProbeVolumeSizeInv
+UnityTexEnv
+m_DynamicEnv
+glProgramUniform4uiv
+glProgramUniform3uiv
+glProgramUniform2uiv
+glProgramUniform1uiv
+glGetProgramResourceiv
+glGetProgramInterfaceiv
+glProgramUniform4iv
+glProgramUniform3iv
+glProgramUniform2iv
+glProgramUniform1iv
+glProgramUniformMatrix4fv
+glProgramUniformMatrix3x4fv
+glProgramUniformMatrix2x4fv
+glProgramUniform4fv
+glProgramUniformMatrix3fv
+glProgramUniformMatrix4x3fv
+glProgramUniformMatrix2x3fv
+glProgramUniform3fv
+glProgramUniformMatrix2fv
+glProgramUniformMatrix4x2fv
+glProgramUniformMatrix3x2fv
+glProgramUniform2fv
+glProgramUniform1fv
+glGetQueryObjectui64v
+zh-guoyu
+zh-wuu
+i-tsu
+menu
+ContextMenu
+Mismatching archive size: '%s'. Expected %llu, got %llu
+Clamp count to %llu
+com.unity.editor.watermarks.edu
+        %4u %4u %4u %4u %4u %4u %4u %4u
+__CreateMipmap_%u
+__ConvertTexture_%u
+ScratchbufferPage_%u
+%s_BindGroupLayout[%u]_%u
+%s_PipelineLayout[%u]_%u
+%s_BindGroup[%u]_%u
+AsyncGPUReadback - Out of bounds arguments - src offset:%u dst size:%u src size:%u
+AsyncGPUReadback - Not enough space in the destination buffer: %u/%u
+try kerning glyphs at %u,%u
+tried kerning glyphs at %u,%u
+kerned glyphs at %u,%u
+recursing to lookup %u at %u
+attaching mark glyph at %u to glyph at %u
+attached mark glyph at %u to glyph at %u
+cursive attaching glyph at %u to glyph at %u
+cursive attached glyph at %u to glyph at %u
+multiplying glyph at %u
+positioning glyph at %u
+ligated glyph at %u
+positioned glyph at %u
+JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
+recursed to lookup %u
+Define Restart Interval %u
+Warning: thumbnail image size does not match data length %u
+Miscellaneous marker 0x%02x, length %u
+JFIF extension marker: type 0x%02x, length %u
+JFIF extension marker: palette thumbnail image, length %u
+JFIF extension marker: JPEG-compressed thumbnail image, length %u
+JFIF extension marker: RGB thumbnail image, length %u
+Unknown APP14 marker (not Adobe), length %u
+Unknown APP0 marker (not JFIF), length %u
+Obtained XMS handle %u
+Freed XMS handle %u
+Obtained EMS handle %u
+Freed EMS handle %u
+start chainsubtable %u
+end chainsubtable %u
+start subtable %u
+end subtable %u
+Could not close file at file handle id %u
+AsyncGPUReadback - Invalid mipIndex: %u
+force-desktop-glcontext
+%s: Unable to create render pass context
+ScriptableRenderContext
+UnitySynchronizationContext
+InitializeSynchronizationContext
+ControlContext
+BatchCullingContext
+Image::GetMethodGenericContext
+start preprocess-text
+end preprocess-text
+Failed to perform selection on text
+m_RichText
+m_Text
+System.Text
+InvokeMoveNext
+AnimatorOuput
+png_set_filler is invalid for low bit depth gray output
+setOutput
+getOutput
+BatchRendererCullingOutput
+LightBakingOutput
+m_BakingOutput
+ScriptPlayableOutput
+AudioPlayableOutput
+AnimationPlayableOutput
+TexturePlayableOutput
+ARCOutput
+disablesLegacyInput
+getInput
+ClusterInput
+EarlyUpdate/ProcessRemoteInput
+UnityEngine.TouchScreenKeyboard::set_hideInput
+PreUpdate/CheckTexFieldInput
+UnityEngine.GUIUtility::get_textFieldInput
+addInput
+UnityEngineInternal.Input
+ulayout
+vertexLayout
+EmptyBindGroupLayout
+__CreateMipmap_%u_BindGroupLayout
+__ConvertTexture_BindGroupLayout
+__LinearToSRGB_BindGroupLayout
+m_OutputChannelLayout
+UnityEngine.UIElements.Layout.LayoutNative::CalculateLayout
+m_TextureLayout
+__CreateMipmap_%u_PipelineLayout
+__ConvertTexture_PipelineLayout
+__LinearToSRGB_PipelineLayout
+m_ExplicitDataLayout
+UnityEngine.UIElements.Layout
+UI Layout
+Request timeout
+Gateway Timeout
+Request Timeout
+UnityEngine.HDROutputSettings::GetDisplayColorGamut
+_SourceColorGamut
+_ColorGamut
+m_InOut
+Right Foot Twist In-Out
+Left Foot Twist In-Out
+Right Forearm Twist In-Out
+Left Forearm Twist In-Out
+Right Arm Twist In-Out
+Left Arm Twist In-Out
+Right Lower Leg Twist In-Out
+Left Lower Leg Twist In-Out
+Right Upper Leg Twist In-Out
+Left Upper Leg Twist In-Out
+Right Upper Leg In-Out
+Left Upper Leg In-Out
+Right Eye In-Out
+Left Eye In-Out
+Right Hand In-Out
+Left Hand In-Out
+com.unity.editor.packages.bypasstrust
+August
+ParticleSystemEmissionBurst
+Cannot connect output %d, it is already connected, the tree topology will be invalid. Disconnect it first
+m_AlbedoBoost
+localhost
+Cannot connect to destination host
+Cannot resolve destination host
+m_ForeArmTwist
+m_ArmTwist
+m_UpperLegTwist
+m_LegTwist
+chlist
+Can't get cameras with uninitialized list
+RecreateDisplayList
+MotionNeighborList
+androidVulkanDenyFilterList
+androidVulkanAllowFilterList
+DrawRendererList
+TextGenerationInfoList
+influenceList
+HierarchyCommandList
+CreateCommandList
+IList
+Invalid crop request
+Unsupported color conversion request
+[BindGroupManagerWebGPU::UpdateConstantBuffer()] invalid update request
+AsyncGPUReadbackRequest
+ResourceRequest
+WebRequest
+SetupRenderTextureFromXRRequest
+Misdirected Request
+Bad Request
+xboxEnableGuest
+gParticleSystemParentHierarchyInterest
+gParticleSystemChildHierarchyInterest
+gParticleSystemTRSInterest
+Thumbrest
+UpperChest
+dest
+zTest
+NativeTest
+Ignore Raycast
+std::bad_cast
+Legacy Shaders/Diffuse Fast
+force-gfx-st
+distort
+LastResort
+SetViewport
+profiler-enable-deep-profiling-support
+allowHDRDisplaySupport
+androidPredictiveBackSupport
+UnityEngine.SystemInfo::GetCopyTextureSupport
+macRetinaSupport
+physics-sdk-debugger-connection-port
+managed-debugger-fixed-port
+Cannot set multiple PlayableOutputs to the same source playable and output port
+attempting to explicitly set an output connection to a non-existing port
+start table mort
+end table mort
+ICC profile too short
+burst_abort
+UnityEngine.Playables.PlayableOutputHandle::GetSourceOutputPort
+invert
+Assert
+insert
+glDebugMessageInsert
+g_FirstVert
+start
+m_IndexStart
+_ST_HistoryTreeExtents_SharedHeightStart
+_ST_TreeExtents_SharedHeightStart
+OnGraphStart
+fogStart
+m_LinearFogStart
+unity_FogStart
+terrainBillboardStart
+CreateSubsystemsAnalyticStart
+m_Start
+script
+UnityEngine.GL::GLLoadPixelMatrixScript
+PreLateUpdate/AIUpdatePostScript
+CheckIsEditorScript
+MonoScript
+m_Script
+sgn-pt
+m_Pivot
+cursorHotspot
+kGL_OES_texture_npot
+I'm a teapot
+root
+m_SortAtRoot
+%%ParentIsRoot
+SkinnedMeshRendererManager::kHierarchySystemInvalidationRoot
+m_StaticBatchRoot
+m_HasExtraRoot
+%s cannot be Root
+RightFoot
+LeftFoot
+waveballot
+FinalizeSnapshot
+PostLateUpdate/UpdateCaptureScreenshot
+-hbot
+m_AmbientSkyboxAmount
+m_WavingGrassAmount
+positionAmount
+ShapeModule.randomPositionAmount
+ShapeModule.randomDirectionAmount
+ShapeModule.sphericalDirectionAmount
+rotationAmount
+_SquashAmount
+sizeAmount
+selected_new_assets_count
+project_assets_count
+unselected_assets_count
+unchanged_assets_count
+selected_changed_assets_count
+package_items_count
+offmesh_links_count
+agent_types_count
+height_meshes_count
+areas_count
+navmesh_count
+memorysetup-profiler-bucket-allocator-bucket-count
+memorysetup-bucket-allocator-bucket-count
+background-job-worker-count
+memorysetup-profiler-bucket-allocator-block-count
+memorysetup-bucket-allocator-block-count
+profiler-capture-frame-count
+GetBlendShapeFrameVertices() output arrays size must match mesh vertex count
+AddBlendShape() input arrays size must match mesh vertex count
+More than %d Allocators are registered. Reduce allocator count
+invalid parameter count
+Invalid pCAL parameter count
+UnityEngine.Shader::GetGlobalPropertyCount
+vertexCount
+m_SpriteBatchMaxVertexCount
+m_VertexCount
+SetSubMesh #%d shares part of its index buffer with SubMesh #%d. Sharing part of an index buffer can result in undefined behavior and will be deprecated soon. To future-proof your Project, fix the indexStart/indexCount
+UnityEngine.Rendering.CullingResults::GetLightIndexCount
+UnityEngine.Rendering.CullingResults::GetReflectionProbeIndexCount
+Unity.Jobs.LowLevel.Unsafe.JobsUtility::get_ThreadIndexCount
+m_IndexCount
+maxCount
+rowCount
+m_RowCount
+multiviewCount
+UnityEngine.Playables.PlayableHandle::SetInputCount
+UnityEngine.Playables.PlayableHandle::GetInputCount
+EmissionModule.m_BurstCount
+g_VertCount
+UnityEngine.Event::GetEventCount
+framePresentCount
+UnityEngine.Experimental.Rendering.GraphicsFormatUtility::GetComponentCount
+UnityEngine.Experimental.Rendering.GraphicsFormatUtility::GetAlphaComponentCount
+attachmentCount
+UnityEngine.QualitySettings::set_pixelLightCount
+UnityEngine.QualitySettings::get_pixelLightCount
+UnityEngine.SystemInfo::SupportedRenderTargetCount
+m_MotionSetCount
+UnityEngine.GUIClip::Internal_GetCount
+UnityEngine.LightProbes::GetCount
+SplatCount
+subPassCount
+_NumLayersCount
+UnityEngine.Camera::GetAllCamerasCount
+UnityEngine.Rendering.AsyncGPUReadbackRequest::GetLayerCount
+m_HumanLayerCount
+UnityEngine.RenderingLayerMask::GetRenderingLayerCount
+UnityEngine.RenderingLayerMask::GetDefinedRenderingLayerCount
+m_SynchronizedLayerCount
+m_LayerCount
+UnityEngine.XR.XRDisplaySubsystem/XRRenderPass::GetRenderParameterCount
+UnityEngine.TextCore.Text.TextLib::GetCharacterCount
+m_MipCount
+m_MaxSubStepCount
+m_CubemapCount
+m_SolverVelocityIterationCount
+m_SolverIterationCount
+ribbonCount
+minCount
+vertexStreamCount
+colCount
+maxMaterialCount
+m_ScratchBufferChunkCount
+maxMeshCount
+subMeshCount
+UnityEngine.Input::get_touchCount
+m_PatchCount
+curveCount
+discreteCurveCount
+m_CurveCount
+UnityEngine.ParticleSystem/NoiseModule::set_octaveCount
+IncrementUpdateCount
+UnityEngine.SceneManagement.SceneManager::get_sceneCount
+UnityEngine.ParticleSystem/CollisionModule::get_planeCount
+UnityEngine.Time::get_frameCount
+UnityEngine.Time::get_renderedFrameCount
+droppedFrameCount
+m_FrameCount
+sampleCount
+EmissionModule.m_Bursts.Array.data[7].cycleCount
+EmissionModule.m_Bursts.Array.data[6].cycleCount
+EmissionModule.m_Bursts.Array.data[5].cycleCount
+EmissionModule.m_Bursts.Array.data[4].cycleCount
+EmissionModule.m_Bursts.Array.data[3].cycleCount
+EmissionModule.m_Bursts.Array.data[2].cycleCount
+EmissionModule.m_Bursts.Array.data[1].cycleCount
+EmissionModule.m_Bursts.Array.data[0].cycleCount
+m_ImageCount
+m_BladeCount
+UnityEngine.Graphics::Internal_GetMaxDrawMeshInstanceCount
+m_VirtualVoiceCount
+m_RealVoiceCount
+UnityEngine.Rendering.LocalKeywordSpace::GetKeywordCount
+UnityEngine.Rendering.ShaderKeyword::GetGlobalKeywordCount
+UnityEngine.Rendering.GlobalKeyword::GetGlobalKeywordCount
+Internal error: Fences must be explicitly synced before calling BatchRendererCullingOutputs::ComputeDrawCommandCount
+Unity.Jobs.LowLevel.Unsafe.JobsUtility::GetJobQueueWorkerThreadCount
+UnityEngine.QualitySettings::set_vSyncCount
+m_Count
+m_TreeMaximumFullLODCount
+switchNVNMaxPublicSamplerIDCount
+switchNVNMaxPublicTextureIDCount
+Shadow Casters Count
+Used Buffers Count
+Indirect Draw Calls Count
+SetPass Calls Count
+Render Textures Count
+Triangles Count
+Visible Skinned Meshes Count
+Batches Count
+Render Textures Changes Count
+Vertices Count
+Vertex Buffer Upload In Frame Count
+Index Buffer Upload In Frame Count
+stencilPassOpFront
+stencilOpFront
+stencilFailOpFront
+stencilZFailOpFront
+stencilFuncFront
+_TreeBillboardCameraFront
+dfont
+IsBaseFont
+m_GridFont
+UnityEngine.Font::Internal_CreateDynamicFont
+m_Font
+IsCIDFont
+kGL_OES_element_index_uint
+r8uint
+rg8uint
+rgba8uint
+r16uint
+rg16uint
+rgba16uint
+rgb10a2uint
+r32uint
+rg32uint
+rgba32uint
+r8sint
+rg8sint
+rgba8sint
+r16sint
+rg16sint
+rgba16sint
+r32sint
+rg32sint
+rgba32sint
+joint
+m_SpriteSortPoint
+ContactPairPoint
+UnityEngine.GUIUtility::set_pixelsPerPoint
+UnityEngine.GUIUtility::get_pixelsPerPoint
+UnityEngine.ColorGamutUtility::GetWhitePoint
+m_LocalReferencePoint
+bindPoint
+samplerBindPoint
+overflow contact constraint
+ParentConstraint
+LookAtConstraint
+PositionConstraint
+RotationConstraint
+AimConstraint
+ScaleConstraint
+WavingGrassTint
+_WavingTint
+windowsGamepadBackendHint
+sfnt
+UnityEvent
+UnityEngineInternal.Input.NativeInputSystem::QueueInputEvent
+ManualResetEvent
+UnityEngine.Input::ClearLastPenContactEvent
+ProcessEvent
+InvokeCompletionEvent
+InvokeConnectionEvent
+PointerToAnimationEvent
+IssuePluginEvent
+InvokeTrackingEvent
+UnityEngine.Event::Internal_SetNativeEvent
+CallReflectionProbeEvent
+InvokeTrackingOriginUpdatedEvent
+InvokeBoundaryChangedEvent
+m_Extent
+Persistent
+content
+CompleteContent
+GUIContent
+Reset Content
+No Content
+Partial Content
+invalid rendering intent
+wait-for-present
+PostLateUpdate/PlayerSendFramePostPresent
+PostLateUpdate/XRPostPresent
+EarlyUpdate/ResetFrameStatsAfterPresent
+Internal_MakeMasterEventCurrent
+get_Current
+kGL_NV_blend_equation_advanced_coherent
+kGL_KHR_blend_equation_advanced_coherent
+transparent
+Hips bone '%s' must have a parent
+ComputeShaderKernelParent
+%%Parent

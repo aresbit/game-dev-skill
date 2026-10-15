@@ -1,0 +1,267 @@
+# whole-file ASCII runs (>=4 chars): 247556
+# data-segment ASCII runs: 30659
+# data-segment payload bytes: 7425872
+
+=== KEYWORD COUNTS (whole_file, data_segments) ===
+LittlePrince           whole=5      data=5
+B612                   whole=2      data=2
+b612                   whole=0      data=0
+Unity                  whole=9618   data=9616
+unity                  whole=253    data=253
+WebGPU                 whole=9      data=6
+webgpu                 whole=1      data=0
+wgsl                   whole=0      data=0
+WGSL                   whole=0      data=0
+UnityEngine            whole=8963   data=8962
+global-metadata        whole=1      data=1
+emscripten             whole=51     data=0
+Emscripten             whole=1      data=1
+il2cpp                 whole=40     data=40
+IL2CPP                 whole=30     data=30
+Mono                   whole=83     data=83
+mono                   whole=3      data=2
+bar                    whole=29     data=28
+earth                  whole=0      data=0
+geo                    whole=32     data=32
+king                   whole=206    data=206
+desert                 whole=0      data=0
+vanity                 whole=0      data=0
+lighter                whole=0      data=0
+scene                  whole=80     data=80
+Scene                  whole=395    data=395
+shader                 whole=137    data=136
+Shader                 whole=495    data=485
+GLSL                   whole=11     data=11
+glsl                   whole=0      data=0
+emscripten_webgpu      whole=0      data=0
+webgpu_                whole=1      data=0
+_emscripten_gl         whole=0      data=0
+webgl                  whole=9      data=2
+WebGL                  whole=12     data=7
+cxa                    whole=13     data=0
+dynCall                whole=562    data=0
+invoke_                whole=130    data=0
+ba_                    whole=0      data=0
+dynCall_               whole=562    data=0
+
+=== Unity version-looking strings ===
+2018.3.0a1	x1
+
+=== Emscripten version-looking strings ===
+
+=== sample runs containing keywords ===
+
+--- Unity ---
+  JS_DOM_UnityCanvasSelector
+  JS_UnityEngineShouldQuit
+  ::Scripting::Unity::IO::LowLevel::Unsafe::PriorityProxy
+  ::Scripting::Unity::Jobs::LowLevel::Unsafe::JobsUtilityProxy
+  ::Scripting::UnityEngine::TerrainUtils::TerrainUtilityProxy
+  ::Scripting::UnityEngine::ScriptingUtilityProxy
+  ::Scripting::Unity::Profiling::LowLevel::Unsafe::ProfilerUnsafeUtilityProxy
+  ::Scripting::UnityEngine::StackTraceUtilityProxy
+  ::Scripting::UnityEngine::GUIUtilityProxy
+  ::Scripting::UnityEngine::UIElements::UIR::UtilityProxy
+  ::Scripting::UnityEngine::GUILayoutEntryProxy
+  ::Scripting::UnityEngine::Rendering::GPUDrivenMaterialFilterEntryProxy
+  ::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::PlayerEmitCanvasGeometryProxy
+  ::Scripting::Unity::Profiling::ProfilerCategoryProxy
+  ::Scripting::Unity::Collections::LeakCategoryProxy
+  ::Scripting::UnityEngine::AssemblyIsEditorAssemblyProxy
+  ::Scripting::Unity::Hierarchy::HierarchyProxy
+  ::Scripting::UnityEngine::GradientColorKeyProxy
+  ::Scripting::UnityEngine::GradientAlphaKeyProxy
+  ::Scripting::UnityEngine::CubemapArrayProxy
+  ::Scripting::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArrayProxy
+  ::Scripting::UnityEngine::Texture2DArrayProxy
+  ::Scripting::UnityEngine::DisplayProxy
+  ::Scripting::UnityEngine::UIVertexProxy
+  ::Scripting::UnityEngine::CacheIndexProxy
+  ::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::ProcessMouseInWindowProxy
+  ::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::PresentAfterDrawProxy
+  ::Scripting::UnityEngine::ContextMenuProxy
+  ::Scripting::UnityEngine::UnitySynchronizationContextProxy
+  ::Scripting::UnityEngine::Audio::ControlContextProxy
+  ::Scripting::UnityEngine::Rendering::BatchCullingContextProxy
+  ::Scripting::UnityEngine::Rendering::BatchRendererCullingOutputProxy
+  ::Scripting::UnityEngine::Playables::ScriptPlayableOutputProxy
+  ::Scripting::UnityEngine::Audio::AudioPlayableOutputProxy
+  ::Scripting::UnityEngine::Animations::AnimationPlayableOutputProxy
+  ::Scripting::UnityEngine::Experimental::Playables::TexturePlayableOutputProxy
+  ::Scripting::UnityEngine::Playables::PlayableOutputProxy
+  ::Scripting::UnityEngine::PlayerLoop::EarlyUpdate::ProcessRemoteInputProxy
+  ::Scripting::UnityEngine::PlayerLoop::PreUpdate::CheckTexFieldInputProxy
+  ::Scripting::UnityEngine::ColorGamutProxy
+  ::Scripting::Unity::Hierarchy::HierarchyCommandListProxy
+  ::Scripting::UnityEngine::Rendering::AsyncGPUReadbackRequestProxy
+  ::Scripting::UnityEngine::ResourceRequestProxy
+  ::Scripting::UnityEngine::Analytics::SubsystemsAnalyticStartProxy
+  ::Scripting::UnityEngine::PlayerLoop::PreLateUpdate::AIUpdatePostScriptProxy
+  ::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::UpdateCaptureScreenshotProxy
+  ::Scripting::UnityEngine::FontProxy
+  ::Scripting::UnityEngine::ContactPairPointProxy
+  ::Scripting::UnityEngine::WhitePointProxy
+  ::Scripting::UnityEngine::Animations::ParentConstraintProxy
+  ::Scripting::UnityEngine::Animations::LookAtConstraintProxy
+  ::Scripting::UnityEngine::Animations::PositionConstraintProxy
+  ::Scripting::UnityEngine::Animations::RotationConstraintProxy
+  ::Scripting::UnityEngine::Animations::AimConstraintProxy
+  ::Scripting::UnityEngine::Animations::ScaleConstraintProxy
+  ::Scripting::UnityEngine::Events::UnityEventProxy
+  ::Scripting::UnityEngine::AnimationEventProxy
+  ::Scripting::UnityEngine::EventProxy
+  ::Scripting::UnityEngine::GUIContentProxy
+  ::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::PlayerSendFramePostPresentProxy
+
+--- Pierre ---
+
+--- Pierre ---
+
+--- WebGPU ---
+  JS_WebGPU_SetCommandEncoder
+  JS_WebGPU_Setup
+  JS_SystemInfo_HasWebGPU
+  [BindGroupManagerWebGPU::UpdateConstantBuffer()] invalid update request
+  WebGPU Device
+  WebGPU 1.0 [1.0]
+  Buffer Readback is not supported by WebGPU. Use AsyncGPUReadback Instead.
+  Texture Readback is not supported by WebGPU. Use AsyncGPUReadback Instead.
+  Unity WebGPU:
+
+--- wgsl ---
+
+--- B612 ---
+  B612.Rendering.dll
+  B612.Core.dll
+
+--- b612 ---
+
+--- Lighter ---
+
+--- lighter ---
+
+--- soil ---
+
+--- shader ---
+  env wgpu_device_create_shader_module
+  kGL_ARB_shader_viewport_layer_array
+  Compute shader (%s): Property (%s) at kernel index (%i) is not set
+  RenderingCommandBuffer: shader {0}: invalid pass index {1} in DrawProceduralIndirect
+  RenderingCommandBuffer: shader {0}: invalid pass index {1} in DrawProceduralIndexedIndirect
+  RenderingCommandBuffer: shader {0}: invalid pass index {1} in DrawMeshInstancedIndirect
+  kGL_ARB_shader_storage_buffer_object
+  Material CBuffer layout is inconsistent across shader variants
+  kGL_EXT_separate_shader_objects
+  kGL_ARB_separate_shader_objects
+  Platform does not support compute shaders
+  Compute shader (%s): Can't find kernel (%i) variant with keywords: %s
+  ERROR: Unable to link compute shader: %s
+  kGL_AMD_vertex_shader_layer
+  RenderingCommandBuffer: shader {0}: invalid pass index {1} in DrawRenderer
+  setrtarrayindexfromanyshader
+  kGL_EXT_geometry_shader
+  kGL_OES_geometry_shader
+  kGL_EXT_tessellation_shader
+  kGL_OES_tessellation_shader
+  kGL_ARB_tessellation_shader
+  kGL_ARB_compute_shader
+  Font.shader
+  Internal-ErrorShader.shader
+  Internal-Clear.shader
+  Internal-Loading.shader
+  Internal-Colored.shader
+  No valid subshaders in '%s'.shader
+  max-chunks-per-shader
+  The given primitive topology does not match with the topology expected by the geometry shader
+  Unable to find ODSWorldTexture shader
+  kGL_KHR_shader_subgroup
+  UnityPerMaterial var is not declared in shader property section
+  Material property type mismatch between CBUFFER and shader Properties section
+  Too many variants in shader fallback chain
+  Cannot reload shaders on this platform
+  shaderPlatform
+  RenderingCommandBuffer: shader {0}: invalid pass index {1} in DrawProcedural
+  RenderingCommandBuffer: shader {0}: invalid pass index {1} in DrawMeshInstancedProcedural
+  Shader has a variant shared by inconsistent other shader fallback
+  RenderingCommandBuffer: shader {0}: invalid pass index {1} in DrawMesh
+  kGL_EXT_shader_framebuffer_fetch
+  strict-shader-variant-matching
+  kGL_ARB_shader_image_load_store
+  #extension GL_AMD_vertex_shader_layer : require
+  GLSL shader program has a geometry shader with unsupported primitive input type
+  shaderName
+  shaderAssetLocalIdentifierInFile
+  Builtin texture is used in more than 1 shader stage
+  m_DisableNoSubshadersMessage
+  kGL_EXT_shader_texture_lod
+  RenderingCommandBuffer: shader {0}: invalid pass index {1} in DrawProceduralIndexed
+  UnityEngine.Shader::get_subshaderCount_Injected
+  UnityEngine.Shader::GetPassCountInSubshader_Injected
+  UnityEngine.Material::set_shader_Injected
+  UnityEngine.Material::get_shader_Injected
+  UnityEngine.Shader::Internal_FindSubshaderTagValue_Injected
+  RenderingCommandBuffer: shader {0}: invalid pass index {1} in DrawMeshInstanced
+  %s: Missing surface for shader resolve color attachment %d
+  Desired shader compiler platform %u is not available in shader blob
+
+--- Shader ---
+  glGetShaderiv
+  glAttachShader
+  glCompileShader
+  glCreateShader
+  glDeleteShader
+  glDetachShader
+  glGetShaderSource
+  glGetShaderInfoLog
+  glGetShaderPrecisionFormat
+  glShaderSource
+  ::Scripting::UnityEngine::Rendering::ShaderKeywordSetProxy
+  ::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::ShaderHandleErrorsProxy
+  ::Scripting::UnityEngine::PlayerLoop::PostLateUpdate::GraphicsWarmupPreloadedShadersProxy
+  ::Scripting::UnityEngine::ComputeShaderProxy
+  ::Scripting::UnityEngine::Rendering::ShaderKeywordTypeProxy
+  ::Scripting::UnityEngine::Rendering::ShaderKeywordProxy
+  ::Scripting::UnityEditor::Analytics::MetalPatchShaderComputeBufferAnalyticProxy
+  ::Scripting::UnityEngine::Analytics::ShaderRuntimeInfoAnalyticProxy
+  switchNVNShaderPoolsGranularity
+  ShaderNameRegistry
+  Render pass '%s' validation: Shader resolve not set up correctly
+  Legacy Shaders/Particles/Alpha Blended Premultiply
+  SerializedShaderDependency
+  subShaderIndex
+  ShaderChunkCountMax
+  ShaderChunkSizeMax
+  Legacy Shaders/Diffuse Fast
+  UnityEngine.Shader::GetGlobalPropertyCount
+  UnityEngine.Rendering.ShaderKeyword::GetGlobalKeywordCount
+  ComputeShaderKernelParent
+  %s: Shader resolve color attachment %d cannot be a depth stencil attachment
+  RayTracingShaderPlatformVariant
+  ComputeShaderPlatformVariant
+  m_PreloadShadersBatchTimeLimit
+  Legacy Shaders/Transparent/Cutout/Soft Edge Unlit
+  Legacy Shaders/Reflective/Bumped Unlit
+  Legacy Shaders/Transparent/Cutout/VertexLit
+  Legacy Shaders/Transparent/VertexLit
+  Legacy Shaders/VertexLit
+  Legacy Shaders/Self-Illumin/VertexLit
+  Legacy Shaders/Reflective/VertexLit
+  Legacy Shaders/Lightmapped/VertexLit
+  Legacy Shaders/Reflective/Bumped VertexLit
+  UnityEngine.UIElements.UIR.Utility::ApplyShaderPropertySheet
+  UnityEngine.UIElements.UIR.Utility::AllocateShaderPropertySheet
+  ShaderKeywordSet
+  m_ShaderRequirements
+  PostLateUpdate/ShaderHandleErrors
+  UnityEngine.Shader::WarmupAllShaders
+  UnityEngine.SystemInfo::SupportsComputeShaders
+  m_AlwaysIncludedShaders
+  PostLateUpdate/GraphicsWarmupPreloadedShaders
+  m_PreloadedShaders
+  preloadShaders
+  m_PreloadShaders
+  m_SubShaders
+  m_Shaders
+  BuiltinShaderSettings
+  disabledShaderPasses
+  PlatformShaderDefines

@@ -1,0 +1,57 @@
+=== WASM STRUCTURE ===
+file: Build/code.wasm.br
+size: 51769628 bytes
+version: 1 (0x1)
+sections: 10
+
+id             name       payload_off  payload_size
+1              type       0x0000000b          10344
+2              import     0x00002876          15667
+3              function   0x000065ad         127840
+4              table      0x0002590f              9
+5              memory     0x0002591a              7
+6              global     0x00025923             14
+7              export     0x00025934          12417
+9              element    0x000289b9         669544
+10             code       0x000cc126       43330150
+11             data       0x02a1eb91        7603595
+
+=== COUNTS ===
+section code       x1
+section data       x1
+section element    x1
+section export     x1
+section function   x1
+section global     x1
+section import     x1
+section memory     x1
+section table      x1
+section type       x1
+
+=== CUSTOM SECTIONS (0) ===
+
+custom names present: 
+
+=== IMPORTS (564) ===
+distinct modules: 2
+  module 'wasi_snapshot_preview1' : 6 imports
+  module 'env' : 558 imports
+
+=== EXPORTS (596) ===
+  func x594
+  mem x1
+  table x1
+
+=== MEMORY / TABLES / FUNCTIONS ===
+memory defs: [(4096, 65280)]
+table defs: [(112, 249395, 249395)]
+imported funcs: 564
+defined funcs (function section): 125902
+defined funcs (code section): 125902
+code section byte total: 43145464
+data segments: 21998
+datacount section: None
+global defs: 2
+start section: absent
+
+warnings: none

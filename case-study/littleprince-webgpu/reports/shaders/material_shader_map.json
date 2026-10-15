@@ -1,0 +1,362 @@
+[
+ [
+  "Lit",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_B612_Bark_Main",
+  "B612/Bark"
+ ],
+ [
+  "M_B612_Bark_Secondary",
+  "B612/Bark"
+ ],
+ [
+  "M_B612_Bird_Brown",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_B612_Bird_Cream",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_B612_Bird_Dark",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_B612_Brook",
+  "B612/Stream"
+ ],
+ [
+  "M_B612_Bubbles",
+  "Universal Render Pipeline/Particles/Unlit"
+ ],
+ [
+  "M_B612_Butterfly",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_B612_CloudLayer",
+  "B612/CloudLayer"
+ ],
+ [
+  "M_B612_CloudTower",
+  "B612/CloudPuff"
+ ],
+ [
+  "M_B612_Debris",
+  "B612/Foliage"
+ ],
+ [
+  "M_B612_Dust",
+  "Universal Render Pipeline/Particles/Unlit"
+ ],
+ [
+  "M_B612_FarLandscape",
+  "B612/FarLandscape"
+ ],
+ [
+  "M_B612_Fern",
+  "B612/Foliage"
+ ],
+ [
+  "M_B612_FillRipple",
+  "Universal Render Pipeline/Particles/Unlit"
+ ],
+ [
+  "M_B612_Flower",
+  "B612/Foliage"
+ ],
+ [
+  "M_B612_Foliage_FarTree",
+  "B612/Foliage"
+ ],
+ [
+  "M_B612_Foliage_Ivy",
+  "B612/Foliage"
+ ],
+ [
+  "M_B612_Foliage_Shrub",
+  "B612/Foliage"
+ ],
+ [
+  "M_B612_Foliage_Tree",
+  "B612/Foliage"
+ ],
+ [
+  "M_B612_Grass_BroadBlade",
+  "B612/Grass"
+ ],
+ [
+  "M_B612_Grass_Dry",
+  "B612/Grass"
+ ],
+ [
+  "M_B612_Grass_Meadow",
+  "B612/Grass"
+ ],
+ [
+  "M_B612_Grass_Plume",
+  "B612/Grass"
+ ],
+ [
+  "M_B612_Grass_Short",
+  "B612/Grass"
+ ],
+ [
+  "M_B612_Grass_Tall",
+  "B612/Grass"
+ ],
+ [
+  "M_B612_Grass_WetBank",
+  "B612/Grass"
+ ],
+ [
+  "M_B612_GroundCover",
+  "B612/Foliage"
+ ],
+ [
+  "M_B612_Moss",
+  "B612/Foliage"
+ ],
+ [
+  "M_B612_NookPit",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_B612_PlanetRock",
+  "B612/PlanetRock"
+ ],
+ [
+  "M_B612_PlumeHead",
+  "B612/Foliage"
+ ],
+ [
+  "M_B612_Pollen",
+  "Universal Render Pipeline/Particles/Unlit"
+ ],
+ [
+  "M_B612_Pond",
+  "B612/Pond"
+ ],
+ [
+  "M_B612_RimRoots",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_B612_SandBoil",
+  "B612/SandBoil"
+ ],
+ [
+  "M_B612_Sky",
+  "B612/Sky"
+ ],
+ [
+  "M_B612_Sky_HDRI",
+  "B612/Sky"
+ ],
+ [
+  "M_B612_Sky_Motion",
+  "B612/Sky"
+ ],
+ [
+  "M_B612_Steam",
+  "B612/Steam"
+ ],
+ [
+  "M_B612_SteamPlume",
+  "B612/SteamPlume"
+ ],
+ [
+  "M_B612_Terrain",
+  "Universal Render Pipeline/Terrain/Lit"
+ ],
+ [
+  "M_B612_VentGlow",
+  "B612/Glow"
+ ],
+ [
+  "M_B612_Water",
+  "B612/Water"
+ ],
+ [
+  "M_B612_WaterPlant",
+  "B612/Foliage"
+ ],
+ [
+  "M_B612_Waterfall",
+  "B612/Waterfall"
+ ],
+ [
+  "M_B612_WaterfallDrops",
+  "Universal Render Pipeline/Particles/Unlit"
+ ],
+ [
+  "M_B612_WaterfallMist",
+  "Universal Render Pipeline/Particles/Unlit"
+ ],
+ [
+  "M_BaobabPlanet",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_BaobabSeedling",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Blanket",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_ClocheBase",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_FlatStones_Damp",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_FlatStones_Wet",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Glass",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_LifeProps_Tools",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_LittlePrince_ARP",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_LittlePrince_Scarf",
+  "B612/Fabric"
+ ],
+ [
+  "M_Pebbles",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Pebbles_Wet",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_01",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_02",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_03",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_03_Damp",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_04",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_04_Damp",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_04_Wet",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_05",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_05_Damp",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_05_Warm",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_05_Wet",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_06",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_06_Damp",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_06_Warm",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rock_06_Wet",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_Rose",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_RoseHead_Petals",
+  "B612/Foliage"
+ ],
+ [
+  "M_SleepingPad",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_SunsetChair",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_ToolShed_Wood",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_VolcanoA",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_VolcanoB",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_WaterDrop",
+  "Universal Render Pipeline/Particles/Unlit"
+ ],
+ [
+  "M_WateringCan",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "M_WindScreen_Weathered",
+  "Universal Render Pipeline/Lit"
+ ],
+ [
+  "TMP_SDF-HDRP LIT",
+  "TextMeshPro/SRP/TMP_SDF-HDRP LIT"
+ ],
+ [
+  "TMP_SDF-HDRP UNLIT",
+  "TextMeshPro/SRP/TMP_SDF-HDRP UNLIT"
+ ],
+ [
+  "TMP_SDF-URP Lit",
+  "TextMeshPro/SRP/TMP_SDF-URP Lit"
+ ],
+ [
+  "TMP_SDF-URP Unlit",
+  "TextMeshPro/SRP/TMP_SDF-URP Unlit"
+ ]
+]

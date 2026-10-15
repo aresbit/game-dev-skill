@@ -1,0 +1,13 @@
+BuildSettings.scenes (bootstrap):
+  Assets/Shared/Journey/Scenes/JourneyMap.unity
+
+Addressables scene names (from catalog.bin):
+  B612_Main.unity
+  Bar_Main.unity
+  Desert_Dunes.unity
+  Desert_Valley.unity
+  Lighter_Planet.unity
+  MapLibrary.unity
+  RoyalCourt_Walkthrough.unity
+  StarObservatory.unity
+  Theater_Main.unity

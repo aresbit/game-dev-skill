@@ -1,0 +1,3045 @@
+[
+ {
+  "name": "M_B612_FarLandscape",
+  "bundle": "shared_assets_assets_shared_rendering_materials_956e39714893822479d4bdada234155a.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AmbientBoost": 1.0,
+   "_CloudShadows": 1.0,
+   "_HazeDensity": 0.0035000001080334187,
+   "_HazeFalloff": 1.2999999523162842,
+   "_HazeStart": 40.0,
+   "_MacroTiling": 0.004000000189989805,
+   "_MistDensity": 0.004000000189989805,
+   "_MistHeight": 8.0,
+   "_NormalSoften": 0.44999998807907104,
+   "_Variation": 0.6000000238418579,
+   "_Wrap": 0.6000000238418579
+  },
+  "colors": {
+   "_BaseColor": [
+    0.41999995708465576,
+    0.5499999523162842,
+    0.2699999511241913,
+    1.0
+   ],
+   "_CoolColor": [
+    0.29999998211860657,
+    0.47999995946884155,
+    0.29999998211860657,
+    1.0
+   ],
+   "_WarmColor": [
+    0.6200000047683716,
+    0.6200000047683716,
+    0.29999998211860657,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_MacroNoise": [
+    -3286775818756226246,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Grass_Short",
+  "bundle": "shared_assets_assets_shared_rendering_materials_956e39714893822479d4bdada234155a.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AmbientBoost": 0.8999999761581421,
+   "_BladeVariation": 0.3799999952316284,
+   "_DryPatchAmount": 0.10000000149011612,
+   "_FlowerTipEnd": 16.0,
+   "_FlowerTipStart": 5.0,
+   "_FlowerTips": 1.5,
+   "_InstanceBrightness": 0.10000000149011612,
+   "_InstanceHue": 0.3499999940395355,
+   "_InstanceSunny": 0.10000000149011612,
+   "_InteractionStrength": 1.0,
+   "_LushAmount": 0.6000000238418579,
+   "_MacroTiling": 0.0181818176060915,
+   "_MidPoint": 0.5,
+   "_NormalUp": 0.15000000596046448,
+   "_Occlusion": 0.8500000238418579,
+   "_ShadowStrength": 1.0,
+   "_Smoothness": 0.3799999952316284,
+   "_SpecStrength": 0.07999999821186066,
+   "_StrawAmount": 0.07999999821186066,
+   "_SunnyAmount": 0.44999998807907104,
+   "_TipDesat": 0.4000000059604645,
+   "_TransAmount": 0.18000000715255737,
+   "_VariationFade": 30.0,
+   "_WaveBrightness": 0.25999999046325684,
+   "_WaveSunny": 0.3499999940395355,
+   "_WindAmplitude": 0.02500000037252903,
+   "_Wrap": 0.20000000298023224
+  },
+  "colors": {
+   "_ColorDry": [
+    0.4300000071525574,
+    0.4300000071525574,
+    0.20000000298023224,
+    1.0
+   ],
+   "_ColorLush": [
+    0.17000000178813934,
+    0.33000001311302185,
+    0.15000000596046448,
+    1.0
+   ],
+   "_ColorMid": [
+    0.27000001072883606,
+    0.4300000071525574,
+    0.11999999731779099,
+    1.0
+   ],
+   "_ColorRoot": [
+    0.05000000074505806,
+    0.11999999731779099,
+    0.009999999776482582,
+    1.0
+   ],
+   "_ColorSunny": [
+    0.3499999940395355,
+    0.4399999976158142,
+    0.17000000178813934,
+    1.0
+   ],
+   "_ColorTip": [
+    0.5799999833106995,
+    0.7099999785423279,
+    0.3799999952316284,
+    1.0
+   ],
+   "_ColorTrans": [
+    0.800000011920929,
+    0.8199999928474426,
+    0.47999998927116394,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_MacroNoise": [
+    -3286775818756226246,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Foliage_FarTree",
+  "bundle": "shared_assets_assets_shared_rendering_materials_956e39714893822479d4bdada234155a.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AlphaClip": 1.0,
+   "_AlphaToMask": 1.0,
+   "_AmbientBoost": 0.800000011920929,
+   "_BrightnessVariation": 0.11999999731779099,
+   "_BumpScale": 0.3499999940395355,
+   "_ClusterVariation": 0.20000000298023224,
+   "_CrownOcclusion": 0.699999988079071,
+   "_Cull": 0.0,
+   "_Cutoff": 0.5,
+   "_DebugView": 0.0,
+   "_EdgeGlow": 0.30000001192092896,
+   "_EdgeOnFade": 1.0,
+   "_HazeDensity": 0.0031999999191612005,
+   "_HazeFalloff": 1.2999999523162842,
+   "_HazeStart": 40.0,
+   "_HueVariation": 0.02500000037252903,
+   "_InnerLight": 0.4000000059604645,
+   "_InteractionStrength": 1.0,
+   "_MistDensity": 0.004000000189989805,
+   "_MistHeight": 8.0,
+   "_OcclusionStrength": 1.0,
+   "_PlantWind": 0.05000000074505806,
+   "_Saturation": 1.0,
+   "_ShadowStrength": 0.75,
+   "_ShellBlend": 1.0,
+   "_SpecStrength": 0.20000000298023224,
+   "_Terminator": 0.699999988079071,
+   "_TransPower": 4.0,
+   "_TransStrength": 0.800000011920929,
+   "_WindBend": 0.03999999910593033,
+   "_WindBranch": 0.019999999552965164,
+   "_WindFlutter": 0.0,
+   "_WindFrequency": 1.2999999523162842,
+   "_WindMode": 0.0,
+   "_Wrap": 0.25
+  },
+  "colors": {
+   "_BackfaceTint": [
+    1.0,
+    1.0399999618530273,
+    0.8799999952316284,
+    1.0
+   ],
+   "_BaseColor": [
+    0.7799999713897705,
+    0.8600000143051147,
+    0.699999988079071,
+    1.0
+   ],
+   "_TransColor": [
+    1.25,
+    1.2000000476837158,
+    0.550000011920929,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BaseMap": [
+    -5676204735333850947,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BumpMap": [
+    -5889486342363783231,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_MaskMap": [
+    962374529194291679,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Grass_WetBank",
+  "bundle": "shared_assets_assets_shared_rendering_materials_956e39714893822479d4bdada234155a.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AmbientBoost": 0.8999999761581421,
+   "_BladeVariation": 0.3799999952316284,
+   "_DryPatchAmount": 0.10000000149011612,
+   "_FlowerTipEnd": 16.0,
+   "_FlowerTipStart": 5.0,
+   "_FlowerTips": 1.5,
+   "_InstanceBrightness": 0.10000000149011612,
+   "_InstanceHue": 0.0,
+   "_InstanceSunny": 0.10000000149011612,
+   "_InteractionStrength": 1.0,
+   "_LushAmount": 0.6000000238418579,
+   "_MacroTiling": 0.0181818176060915,
+   "_MidPoint": 0.5600000023841858,
+   "_NormalUp": 0.15000000596046448,
+   "_Occlusion": 0.8500000238418579,
+   "_ShadowStrength": 1.0,
+   "_Smoothness": 0.5,
+   "_SpecStrength": 0.07999999821186066,
+   "_StrawAmount": 0.029999999329447746,
+   "_SunnyAmount": 0.44999998807907104,
+   "_TipDesat": 0.0,
+   "_TransAmount": 0.1599999964237213,
+   "_VariationFade": 30.0,
+   "_WaveBrightness": 0.25999999046325684,
+   "_WaveSunny": 0.3499999940395355,
+   "_WindAmplitude": 0.05999999865889549,
+   "_Wrap": 0.20000000298023224
+  },
+  "colors": {
+   "_ColorDry": [
+    0.3400000035762787,
+    0.4000000059604645,
+    0.17000000178813934,
+    1.0
+   ],
+   "_ColorLush": [
+    0.15000000596046448,
+    0.2800000011920929,
+    0.07000000029802322,
+    1.0
+   ],
+   "_ColorMid": [
+    0.20000000298023224,
+    0.3400000035762787,
+    0.09000000357627869,
+    1.0
+   ],
+   "_ColorRoot": [
+    0.04500000178813934,
+    0.10999999940395355,
+    0.02500000037252903,
+    1.0
+   ],
+   "_ColorSunny": [
+    0.25,
+    0.3700000047683716,
+    0.10999999940395355,
+    1.0
+   ],
+   "_ColorTip": [
+    0.46000000834465027,
+    0.6000000238418579,
+    0.27000001072883606,
+    1.0
+   ],
+   "_ColorTrans": [
+    0.800000011920929,
+    0.8199999928474426,
+    0.47999998927116394,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_MacroNoise": [
+    -3286775818756226246,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Grass_Plume",
+  "bundle": "shared_assets_assets_shared_rendering_materials_956e39714893822479d4bdada234155a.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AmbientBoost": 0.8999999761581421,
+   "_BladeVariation": 0.3799999952316284,
+   "_DryPatchAmount": 0.10000000149011612,
+   "_FlowerTipEnd": 24.0,
+   "_FlowerTipStart": 8.0,
+   "_FlowerTips": 1.399999976158142,
+   "_InstanceBrightness": 0.10000000149011612,
+   "_InstanceHue": 0.0,
+   "_InstanceSunny": 0.10000000149011612,
+   "_InteractionStrength": 1.0,
+   "_LushAmount": 0.6000000238418579,
+   "_MacroTiling": 0.0181818176060915,
+   "_MidPoint": 0.5600000023841858,
+   "_NormalUp": 0.15000000596046448,
+   "_Occlusion": 0.75,
+   "_ShadowStrength": 1.0,
+   "_Smoothness": 0.3799999952316284,
+   "_SpecStrength": 0.07999999821186066,
+   "_StrawAmount": 0.05999999865889549,
+   "_SunnyAmount": 0.4000000059604645,
+   "_TipDesat": 0.0,
+   "_TransAmount": 0.23999999463558197,
+   "_VariationFade": 30.0,
+   "_WaveBrightness": 0.25999999046325684,
+   "_WaveSunny": 0.3499999940395355,
+   "_WindAmplitude": 0.1599999964237213,
+   "_Wrap": 0.20000000298023224
+  },
+  "colors": {
+   "_ColorDry": [
+    0.6399999856948853,
+    0.5799999833106995,
+    0.4000000059604645,
+    1.0
+   ],
+   "_ColorLush": [
+    0.30000001192092896,
+    0.41999998688697815,
+    0.17000000178813934,
+    1.0
+   ],
+   "_ColorMid": [
+    0.41999998688697815,
+    0.49000000953674316,
+    0.23000000417232513,
+    1.0
+   ],
+   "_ColorRoot": [
+    0.20000000298023224,
+    0.28999999165534973,
+    0.11999999731779099,
+    1.0
+   ],
+   "_ColorSunny": [
+    0.5,
+    0.5199999809265137,
+    0.2800000011920929,
+    1.0
+   ],
+   "_ColorTip": [
+    0.6800000071525574,
+    0.6499999761581421,
+    0.4300000071525574,
+    1.0
+   ],
+   "_ColorTrans": [
+    0.8199999928474426,
+    0.7799999713897705,
+    0.5,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_MacroNoise": [
+    -3286775818756226246,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_SteamPlume",
+  "bundle": "shared_assets_assets_shared_rendering_materials_956e39714893822479d4bdada234155a.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_Density": 2.200000047683716,
+   "_ErosionTop": 0.800000011920929,
+   "_Steps": 32.0
+  },
+  "colors": {
+   "_Albedo": [
+    0.949999988079071,
+    0.949999988079071,
+    0.9599999785423279,
+    0.0
+   ],
+   "_Lighting": [
+    1.0,
+    0.8500000238418579,
+    0.550000011920929,
+    0.20000000298023224
+   ],
+   "_NoiseScale": [
+    3.5999999046325684,
+    1.5,
+    0.800000011920929,
+    0.6000000238418579
+   ],
+   "_PlumeBreak": [
+    0.4000000059604645,
+    1.2000000476837158,
+    0.6000000238418579,
+    0.3499999940395355
+   ],
+   "_PlumeFlow": [
+    1.100000023841858,
+    0.2199999988079071,
+    0.05999999865889549,
+    0.30000001192092896
+   ],
+   "_PlumeGlow": [
+    0.0,
+    0.0,
+    0.0,
+    1.7999999523162842
+   ],
+   "_PlumeShape": [
+    0.5,
+    0.17000000178813934,
+    9.0,
+    1.0499999523162842
+   ],
+   "_PlumeWind": [
+    0.707099974155426,
+    0.707099974155426,
+    1.0,
+    0.0
+   ],
+   "_VentPos": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_Noise3D": [
+    7976399939688017717,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Grass_BroadBlade",
+  "bundle": "shared_assets_assets_shared_rendering_materials_956e39714893822479d4bdada234155a.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AmbientBoost": 0.8999999761581421,
+   "_BladeVariation": 0.3799999952316284,
+   "_DryPatchAmount": 0.10000000149011612,
+   "_FlowerTipEnd": 16.0,
+   "_FlowerTipStart": 5.0,
+   "_FlowerTips": 1.5,
+   "_InstanceBrightness": 0.10000000149011612,
+   "_InstanceHue": 0.3499999940395355,
+   "_InstanceSunny": 0.10000000149011612,
+   "_InteractionStrength": 1.0,
+   "_LushAmount": 0.6000000238418579,
+   "_MacroTiling": 0.0181818176060915,
+   "_MidPoint": 0.5600000023841858,
+   "_NormalUp": 0.15000000596046448,
+   "_Occlusion": 0.8500000238418579,
+   "_ShadowStrength": 1.0,
+   "_Smoothness": 0.44999998807907104,
+   "_SpecStrength": 0.07999999821186066,
+   "_StrawAmount": 0.07999999821186066,
+   "_SunnyAmount": 0.44999998807907104,
+   "_TipDesat": 0.4000000059604645,
+   "_TransAmount": 0.20000000298023224,
+   "_VariationFade": 30.0,
+   "_WaveBrightness": 0.25999999046325684,
+   "_WaveSunny": 0.3499999940395355,
+   "_WindAmplitude": 0.07000000029802322,
+   "_Wrap": 0.20000000298023224
+  },
+  "colors": {
+   "_ColorDry": [
+    0.4300000071525574,
+    0.4300000071525574,
+    0.20000000298023224,
+    1.0
+   ],
+   "_ColorLush": [
+    0.17000000178813934,
+    0.33000001311302185,
+    0.15000000596046448,
+    1.0
+   ],
+   "_ColorMid": [
+    0.23999999463558197,
+    0.3799999952316284,
+    0.10000000149011612,
+    1.0
+   ],
+   "_ColorRoot": [
+    0.05000000074505806,
+    0.11999999731779099,
+    0.009999999776482582,
+    1.0
+   ],
+   "_ColorSunny": [
+    0.3499999940395355,
+    0.4399999976158142,
+    0.17000000178813934,
+    1.0
+   ],
+   "_ColorTip": [
+    0.5199999809265137,
+    0.6499999761581421,
+    0.30000001192092896,
+    1.0
+   ],
+   "_ColorTrans": [
+    0.800000011920929,
+    0.8199999928474426,
+    0.47999998927116394,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_MacroNoise": [
+    -3286775818756226246,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_VentGlow",
+  "bundle": "shared_assets_assets_shared_rendering_materials_956e39714893822479d4bdada234155a.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_Falloff": 2.200000047683716,
+   "_FlickerAmount": 0.18000000715255737,
+   "_FlickerSeed": 0.0,
+   "_FlickerSpeed": 0.699999988079071,
+   "_SoftDistance": 0.6000000238418579
+  },
+  "colors": {
+   "_GlowColor": [
+    0.5,
+    0.14000000059604645,
+    0.029999999329447746,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {}
+ },
+ {
+  "name": "M_B612_Grass_Tall",
+  "bundle": "shared_assets_assets_shared_rendering_materials_956e39714893822479d4bdada234155a.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AmbientBoost": 0.8999999761581421,
+   "_BladeVariation": 0.3799999952316284,
+   "_DryPatchAmount": 0.1599999964237213,
+   "_FlowerTipEnd": 16.0,
+   "_FlowerTipStart": 5.0,
+   "_FlowerTips": 1.5,
+   "_InstanceBrightness": 0.10000000149011612,
+   "_InstanceHue": 0.3499999940395355,
+   "_InstanceSunny": 0.10000000149011612,
+   "_InteractionStrength": 1.0,
+   "_LushAmount": 0.6000000238418579,
+   "_MacroTiling": 0.0181818176060915,
+   "_MidPoint": 0.5600000023841858,
+   "_NormalUp": 0.15000000596046448,
+   "_Occlusion": 0.8500000238418579,
+   "_ShadowStrength": 1.0,
+   "_Smoothness": 0.3999999761581421,
+   "_SpecStrength": 0.07999999821186066,
+   "_StrawAmount": 0.11999999731779099,
+   "_SunnyAmount": 0.5,
+   "_TipDesat": 0.4000000059604645,
+   "_TransAmount": 0.2199999988079071,
+   "_VariationFade": 30.0,
+   "_WaveBrightness": 0.25999999046325684,
+   "_WaveSunny": 0.3499999940395355,
+   "_WindAmplitude": 0.12999999523162842,
+   "_Wrap": 0.20000000298023224
+  },
+  "colors": {
+   "_ColorDry": [
+    0.4300000071525574,
+    0.4300000071525574,
+    0.20000000298023224,
+    1.0
+   ],
+   "_ColorLush": [
+    0.17000000178813934,
+    0.33000001311302185,
+    0.15000000596046448,
+    1.0
+   ],
+   "_ColorMid": [
+    0.27000001072883606,
+    0.4300000071525574,
+    0.11999999731779099,
+    1.0
+   ],
+   "_ColorRoot": [
+    0.05000000074505806,
+    0.11999999731779099,
+    0.009999999776482582,
+    1.0
+   ],
+   "_ColorSunny": [
+    0.3700000047683716,
+    0.4399999976158142,
+    0.18000000715255737,
+    1.0
+   ],
+   "_ColorTip": [
+    0.6399999856948853,
+    0.7300000190734863,
+    0.41999998688697815,
+    1.0
+   ],
+   "_ColorTrans": [
+    0.800000011920929,
+    0.8199999928474426,
+    0.47999998927116394,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_MacroNoise": [
+    -3286775818756226246,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Grass_Meadow",
+  "bundle": "shared_assets_assets_shared_rendering_materials_956e39714893822479d4bdada234155a.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AmbientBoost": 0.8999999761581421,
+   "_BladeVariation": 0.3799999952316284,
+   "_DryPatchAmount": 0.10000000149011612,
+   "_FlowerTipEnd": 16.0,
+   "_FlowerTipStart": 5.0,
+   "_FlowerTips": 1.5,
+   "_InstanceBrightness": 0.10000000149011612,
+   "_InstanceHue": 0.3499999940395355,
+   "_InstanceSunny": 0.10000000149011612,
+   "_InteractionStrength": 1.0,
+   "_LushAmount": 0.6000000238418579,
+   "_MacroTiling": 0.0181818176060915,
+   "_MidPoint": 0.5600000023841858,
+   "_NormalUp": 0.15000000596046448,
+   "_Occlusion": 0.8500000238418579,
+   "_ShadowStrength": 1.0,
+   "_Smoothness": 0.3999999761581421,
+   "_SpecStrength": 0.07999999821186066,
+   "_StrawAmount": 0.07999999821186066,
+   "_SunnyAmount": 0.44999998807907104,
+   "_TipDesat": 0.4000000059604645,
+   "_TransAmount": 0.2199999988079071,
+   "_VariationFade": 30.0,
+   "_WaveBrightness": 0.25999999046325684,
+   "_WaveSunny": 0.3499999940395355,
+   "_WindAmplitude": 0.07999999821186066,
+   "_Wrap": 0.20000000298023224
+  },
+  "colors": {
+   "_ColorDry": [
+    0.4300000071525574,
+    0.4300000071525574,
+    0.20000000298023224,
+    1.0
+   ],
+   "_ColorLush": [
+    0.17000000178813934,
+    0.33000001311302185,
+    0.15000000596046448,
+    1.0
+   ],
+   "_ColorMid": [
+    0.27000001072883606,
+    0.4300000071525574,
+    0.11999999731779099,
+    1.0
+   ],
+   "_ColorRoot": [
+    0.05000000074505806,
+    0.11999999731779099,
+    0.009999999776482582,
+    1.0
+   ],
+   "_ColorSunny": [
+    0.3499999940395355,
+    0.4399999976158142,
+    0.17000000178813934,
+    1.0
+   ],
+   "_ColorTip": [
+    0.6000000238418579,
+    0.7300000190734863,
+    0.4000000059604645,
+    1.0
+   ],
+   "_ColorTrans": [
+    0.800000011920929,
+    0.8199999928474426,
+    0.47999998927116394,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_MacroNoise": [
+    -3286775818756226246,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Grass_Dry",
+  "bundle": "shared_assets_assets_shared_rendering_materials_956e39714893822479d4bdada234155a.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AmbientBoost": 0.8999999761581421,
+   "_BladeVariation": 0.3799999952316284,
+   "_DryPatchAmount": 0.15000000596046448,
+   "_FlowerTipEnd": 24.0,
+   "_FlowerTipStart": 8.0,
+   "_FlowerTips": 1.399999976158142,
+   "_InstanceBrightness": 0.10000000149011612,
+   "_InstanceHue": 0.0,
+   "_InstanceSunny": 0.10000000149011612,
+   "_InteractionStrength": 1.0,
+   "_LushAmount": 0.25,
+   "_MacroTiling": 0.0181818176060915,
+   "_MidPoint": 0.5600000023841858,
+   "_NormalUp": 0.15000000596046448,
+   "_Occlusion": 0.75,
+   "_ShadowStrength": 1.0,
+   "_Smoothness": 0.2200000286102295,
+   "_SpecStrength": 0.07999999821186066,
+   "_StrawAmount": 0.11999999731779099,
+   "_SunnyAmount": 0.4000000059604645,
+   "_TipDesat": 0.0,
+   "_TransAmount": 0.20000000298023224,
+   "_VariationFade": 30.0,
+   "_WaveBrightness": 0.25999999046325684,
+   "_WaveSunny": 0.3499999940395355,
+   "_WindAmplitude": 0.05000000074505806,
+   "_Wrap": 0.20000000298023224
+  },
+  "colors": {
+   "_ColorDry": [
+    0.6200000047683716,
+    0.5199999809265137,
+    0.3100000023841858,
+    1.0
+   ],
+   "_ColorLush": [
+    0.3799999952316284,
+    0.4000000059604645,
+    0.20999999344348907,
+    1.0
+   ],
+   "_ColorMid": [
+    0.47999998927116394,
+    0.44999998807907104,
+    0.25,
+    1.0
+   ],
+   "_ColorRoot": [
+    0.23999999463558197,
+    0.25999999046325684,
+    0.12999999523162842,
+    1.0
+   ],
+   "_ColorSunny": [
+    0.5600000023841858,
+    0.5099999904632568,
+    0.30000001192092896,
+    1.0
+   ],
+   "_ColorTip": [
+    0.6600000262260437,
+    0.6000000238418579,
+    0.3700000047683716,
+    1.0
+   ],
+   "_ColorTrans": [
+    0.800000011920929,
+    0.699999988079071,
+    0.4399999976158142,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_MacroNoise": [
+    -3286775818756226246,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Sky",
+  "bundle": "shared_assets_assets_shared_rendering_materials_environment_m_b612_sky.mat_2ccfd5f58918238da35f10a4ff12782b.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_CloudContrast": 1.149999976158142,
+   "_CloudDriftPeriod": 900.0,
+   "_CloudFlowFade": 0.25,
+   "_CloudFlowNoise": 4000.0,
+   "_CloudFlowPeriod": 40.0,
+   "_CloudHaze": 0.25,
+   "_CloudHeight": 1500.0,
+   "_CloudPanoDayScale": 1.0,
+   "_CloudPanoDuskScale": 1.0,
+   "_CloudPanoLatMin": -4.0,
+   "_CloudSoftness": 1.0,
+   "_CloudViewGrad": 0.0,
+   "_CloudWindSpeed": 7.0,
+   "_Clouds": 0.0,
+   "_DayExposure": 2.0,
+   "_DayHalo": 0.4000000059604645,
+   "_DayHorizonRange": 20.0,
+   "_DaySaturation": 1.2000000476837158,
+   "_DaySunDisk": 1.0,
+   "_DayYaw": 0.0,
+   "_DayZenithStart": 30.0,
+   "_DuskExposure": 0.5,
+   "_DuskHalo": 0.6000000238418579,
+   "_DuskHorizonRange": 15.0,
+   "_DuskSaturation": 1.100000023841858,
+   "_DuskSunDisk": 0.30000001192092896,
+   "_DuskYaw": 0.0,
+   "_DuskZenithStart": 20.0,
+   "_HdriDrift": 6.0,
+   "_HdriGroundBlend": 4.0,
+   "_HdriLatMin": 0.0,
+   "_HdriRingElevation": 2.5,
+   "_StarBrightness": 2.0,
+   "_StarHorizon": 14.0,
+   "_StarSize": 0.029999999329447746,
+   "_StarTwinkle": 0.20000000298023224,
+   "_SunFlatten": 0.2199999988079071,
+   "_SunGlowOverClouds": 0.44999998807907104,
+   "_SunOcclusionByClouds": 0.8500000238418579
+  },
+  "colors": {
+   "_Cirrus": [
+    0.0,
+    0.0006000000284984708,
+    6.0,
+    0.019999999552965164
+   ],
+   "_CirrusShape": [
+    0.5,
+    0.8199999928474426,
+    0.3499999940395355,
+    1.25
+   ],
+   "_CirrusTint": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "_CloudDamp": [
+    1.5,
+    7.0,
+    0.0,
+    0.0
+   ],
+   "_CloudEvolution": [
+    2600.0,
+    140.0,
+    1.7999999523162842,
+    3.200000047683716
+   ],
+   "_CloudHorizonFade": [
+    0.30000001192092896,
+    3.0,
+    0.0,
+    0.0
+   ],
+   "_CloudRelight": [
+    0.550000011920929,
+    5.300000190734863,
+    16.0,
+    0.3499999940395355
+   ],
+   "_CloudSilver": [
+    0.5,
+    7.0,
+    1.0,
+    0.0
+   ],
+   "_DayCloudWarm": [
+    1.100000023841858,
+    0.8600000143051147,
+    0.6600000262260437,
+    0.699999988079071
+   ],
+   "_DayHorizon": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "_DayKnee": [
+    2.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "_DaySunDim": [
+    0.0,
+    8.0,
+    80.0,
+    43.0
+   ],
+   "_DayTint": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "_DayZenith": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "_DuskHaloColor": [
+    1.0,
+    0.41999998688697815,
+    0.14000000059604645,
+    0.0
+   ],
+   "_DuskHorizon": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "_DuskKnee": [
+    1.2000000476837158,
+    1.5,
+    0.0,
+    0.0
+   ],
+   "_DuskSun": [
+    0.0,
+    1.0,
+    5.0,
+    3.0
+   ],
+   "_DuskSunColor": [
+    2.200000047683716,
+    1.0,
+    0.30000001192092896,
+    0.0
+   ],
+   "_DuskSunDim": [
+    0.0,
+    8.0,
+    177.0,
+    1.5
+   ],
+   "_DuskTint": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "_DuskZenith": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "_HdriBlend": [
+    0.30000001192092896,
+    4.5,
+    0.0,
+    0.0
+   ],
+   "_MilkyWay": [
+    0.012000000104308128,
+    0.014999999664723873,
+    0.02199999988079071,
+    0.12999999523162842
+   ],
+   "_MilkyWayPole": [
+    0.36000001430511475,
+    -0.5199999809265137,
+    0.7699999809265137,
+    0.0
+   ],
+   "_MoonColor": [
+    1.0,
+    0.9800000190734863,
+    0.9200000166893005,
+    1.2999999523162842
+   ],
+   "_MoonHalo": [
+    0.10000000149011612,
+    700.0,
+    0.029999999329447746,
+    16.0
+   ],
+   "_MoonHaloColor": [
+    0.550000011920929,
+    0.6600000262260437,
+    0.8999999761581421,
+    0.6000000238418579
+   ],
+   "_PhotoCloudCut": [
+    0.0,
+    0.0,
+    0.0,
+    12.0
+   ],
+   "_Rays": [
+    0.0,
+    34.0,
+    3.0,
+    28.0
+   ],
+   "_RaysColor": [
+    1.0,
+    0.7200000286102295,
+    0.44999998807907104,
+    12.0
+   ],
+   "_StarDensity": [
+    0.10000000149011612,
+    0.07000000029802322,
+    3.0,
+    0.0
+   ],
+   "_SunLimb": [
+    0.0,
+    0.15000000596046448,
+    0.0,
+    900.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BandNeg": [
+    -6618179683520923339,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BandPos": [
+    7210160847134530308,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CloudPanoAlpha": [
+    -7688887716571206933,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CloudPanoDay": [
+    -1766032347351930072,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CloudPanoDusk": [
+    -752895189805052408,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CumulusNeg": [
+    3040020573911774847,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CumulusPos": [
+    8806398748337178424,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudDay": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudDayAlpha": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudDusk": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudDuskAlpha": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudRingDay": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudRingDusk": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyHdriDay": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyHdriDusk": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyHdriRingDay": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyHdriRingDusk": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Sky_HDRI",
+  "bundle": "shared_assets_assets_shared_rendering_materials_environment_m_b612_sky_hdri.mat_6e7e542b72b87f694c06b7a69376e2d3.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_CloudContrast": 1.149999976158142,
+   "_CloudDriftPeriod": 900.0,
+   "_CloudFlowFade": 0.25,
+   "_CloudFlowNoise": 4000.0,
+   "_CloudFlowPeriod": 40.0,
+   "_CloudHaze": 0.25,
+   "_CloudHeight": 1500.0,
+   "_CloudPanoDayScale": 1.0,
+   "_CloudPanoDuskScale": 1.0,
+   "_CloudPanoLatMin": -4.0,
+   "_CloudSoftness": 1.0,
+   "_CloudViewGrad": 0.0,
+   "_CloudWindSpeed": 7.0,
+   "_Clouds": 2.0,
+   "_DayExposure": 1.350000023841858,
+   "_DayHalo": 0.15000000596046448,
+   "_DayHorizonRange": 18.0,
+   "_DaySaturation": 1.5499999523162842,
+   "_DaySunDisk": 1.0,
+   "_DayYaw": 0.0,
+   "_DayZenithStart": 18.0,
+   "_DuskExposure": 0.44999998807907104,
+   "_DuskHalo": 0.5,
+   "_DuskHorizonRange": 26.0,
+   "_DuskSaturation": 1.0,
+   "_DuskSunDisk": 0.44999998807907104,
+   "_DuskYaw": 0.0,
+   "_DuskZenithStart": 8.0,
+   "_HdriDrift": 6.0,
+   "_HdriGroundBlend": 4.0,
+   "_HdriLatMin": 0.0,
+   "_HdriRingElevation": 2.5,
+   "_StarBrightness": 2.0,
+   "_StarHorizon": 14.0,
+   "_StarSize": 0.029999999329447746,
+   "_StarTwinkle": 0.20000000298023224,
+   "_SunFlatten": 0.2199999988079071,
+   "_SunGlowOverClouds": 0.44999998807907104,
+   "_SunOcclusionByClouds": 0.8500000238418579
+  },
+  "colors": {
+   "_Cirrus": [
+    0.0,
+    0.0006000000284984708,
+    6.0,
+    0.019999999552965164
+   ],
+   "_CirrusShape": [
+    0.5,
+    0.8199999928474426,
+    0.3499999940395355,
+    1.25
+   ],
+   "_CirrusTint": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "_CloudDamp": [
+    1.5,
+    7.0,
+    0.0,
+    0.0
+   ],
+   "_CloudEvolution": [
+    2600.0,
+    140.0,
+    1.7999999523162842,
+    3.200000047683716
+   ],
+   "_CloudHorizonFade": [
+    0.30000001192092896,
+    3.0,
+    0.0,
+    0.0
+   ],
+   "_CloudRelight": [
+    0.550000011920929,
+    5.300000190734863,
+    16.0,
+    0.3499999940395355
+   ],
+   "_CloudSilver": [
+    0.5,
+    7.0,
+    1.0,
+    0.0
+   ],
+   "_DayCloudWarm": [
+    1.100000023841858,
+    0.8600000143051147,
+    0.6600000262260437,
+    0.699999988079071
+   ],
+   "_DayHorizon": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "_DayKnee": [
+    2.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "_DaySunDim": [
+    0.5799999833106995,
+    6.5,
+    80.0,
+    43.0
+   ],
+   "_DayTint": [
+    0.9599999785423279,
+    1.0,
+    1.0499999523162842,
+    0.0
+   ],
+   "_DayZenith": [
+    0.7200000286102295,
+    0.8799999952316284,
+    1.149999976158142,
+    0.0
+   ],
+   "_DuskHaloColor": [
+    1.0,
+    0.41999998688697815,
+    0.14000000059604645,
+    0.0
+   ],
+   "_DuskHorizon": [
+    0.6200000047683716,
+    0.5199999809265137,
+    0.8999999761581421,
+    0.0
+   ],
+   "_DuskKnee": [
+    1.100000023841858,
+    1.399999976158142,
+    0.0,
+    0.0
+   ],
+   "_DuskSun": [
+    0.0,
+    1.0,
+    5.0,
+    3.0
+   ],
+   "_DuskSunColor": [
+    2.200000047683716,
+    1.0,
+    0.30000001192092896,
+    0.0
+   ],
+   "_DuskSunDim": [
+    0.0,
+    8.0,
+    177.0,
+    1.5
+   ],
+   "_DuskTint": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "_DuskZenith": [
+    0.36000001430511475,
+    0.7799999713897705,
+    0.8600000143051147,
+    0.0
+   ],
+   "_HdriBlend": [
+    0.30000001192092896,
+    4.5,
+    0.0,
+    0.0
+   ],
+   "_MilkyWay": [
+    0.012000000104308128,
+    0.014999999664723873,
+    0.02199999988079071,
+    0.12999999523162842
+   ],
+   "_MilkyWayPole": [
+    0.36000001430511475,
+    -0.5199999809265137,
+    0.7699999809265137,
+    0.0
+   ],
+   "_MoonColor": [
+    1.0,
+    0.9800000190734863,
+    0.9200000166893005,
+    1.2999999523162842
+   ],
+   "_MoonHalo": [
+    0.10000000149011612,
+    700.0,
+    0.029999999329447746,
+    16.0
+   ],
+   "_MoonHaloColor": [
+    0.550000011920929,
+    0.6600000262260437,
+    0.8999999761581421,
+    0.6000000238418579
+   ],
+   "_PhotoCloudCut": [
+    0.0,
+    0.0,
+    0.0,
+    12.0
+   ],
+   "_Rays": [
+    0.0,
+    34.0,
+    3.0,
+    28.0
+   ],
+   "_RaysColor": [
+    1.0,
+    0.7200000286102295,
+    0.44999998807907104,
+    12.0
+   ],
+   "_StarDensity": [
+    0.10000000149011612,
+    0.07000000029802322,
+    3.0,
+    0.0
+   ],
+   "_SunLimb": [
+    0.0,
+    0.15000000596046448,
+    0.0,
+    900.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BandNeg": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BandPos": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CloudPanoAlpha": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CloudPanoDay": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CloudPanoDusk": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CumulusNeg": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CumulusPos": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudDay": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudDayAlpha": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudDusk": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudDuskAlpha": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudRingDay": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudRingDusk": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyHdriDay": [
+    -3345528806103023947,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyHdriDusk": [
+    -8607644902382088,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyHdriRingDay": [
+    2079635852068855337,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyHdriRingDusk": [
+    3702403077731125281,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Sky_Motion",
+  "bundle": "shared_assets_assets_shared_rendering_materials_environment_m_b612_sky_motion.mat_6d5d9007de8d4de54addaa512bcc5ff8.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_CloudContrast": 1.149999976158142,
+   "_CloudDriftPeriod": 900.0,
+   "_CloudFlowFade": 0.25,
+   "_CloudFlowNoise": 4000.0,
+   "_CloudFlowPeriod": 40.0,
+   "_CloudHaze": 0.25,
+   "_CloudHeight": 1500.0,
+   "_CloudPanoDayScale": 1.0,
+   "_CloudPanoDuskScale": 1.0,
+   "_CloudPanoLatMin": -4.0,
+   "_CloudSoftness": 1.0,
+   "_CloudViewGrad": 1.7999999523162842,
+   "_CloudWindSpeed": 7.0,
+   "_Clouds": 3.0,
+   "_DayExposure": 1.350000023841858,
+   "_DayHalo": 1.0,
+   "_DayHorizonRange": 18.0,
+   "_DaySaturation": 1.5499999523162842,
+   "_DaySunDisk": 1.0,
+   "_DayYaw": 0.0,
+   "_DayZenithStart": 18.0,
+   "_DuskExposure": 0.44999998807907104,
+   "_DuskHalo": 1.0,
+   "_DuskHorizonRange": 26.0,
+   "_DuskSaturation": 1.0,
+   "_DuskSunDisk": 0.44999998807907104,
+   "_DuskYaw": 0.0,
+   "_DuskZenithStart": 8.0,
+   "_HdriDrift": 0.0,
+   "_HdriGroundBlend": 4.0,
+   "_HdriLatMin": 0.0,
+   "_HdriRingElevation": 2.5,
+   "_StarBrightness": 2.0,
+   "_StarHorizon": 14.0,
+   "_StarSize": 0.029999999329447746,
+   "_StarTwinkle": 0.20000000298023224,
+   "_SunFlatten": 0.2199999988079071,
+   "_SunGlowOverClouds": 0.44999998807907104,
+   "_SunOcclusionByClouds": 0.8500000238418579
+  },
+  "colors": {
+   "_Cirrus": [
+    0.11999999731779099,
+    0.0006000000284984708,
+    6.0,
+    0.019999999552965164
+   ],
+   "_CirrusShape": [
+    0.5,
+    0.8199999928474426,
+    0.3499999940395355,
+    1.25
+   ],
+   "_CirrusTint": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "_CloudDamp": [
+    1.5,
+    7.0,
+    0.0,
+    0.0
+   ],
+   "_CloudEvolution": [
+    2600.0,
+    140.0,
+    1.7999999523162842,
+    3.200000047683716
+   ],
+   "_CloudHorizonFade": [
+    0.30000001192092896,
+    3.0,
+    0.0,
+    0.0
+   ],
+   "_CloudRelight": [
+    0.550000011920929,
+    5.300000190734863,
+    16.0,
+    0.3499999940395355
+   ],
+   "_CloudSilver": [
+    0.5,
+    7.0,
+    1.0,
+    0.0
+   ],
+   "_DayCloudWarm": [
+    1.100000023841858,
+    0.8600000143051147,
+    0.6600000262260437,
+    0.699999988079071
+   ],
+   "_DayHorizon": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "_DayKnee": [
+    2.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "_DaySunDim": [
+    0.5799999833106995,
+    6.5,
+    80.0,
+    43.0
+   ],
+   "_DayTint": [
+    0.9599999785423279,
+    1.0,
+    1.0499999523162842,
+    0.0
+   ],
+   "_DayZenith": [
+    0.9200000166893005,
+    0.9599999785423279,
+    1.0499999523162842,
+    0.0
+   ],
+   "_DuskHaloColor": [
+    1.0,
+    0.41999998688697815,
+    0.14000000059604645,
+    0.0
+   ],
+   "_DuskHorizon": [
+    0.6200000047683716,
+    0.5199999809265137,
+    0.8999999761581421,
+    0.0
+   ],
+   "_DuskKnee": [
+    1.100000023841858,
+    1.399999976158142,
+    0.0,
+    0.0
+   ],
+   "_DuskSun": [
+    1.0,
+    1.0,
+    5.0,
+    3.0
+   ],
+   "_DuskSunColor": [
+    1.4500000476837158,
+    0.5,
+    0.12999999523162842,
+    0.0
+   ],
+   "_DuskSunDim": [
+    0.0,
+    8.0,
+    177.0,
+    1.5
+   ],
+   "_DuskTint": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "_DuskZenith": [
+    0.36000001430511475,
+    0.7799999713897705,
+    0.8600000143051147,
+    0.0
+   ],
+   "_HdriBlend": [
+    0.30000001192092896,
+    4.5,
+    0.0,
+    0.0
+   ],
+   "_MilkyWay": [
+    0.012000000104308128,
+    0.014999999664723873,
+    0.02199999988079071,
+    0.12999999523162842
+   ],
+   "_MilkyWayPole": [
+    0.36000001430511475,
+    -0.5199999809265137,
+    0.7699999809265137,
+    0.0
+   ],
+   "_MoonColor": [
+    1.0,
+    0.9800000190734863,
+    0.9200000166893005,
+    1.2999999523162842
+   ],
+   "_MoonHalo": [
+    0.10000000149011612,
+    700.0,
+    0.029999999329447746,
+    16.0
+   ],
+   "_MoonHaloColor": [
+    0.550000011920929,
+    0.6600000262260437,
+    0.8999999761581421,
+    0.6000000238418579
+   ],
+   "_PhotoCloudCut": [
+    1.0,
+    0.800000011920929,
+    1.0,
+    18.0
+   ],
+   "_Rays": [
+    0.6000000238418579,
+    34.0,
+    5.0,
+    28.0
+   ],
+   "_RaysColor": [
+    1.0,
+    0.7200000286102295,
+    0.44999998807907104,
+    12.0
+   ],
+   "_StarDensity": [
+    0.10000000149011612,
+    0.07000000029802322,
+    3.0,
+    0.0
+   ],
+   "_SunLimb": [
+    0.44999998807907104,
+    0.11999999731779099,
+    0.25,
+    3000.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BandNeg": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BandPos": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CloudPanoAlpha": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CloudPanoDay": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CloudPanoDusk": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CumulusNeg": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_CumulusPos": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudDay": [
+    2190669354376458485,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudDayAlpha": [
+    -7842306639726361924,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudDusk": [
+    3202298803049496690,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudDuskAlpha": [
+    388772994784178725,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudRingDay": [
+    6747901406273643402,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyCloudRingDusk": [
+    1306878123341087001,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyHdriDay": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyHdriDusk": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyHdriRingDay": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SkyHdriRingDusk": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Steam",
+  "bundle": "shared_assets_assets_shared_rendering_materials_environment_m_b612_steam.mat_9c62a7f7b00630effd04d0159b5cfb0d.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AmbientStrength": 1.0,
+   "_Contrast": 1.0,
+   "_NearFade": 1.5,
+   "_Opacity": 0.800000011920929,
+   "_SoftDistance": 0.800000011920929,
+   "_SunStrength": 1.100000023841858,
+   "_Transmission": 1.0
+  },
+  "colors": {
+   "_Tint": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_SixWayNeg": [
+    6634939011562594196,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_SixWayPos": [
+    5089005836162835201,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Water",
+  "bundle": "shared_assets_assets_shared_rendering_materials_environment_m_b612_water.mat_b679b2449963e52b0fa82fee9da888d4.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_CausticsStrength": 0.800000011920929,
+   "_CausticsTile": 1.5,
+   "_DefaultFlow": 0.3499999940395355,
+   "_EdgeSoftness": 0.05999999865889549,
+   "_F0": 0.02500000037252903,
+   "_FlowSpeed": 1.0,
+   "_FoamAmount": 0.3499999940395355,
+   "_FoamDepth": 0.07999999821186066,
+   "_FoamEdge": 0.2199999988079071,
+   "_FoamTile": 2.0,
+   "_NormalStrengthA": 0.699999988079071,
+   "_NormalStrengthB": 0.44999998807907104,
+   "_ReflectionStrength": 1.0,
+   "_Refraction": 0.03999999910593033,
+   "_RibbonWidth": 3.0,
+   "_Roughness": 0.07000000029802322,
+   "_ScatterDensity": 2.200000047683716,
+   "_SunSpecular": 1.2000000476837158,
+   "_TileA": 4.0,
+   "_TileB": 1.2000000476837158
+  },
+  "colors": {
+   "_Absorption": [
+    2.200000047683716,
+    0.8500000238418579,
+    0.6499999761581421,
+    0.0
+   ],
+   "_DeepColor": [
+    0.04999998211860657,
+    0.12999996542930603,
+    0.12999996542930603,
+    1.0
+   ],
+   "_FoamColor": [
+    0.9300000071525574,
+    0.949999988079071,
+    0.9300000071525574,
+    1.0
+   ],
+   "_ScatterColor": [
+    0.12999996542930603,
+    0.29999998211860657,
+    0.2699999511241913,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_CausticsTex": [
+    -4763062276699505829,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_FoamTex": [
+    -1044075505083850905,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_NormalA": [
+    3380381805043753725,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_NormalB": [
+    -7590391367424879002,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Bark_Main",
+  "bundle": "shared_assets_assets_shared_rendering_materials_vegetation_m_b612_bark_main.mat_40965d304b89991108d241eb9c0f0a91.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_BumpScale": 1.0,
+   "_DetailNormalScale": 0.5,
+   "_OcclusionStrength": 0.800000011920929,
+   "_Smoothness": 1.0,
+   "_WindBend": 0.05999999865889549,
+   "_WindBranch": 0.05000000074505806,
+   "_WindFrequency": 1.2999999523162842,
+   "_WindMode": 0.0
+  },
+  "colors": {
+   "_BaseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BaseMap": [
+    5570962785269873358,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BumpMap": [
+    1051934177006618721,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_DetailNormalMap": [
+    -6792280390453907687,
+    3.0,
+    3.0,
+    0.0,
+    0.0
+   ],
+   "_MaskMap": [
+    7848985169266189514,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Bark_Secondary",
+  "bundle": "shared_assets_assets_shared_rendering_materials_vegetation_m_b612_bark_secondary.mat_6b749df5de53ff61858ed8c945a45b70.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_BumpScale": 1.0,
+   "_DetailNormalScale": 0.5,
+   "_OcclusionStrength": 0.800000011920929,
+   "_Smoothness": 1.0,
+   "_WindBend": 0.05999999865889549,
+   "_WindBranch": 0.05000000074505806,
+   "_WindFrequency": 1.2999999523162842,
+   "_WindMode": 0.0
+  },
+  "colors": {
+   "_BaseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BaseMap": [
+    3319992620508477913,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BumpMap": [
+    4758724619077687792,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_DetailNormalMap": [
+    -6792280390453907687,
+    3.0,
+    3.0,
+    0.0,
+    0.0
+   ],
+   "_MaskMap": [
+    1566465121133813396,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Debris",
+  "bundle": "shared_assets_assets_shared_rendering_materials_vegetation_m_b612_debris.mat_75c0cb78499acce99e15d02c19e8b211.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AlphaClip": 0.0,
+   "_AlphaToMask": 0.0,
+   "_AmbientBoost": 1.0,
+   "_BrightnessVariation": 0.10000000149011612,
+   "_BumpScale": 0.0,
+   "_ClusterVariation": 0.3499999940395355,
+   "_CrownOcclusion": 0.5,
+   "_Cull": 2.0,
+   "_Cutoff": 0.3499999940395355,
+   "_DebugView": 0.0,
+   "_EdgeGlow": 0.6000000238418579,
+   "_EdgeOnFade": 0.0,
+   "_HazeDensity": 0.0,
+   "_HazeFalloff": 1.2999999523162842,
+   "_HazeStart": 40.0,
+   "_HueVariation": 0.019999999552965164,
+   "_InnerLight": 0.5,
+   "_InteractionStrength": 1.0,
+   "_MistDensity": 0.004000000189989805,
+   "_MistHeight": 8.0,
+   "_OcclusionStrength": 1.0,
+   "_PlantWind": 0.0,
+   "_Saturation": 1.0,
+   "_ShadowStrength": 0.8999999761581421,
+   "_ShellBlend": 1.0,
+   "_SpecStrength": 0.15000000596046448,
+   "_Terminator": 0.6000000238418579,
+   "_TransPower": 4.0,
+   "_TransStrength": 0.550000011920929,
+   "_WindBend": 0.05999999865889549,
+   "_WindBranch": 0.05000000074505806,
+   "_WindFlutter": 0.0,
+   "_WindFrequency": 1.2999999523162842,
+   "_WindMode": 2.0,
+   "_Wrap": 0.4000000059604645
+  },
+  "colors": {
+   "_BackfaceTint": [
+    1.059999942779541,
+    1.100000023841858,
+    0.800000011920929,
+    1.0
+   ],
+   "_BaseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "_TransColor": [
+    1.25,
+    1.2000000476837158,
+    0.550000011920929,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BaseMap": [
+    7778140000840254332,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BumpMap": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_MaskMap": [
+    -7395463754224619809,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Fern",
+  "bundle": "shared_assets_assets_shared_rendering_materials_vegetation_m_b612_fern.mat_2203eeb742e27a99e5ebd7a6beeca392.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AlphaClip": 0.0,
+   "_AlphaToMask": 0.0,
+   "_AmbientBoost": 1.0,
+   "_BrightnessVariation": 0.10000000149011612,
+   "_BumpScale": 0.0,
+   "_ClusterVariation": 0.3499999940395355,
+   "_CrownOcclusion": 0.5,
+   "_Cull": 0.0,
+   "_Cutoff": 0.3499999940395355,
+   "_DebugView": 0.0,
+   "_EdgeGlow": 0.6000000238418579,
+   "_EdgeOnFade": 0.0,
+   "_HazeDensity": 0.0,
+   "_HazeFalloff": 1.2999999523162842,
+   "_HazeStart": 40.0,
+   "_HueVariation": 0.019999999552965164,
+   "_InnerLight": 0.5,
+   "_InteractionStrength": 1.0,
+   "_MistDensity": 0.004000000189989805,
+   "_MistHeight": 8.0,
+   "_OcclusionStrength": 1.0,
+   "_PlantWind": 0.03999999910593033,
+   "_Saturation": 1.0,
+   "_ShadowStrength": 0.8999999761581421,
+   "_ShellBlend": 1.0,
+   "_SpecStrength": 0.15000000596046448,
+   "_Terminator": 0.6000000238418579,
+   "_TransPower": 4.0,
+   "_TransStrength": 0.550000011920929,
+   "_WindBend": 0.05999999865889549,
+   "_WindBranch": 0.05000000074505806,
+   "_WindFlutter": 0.006000000052154064,
+   "_WindFrequency": 1.2999999523162842,
+   "_WindMode": 1.0,
+   "_Wrap": 0.4000000059604645
+  },
+  "colors": {
+   "_BackfaceTint": [
+    1.059999942779541,
+    1.100000023841858,
+    0.800000011920929,
+    1.0
+   ],
+   "_BaseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "_TransColor": [
+    1.25,
+    1.2000000476837158,
+    0.550000011920929,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BaseMap": [
+    7778140000840254332,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BumpMap": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_MaskMap": [
+    -7395463754224619809,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Flower",
+  "bundle": "shared_assets_assets_shared_rendering_materials_vegetation_m_b612_flower.mat_3bb1ea0b6786a897fdc168c584779163.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AlphaClip": 0.0,
+   "_AlphaToMask": 0.0,
+   "_AmbientBoost": 1.0,
+   "_BrightnessVariation": 0.10000000149011612,
+   "_BumpScale": 0.0,
+   "_ClusterVariation": 0.3499999940395355,
+   "_CrownOcclusion": 0.5,
+   "_Cull": 0.0,
+   "_Cutoff": 0.3499999940395355,
+   "_DebugView": 0.0,
+   "_EdgeGlow": 0.6000000238418579,
+   "_EdgeOnFade": 0.0,
+   "_HazeDensity": 0.0,
+   "_HazeFalloff": 1.2999999523162842,
+   "_HazeStart": 40.0,
+   "_HueVariation": 0.019999999552965164,
+   "_InnerLight": 0.5,
+   "_InteractionStrength": 1.0,
+   "_MistDensity": 0.004000000189989805,
+   "_MistHeight": 8.0,
+   "_OcclusionStrength": 1.0,
+   "_PlantWind": 0.05000000074505806,
+   "_Saturation": 1.0,
+   "_ShadowStrength": 0.8999999761581421,
+   "_ShellBlend": 1.0,
+   "_SpecStrength": 0.15000000596046448,
+   "_Terminator": 0.6000000238418579,
+   "_TransPower": 4.0,
+   "_TransStrength": 0.550000011920929,
+   "_WindBend": 0.05999999865889549,
+   "_WindBranch": 0.05000000074505806,
+   "_WindFlutter": 0.006000000052154064,
+   "_WindFrequency": 1.2999999523162842,
+   "_WindMode": 1.0,
+   "_Wrap": 0.4000000059604645
+  },
+  "colors": {
+   "_BackfaceTint": [
+    1.059999942779541,
+    1.100000023841858,
+    0.800000011920929,
+    1.0
+   ],
+   "_BaseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "_TransColor": [
+    1.25,
+    1.2000000476837158,
+    0.550000011920929,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BaseMap": [
+    7778140000840254332,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BumpMap": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_MaskMap": [
+    -7395463754224619809,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Foliage_Ivy",
+  "bundle": "shared_assets_assets_shared_rendering_materials_vegetation_m_b612_foliage_ivy.mat_d1667b94cfb8712c7ee5fe7f3af783fc.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AlphaClip": 1.0,
+   "_AlphaToMask": 1.0,
+   "_AmbientBoost": 0.800000011920929,
+   "_BrightnessVariation": 0.11999999731779099,
+   "_BumpScale": 0.3499999940395355,
+   "_ClusterVariation": 0.44999998807907104,
+   "_CrownOcclusion": 0.699999988079071,
+   "_Cull": 0.0,
+   "_Cutoff": 0.5,
+   "_DebugView": 0.0,
+   "_EdgeGlow": 0.699999988079071,
+   "_EdgeOnFade": 0.5,
+   "_HazeDensity": 0.0,
+   "_HazeFalloff": 1.2999999523162842,
+   "_HazeStart": 40.0,
+   "_HueVariation": 0.02500000037252903,
+   "_InnerLight": 0.4000000059604645,
+   "_InteractionStrength": 1.0,
+   "_MistDensity": 0.004000000189989805,
+   "_MistHeight": 8.0,
+   "_OcclusionStrength": 1.0,
+   "_PlantWind": 0.05000000074505806,
+   "_Saturation": 1.0,
+   "_ShadowStrength": 0.75,
+   "_ShellBlend": 0.9200000166893005,
+   "_SpecStrength": 0.20000000298023224,
+   "_Terminator": 0.699999988079071,
+   "_TransPower": 4.0,
+   "_TransStrength": 0.800000011920929,
+   "_WindBend": 0.0,
+   "_WindBranch": 0.009999999776482582,
+   "_WindFlutter": 0.00800000037997961,
+   "_WindFrequency": 1.2999999523162842,
+   "_WindMode": 0.0,
+   "_Wrap": 0.25
+  },
+  "colors": {
+   "_BackfaceTint": [
+    1.0,
+    1.0399999618530273,
+    0.8799999952316284,
+    1.0
+   ],
+   "_BaseColor": [
+    0.800000011920929,
+    0.8799999952316284,
+    0.7200000286102295,
+    1.0
+   ],
+   "_TransColor": [
+    1.25,
+    1.2000000476837158,
+    0.550000011920929,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BaseMap": [
+    674376794302744622,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BumpMap": [
+    -4405816811307665284,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_MaskMap": [
+    7469701119012482778,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Foliage_Shrub",
+  "bundle": "shared_assets_assets_shared_rendering_materials_vegetation_m_b612_foliage_shrub.mat_28e7ed76f50dcfa7ee91ba8a551e7063.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AlphaClip": 1.0,
+   "_AlphaToMask": 1.0,
+   "_AmbientBoost": 0.800000011920929,
+   "_BrightnessVariation": 0.11999999731779099,
+   "_BumpScale": 0.3499999940395355,
+   "_ClusterVariation": 0.44999998807907104,
+   "_CrownOcclusion": 0.699999988079071,
+   "_Cull": 0.0,
+   "_Cutoff": 0.5,
+   "_DebugView": 0.0,
+   "_EdgeGlow": 0.699999988079071,
+   "_EdgeOnFade": 0.5,
+   "_HazeDensity": 0.0,
+   "_HazeFalloff": 1.2999999523162842,
+   "_HazeStart": 40.0,
+   "_HueVariation": 0.05000000074505806,
+   "_InnerLight": 0.4000000059604645,
+   "_InteractionStrength": 1.0,
+   "_MistDensity": 0.004000000189989805,
+   "_MistHeight": 8.0,
+   "_OcclusionStrength": 1.0,
+   "_PlantWind": 0.05000000074505806,
+   "_Saturation": 0.75,
+   "_ShadowStrength": 0.75,
+   "_ShellBlend": 0.9200000166893005,
+   "_SpecStrength": 0.20000000298023224,
+   "_Terminator": 0.699999988079071,
+   "_TransPower": 4.0,
+   "_TransStrength": 0.800000011920929,
+   "_WindBend": 0.029999999329447746,
+   "_WindBranch": 0.029999999329447746,
+   "_WindFlutter": 0.009999999776482582,
+   "_WindFrequency": 1.2999999523162842,
+   "_WindMode": 0.0,
+   "_Wrap": 0.25
+  },
+  "colors": {
+   "_BackfaceTint": [
+    1.0,
+    1.0399999618530273,
+    0.8799999952316284,
+    1.0
+   ],
+   "_BaseColor": [
+    0.699999988079071,
+    0.800000011920929,
+    0.6600000262260437,
+    1.0
+   ],
+   "_TransColor": [
+    1.149999976158142,
+    1.1200000047683716,
+    0.7200000286102295,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BaseMap": [
+    674376794302744622,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BumpMap": [
+    -4405816811307665284,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_MaskMap": [
+    7469701119012482778,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Foliage_Tree",
+  "bundle": "shared_assets_assets_shared_rendering_materials_vegetation_m_b612_foliage_tree.mat_3f9ee2e8b04327967c257d0958828316.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AlphaClip": 1.0,
+   "_AlphaToMask": 1.0,
+   "_AmbientBoost": 0.800000011920929,
+   "_BrightnessVariation": 0.11999999731779099,
+   "_BumpScale": 0.3499999940395355,
+   "_ClusterVariation": 0.44999998807907104,
+   "_CrownOcclusion": 0.699999988079071,
+   "_Cull": 0.0,
+   "_Cutoff": 0.5,
+   "_DebugView": 0.0,
+   "_EdgeGlow": 0.699999988079071,
+   "_EdgeOnFade": 0.5,
+   "_HazeDensity": 0.0,
+   "_HazeFalloff": 1.2999999523162842,
+   "_HazeStart": 40.0,
+   "_HueVariation": 0.02500000037252903,
+   "_InnerLight": 0.4000000059604645,
+   "_InteractionStrength": 1.0,
+   "_MistDensity": 0.004000000189989805,
+   "_MistHeight": 8.0,
+   "_OcclusionStrength": 1.0,
+   "_PlantWind": 0.05000000074505806,
+   "_Saturation": 1.0,
+   "_ShadowStrength": 0.75,
+   "_ShellBlend": 0.9200000166893005,
+   "_SpecStrength": 0.20000000298023224,
+   "_Terminator": 0.699999988079071,
+   "_TransPower": 4.0,
+   "_TransStrength": 0.800000011920929,
+   "_WindBend": 0.05999999865889549,
+   "_WindBranch": 0.05000000074505806,
+   "_WindFlutter": 0.012000000104308128,
+   "_WindFrequency": 1.2999999523162842,
+   "_WindMode": 0.0,
+   "_Wrap": 0.25
+  },
+  "colors": {
+   "_BackfaceTint": [
+    1.0,
+    1.0399999618530273,
+    0.8799999952316284,
+    1.0
+   ],
+   "_BaseColor": [
+    0.800000011920929,
+    0.8799999952316284,
+    0.7200000286102295,
+    1.0
+   ],
+   "_TransColor": [
+    1.25,
+    1.2000000476837158,
+    0.550000011920929,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BaseMap": [
+    674376794302744622,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BumpMap": [
+    -4405816811307665284,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_MaskMap": [
+    7469701119012482778,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_GroundCover",
+  "bundle": "shared_assets_assets_shared_rendering_materials_vegetation_m_b612_groundcover.mat_c9d398d7a91daa2f67e88dc5cd8d05ef.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AlphaClip": 0.0,
+   "_AlphaToMask": 0.0,
+   "_AmbientBoost": 1.0,
+   "_BrightnessVariation": 0.10000000149011612,
+   "_BumpScale": 0.0,
+   "_ClusterVariation": 0.3499999940395355,
+   "_CrownOcclusion": 0.5,
+   "_Cull": 0.0,
+   "_Cutoff": 0.3499999940395355,
+   "_DebugView": 0.0,
+   "_EdgeGlow": 0.6000000238418579,
+   "_EdgeOnFade": 0.0,
+   "_HazeDensity": 0.0,
+   "_HazeFalloff": 1.2999999523162842,
+   "_HazeStart": 40.0,
+   "_HueVariation": 0.019999999552965164,
+   "_InnerLight": 0.5,
+   "_InteractionStrength": 1.0,
+   "_MistDensity": 0.004000000189989805,
+   "_MistHeight": 8.0,
+   "_OcclusionStrength": 1.0,
+   "_PlantWind": 0.012000000104308128,
+   "_Saturation": 1.0,
+   "_ShadowStrength": 0.8999999761581421,
+   "_ShellBlend": 1.0,
+   "_SpecStrength": 0.15000000596046448,
+   "_Terminator": 0.6000000238418579,
+   "_TransPower": 4.0,
+   "_TransStrength": 0.550000011920929,
+   "_WindBend": 0.05999999865889549,
+   "_WindBranch": 0.05000000074505806,
+   "_WindFlutter": 0.006000000052154064,
+   "_WindFrequency": 1.2999999523162842,
+   "_WindMode": 1.0,
+   "_Wrap": 0.4000000059604645
+  },
+  "colors": {
+   "_BackfaceTint": [
+    1.059999942779541,
+    1.100000023841858,
+    0.800000011920929,
+    1.0
+   ],
+   "_BaseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "_TransColor": [
+    1.25,
+    1.2000000476837158,
+    0.550000011920929,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BaseMap": [
+    7778140000840254332,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BumpMap": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_MaskMap": [
+    -7395463754224619809,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_Moss",
+  "bundle": "shared_assets_assets_shared_rendering_materials_vegetation_m_b612_moss.mat_90a5d07468d5e5035f6a0d1c21023761.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AlphaClip": 0.0,
+   "_AlphaToMask": 0.0,
+   "_AmbientBoost": 1.0,
+   "_BrightnessVariation": 0.10000000149011612,
+   "_BumpScale": 0.0,
+   "_ClusterVariation": 0.3499999940395355,
+   "_CrownOcclusion": 0.5,
+   "_Cull": 2.0,
+   "_Cutoff": 0.3499999940395355,
+   "_DebugView": 0.0,
+   "_EdgeGlow": 0.6000000238418579,
+   "_EdgeOnFade": 0.0,
+   "_HazeDensity": 0.0,
+   "_HazeFalloff": 1.2999999523162842,
+   "_HazeStart": 40.0,
+   "_HueVariation": 0.019999999552965164,
+   "_InnerLight": 0.5,
+   "_InteractionStrength": 1.0,
+   "_MistDensity": 0.004000000189989805,
+   "_MistHeight": 8.0,
+   "_OcclusionStrength": 1.0,
+   "_PlantWind": 0.0,
+   "_Saturation": 1.0,
+   "_ShadowStrength": 0.8999999761581421,
+   "_ShellBlend": 1.0,
+   "_SpecStrength": 0.15000000596046448,
+   "_Terminator": 0.6000000238418579,
+   "_TransPower": 4.0,
+   "_TransStrength": 0.550000011920929,
+   "_WindBend": 0.05999999865889549,
+   "_WindBranch": 0.05000000074505806,
+   "_WindFlutter": 0.0,
+   "_WindFrequency": 1.2999999523162842,
+   "_WindMode": 2.0,
+   "_Wrap": 0.4000000059604645
+  },
+  "colors": {
+   "_BackfaceTint": [
+    1.059999942779541,
+    1.100000023841858,
+    0.800000011920929,
+    1.0
+   ],
+   "_BaseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "_TransColor": [
+    1.25,
+    1.2000000476837158,
+    0.550000011920929,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BaseMap": [
+    7778140000840254332,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BumpMap": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_MaskMap": [
+    -7395463754224619809,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_PlumeHead",
+  "bundle": "shared_assets_assets_shared_rendering_materials_vegetation_m_b612_plumehead.mat_087e7b03cbd3aac2d51190f308b0df6c.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AlphaClip": 1.0,
+   "_AlphaToMask": 1.0,
+   "_AmbientBoost": 1.0,
+   "_BrightnessVariation": 0.10000000149011612,
+   "_BumpScale": 0.0,
+   "_ClusterVariation": 0.3499999940395355,
+   "_CrownOcclusion": 0.5,
+   "_Cull": 0.0,
+   "_Cutoff": 0.3499999940395355,
+   "_DebugView": 0.0,
+   "_EdgeGlow": 0.6000000238418579,
+   "_EdgeOnFade": 0.0,
+   "_HazeDensity": 0.0,
+   "_HazeFalloff": 1.2999999523162842,
+   "_HazeStart": 40.0,
+   "_HueVariation": 0.019999999552965164,
+   "_InnerLight": 0.5,
+   "_InteractionStrength": 1.0,
+   "_MistDensity": 0.004000000189989805,
+   "_MistHeight": 8.0,
+   "_OcclusionStrength": 1.0,
+   "_PlantWind": 0.1599999964237213,
+   "_Saturation": 1.0,
+   "_ShadowStrength": 0.8999999761581421,
+   "_ShellBlend": 1.0,
+   "_SpecStrength": 0.15000000596046448,
+   "_Terminator": 0.6000000238418579,
+   "_TransPower": 4.0,
+   "_TransStrength": 0.550000011920929,
+   "_WindBend": 0.05999999865889549,
+   "_WindBranch": 0.05000000074505806,
+   "_WindFlutter": 0.006000000052154064,
+   "_WindFrequency": 1.2999999523162842,
+   "_WindMode": 1.0,
+   "_Wrap": 0.4000000059604645
+  },
+  "colors": {
+   "_BackfaceTint": [
+    1.059999942779541,
+    1.100000023841858,
+    0.800000011920929,
+    1.0
+   ],
+   "_BaseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "_TransColor": [
+    1.25,
+    1.2000000476837158,
+    0.550000011920929,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BaseMap": [
+    7778140000840254332,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BumpMap": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_MaskMap": [
+    -7395463754224619809,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ {
+  "name": "M_B612_WaterPlant",
+  "bundle": "shared_assets_assets_shared_rendering_materials_vegetation_m_b612_waterplant.mat_8ed684af59ea4abb58f29af321d432fc.bundle",
+  "shader": "<File cab-120e8436c8533269135df9ede642242b not found in /home/tars/yys/webgpu/lp-re/bundles>",
+  "floats": {
+   "_AlphaClip": 0.0,
+   "_AlphaToMask": 0.0,
+   "_AmbientBoost": 1.0,
+   "_BrightnessVariation": 0.10000000149011612,
+   "_BumpScale": 0.0,
+   "_ClusterVariation": 0.3499999940395355,
+   "_CrownOcclusion": 0.5,
+   "_Cull": 0.0,
+   "_Cutoff": 0.3499999940395355,
+   "_DebugView": 0.0,
+   "_EdgeGlow": 0.6000000238418579,
+   "_EdgeOnFade": 0.0,
+   "_HazeDensity": 0.0,
+   "_HazeFalloff": 1.2999999523162842,
+   "_HazeStart": 40.0,
+   "_HueVariation": 0.019999999552965164,
+   "_InnerLight": 0.5,
+   "_InteractionStrength": 1.0,
+   "_MistDensity": 0.004000000189989805,
+   "_MistHeight": 8.0,
+   "_OcclusionStrength": 1.0,
+   "_PlantWind": 0.14000000059604645,
+   "_Saturation": 1.0,
+   "_ShadowStrength": 0.8999999761581421,
+   "_ShellBlend": 1.0,
+   "_SpecStrength": 0.15000000596046448,
+   "_Terminator": 0.6000000238418579,
+   "_TransPower": 4.0,
+   "_TransStrength": 0.550000011920929,
+   "_WindBend": 0.05999999865889549,
+   "_WindBranch": 0.05000000074505806,
+   "_WindFlutter": 0.006000000052154064,
+   "_WindFrequency": 1.2999999523162842,
+   "_WindMode": 1.0,
+   "_Wrap": 0.4000000059604645
+  },
+  "colors": {
+   "_BackfaceTint": [
+    1.059999942779541,
+    1.100000023841858,
+    0.800000011920929,
+    1.0
+   ],
+   "_BaseColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "_TransColor": [
+    1.25,
+    1.2000000476837158,
+    0.550000011920929,
+    1.0
+   ]
+  },
+  "ints": {},
+  "textures": {
+   "_BaseMap": [
+    7778140000840254332,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_BumpMap": [
+    0,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "_MaskMap": [
+    -7395463754224619809,
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ]
+  }
+ }
+]

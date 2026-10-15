@@ -1,0 +1,51 @@
+Recovered WGSL sources (websgpu/lp-re)
+
+[B612]  (17)
+     9079875  B612_Bark.wgsl
+      225614  B612_CloudLayer.wgsl
+       45324  B612_CloudPuff.wgsl
+    45212811  B612_Fabric.wgsl
+      159979  B612_FarLandscape.wgsl
+    41784459  B612_Foliage.wgsl
+       27963  B612_Glow.wgsl
+     6980941  B612_Grass.wgsl
+     3174452  B612_PlanetRock.wgsl
+      980698  B612_Pond.wgsl
+      395980  B612_SandBoil.wgsl
+      223621  B612_Sky.wgsl
+       77429  B612_Steam.wgsl
+      177868  B612_SteamPlume.wgsl
+      832416  B612_Stream.wgsl
+      681209  B612_Water.wgsl
+       86122  B612_Waterfall.wgsl
+
+[Bar]  (6)
+      678713  Bar_BottleGlass.wgsl
+      705873  Bar_BottleLiquid.wgsl
+      150902  Bar_ChimneySmoke.wgsl
+    10049144  Bar_GroundStone.wgsl
+    31305495  Bar_IslandGround.wgsl
+      212369  Bar_NightSky.wgsl
+
+[Desert]  (7)
+      137742  Desert_Footprint.wgsl
+      268034  Desert_FountainWater.wgsl
+       40543  Desert_Particle.wgsl
+     7293691  Desert_Rock.wgsl
+     1799508  Desert_Sand.wgsl
+       15747  Desert_UserSky.wgsl
+      170767  Desert_WaterSheet.wgsl
+
+[Geography]  (7)
+      328467  LittlePrince_Geography_CloudSea.wgsl
+       35480  LittlePrince_Geography_CloudSprite.wgsl
+       60458  LittlePrince_Geography_Distant.wgsl
+       14446  LittlePrince_Geography_Flame.wgsl
+       11129  LittlePrince_Geography_LightShaft.wgsl
+   227205672  LittlePrince_Geography_LitWind.wgsl
+       16465  LittlePrince_Geography_Sky.wgsl
+
+[fallback]  (3)
+        2189  Hidden_Core_FallbackError.wgsl
+        2153  Hidden_Shader_Graph_FallbackError.wgsl
+        4618  Hidden_Universal_Render_Pipeline_FallbackError.wgsl

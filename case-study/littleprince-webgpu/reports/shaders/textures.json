@@ -1,0 +1,1024 @@
+[
+ {
+  "name": "VolcanoB_BaseColor_418d3cef",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_03_Mask_2b110279",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_06_Normal_42dfbbc9",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_Gravel_BaseColor_c1d12248",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "FlatStones_BaseColor_d1a94b4b",
+  "w": 256,
+  "h": 256,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_GrassSoil_BaseColor_a2fd68b3",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_ForestFloor_Mask_c0fa34ed",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "VG_Atlas_Mask_de7ce11b",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_DirtPath_Mask_1c95ff57",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "BaobabPlanet_Normal_b2474c5f",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "VolcanoB_Normal_3443bf53",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_Volcanic_Mask_2008897a",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Blanket_Normal_4dd1ec00",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_Volcanic_BaseColor_90cb3e1a",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "NookPit_Normal_1d4f92b6",
+  "w": 256,
+  "h": 128,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "B612_GrassTint",
+  "w": 216,
+  "h": 216,
+  "fmt": "4",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "WateringCan_BaseColor_c6ffc4f5",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "ToolShed_Wood_BaseColor_d221ed0c",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_06_BaseColor_9f69a17f",
+  "w": 256,
+  "h": 256,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_05_Mask_80750817",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "SleepingPad_Normal_14f59a8f",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "BaobabSeedling_Mask_9815bc23",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_ForestFloor_BaseColor_dae70d03",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "SunsetChair_BaseColor_c56364b7",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "VG_Atlas_BaseColor_28a9da08",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Cloud_Cumulus_Atlas_SixWayNeg_e8888568",
+  "w": 512,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_ForestFloor_Normal_78cf629c",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_DirtPath_Normal_cdb46d6a",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "BaobabSeedling_BaseColor_074a5314",
+  "w": 256,
+  "h": 256,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "VolcanoA_Mask_ca755e94",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_StreamBed_BaseColor_d0abd36b",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_01_Normal_42614653",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_Gravel_Mask_dad73471",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Water_NormalA_a5e920bc",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "WindScreen_Mask_1fd6ceeb",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "PlanetRock_Grey_BaseColor_d4258e82",
+  "w": 256,
+  "h": 256,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_02_BaseColor_98497361",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_StreamBed_Mask_15cf9413",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_GrassSoil_Mask_0ba9d936",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "B612_FoliageAtlas_Normal_6ebe4092",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_03_BaseColor_9ca0bb29",
+  "w": 256,
+  "h": 256,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "SleepingPad_Mask_9e1ca819",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "LifeProps_Tools_BaseColor_1a370bfb",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "SleepingPad_BaseColor_899462e5",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Detail_Rock_Normal_30a3a35c",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "B612_FoliageAtlas_BaseColor_ba34b19e",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_02_Mask_9f8a3c36",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Sky_Hdri_Day_Cloud_40b845ba",
+  "w": 512,
+  "h": 128,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "ClocheBase_Mask_3e06d021",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Detail_Rock_Normal_1bc7c404",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Blanket_BaseColor_77905d74",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "B612_FoliageAtlas_Mask_385307e7",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_04_Mask_ea44dad9",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_Volcanic_Normal_d97abe83",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_06_Mask_4a07d9cb",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Steam_Sheet_SixWayNeg_93533ca6",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "ClocheBase_BaseColor_64526b70",
+  "w": 256,
+  "h": 256,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_01_Mask_3fb55ff1",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_03_Normal_24868103",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "SunsetChair_Mask_b69a74aa",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "VolcanoA_Emission_f23a0117",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "WateringCan_Mask_cde24dd3",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Steam_Sheet_SixWayPos_ddd755e2",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_GrassSoil_Normal_2ca543fc",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_01_BaseColor_267d522b",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "VolcanoB_Mask_450028f2",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rose_BaseColor_5147f25e",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_05_Normal_8cf89ca0",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rose_Mask_7bba209d",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "WindScreen_Weathered_BaseColor_2b69ba41",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Sky_Hdri_Dusk_Cloud_04a965de",
+  "w": 512,
+  "h": 128,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "VolcanoB_Emission_95bccccc",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "BaobabSeedling_Normal_afb47e8f",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Blanket_Mask_c12baeba",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_04_BaseColor_b4834277",
+  "w": 256,
+  "h": 256,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "NookPit_BaseColor_100dd4c5",
+  "w": 256,
+  "h": 128,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_StreamBed_Normal_9bdfaa0f",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rose_Normal_f3df7415",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "VolcanoA_Normal_d587ac8f",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_04_Normal_0be1558b",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_02_Normal_611cb640",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Water_Flecks",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Water_NormalB_f84da94f",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "ToolShed_Wood_Normal_f5da3bbf",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "WindScreen_Normal_b48c790c",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "NookPit_Mask_ddfe7212",
+  "w": 256,
+  "h": 128,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Planet_BrookFlow",
+  "w": 24,
+  "h": 342,
+  "fmt": "17",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_Gravel_Normal_1aaa1219",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "B612_Main_GroundCover_Vegetation_FlowerMap",
+  "w": 256,
+  "h": 256,
+  "fmt": "4",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Rock_05_BaseColor_e97a2f2f",
+  "w": 256,
+  "h": 256,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "VolcanoA_BaseColor_123807e8",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "FlatStones_Normal_3183f7d2",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "BaobabPlanet_Mask_e2cd7bb4",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "ToolShed_Wood_Mask_ba041a78",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "ClocheBase_Normal_edb03b99",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "BaobabPlanet_BaseColor_b9fca0a6",
+  "w": 256,
+  "h": 256,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "LifeProps_Tools_Normal_a6878b52",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Ground_DirtPath_BaseColor_c7b52bee",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "WateringCan_Normal_3b2ccbed",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Cloud_Cumulus_Atlas_SixWayPos_e319aba6",
+  "w": 512,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "FlatStones_Mask_9f0bf2af",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "SunsetChair_Normal_61a1ef43",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "LifeProps_Tools_Mask_0bede41d",
+  "w": 256,
+  "h": 256,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Tex_ButterflyWing",
+  "w": 128,
+  "h": 128,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Bubble",
+  "w": 64,
+  "h": 64,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "CloudLayer_BlueNoise",
+  "w": 128,
+  "h": 128,
+  "fmt": "63",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Pebbles_Normal",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Fill_RippleRing",
+  "w": 128,
+  "h": 128,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Pebbles_BaseColor",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "CloudLayer_Weather",
+  "w": 1024,
+  "h": 1024,
+  "fmt": "4",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "B612_DistanceField",
+  "w": 512,
+  "h": 512,
+  "fmt": "17",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "B612_ZoneMap",
+  "w": 512,
+  "h": 512,
+  "fmt": "63",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "SandBoil_Sand",
+  "w": 512,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Pebbles_Mask",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Tex_SoftDot",
+  "w": 32,
+  "h": 32,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Waterfall_Streaks",
+  "w": 256,
+  "h": 512,
+  "fmt": "10",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "SandBoil_Normal",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "SplatAlpha 0(Clone)",
+  "w": 512,
+  "h": 512,
+  "fmt": "4",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "SplatAlpha 1(Clone)",
+  "w": 512,
+  "h": 512,
+  "fmt": "4",
+  "bundle": "b612_scenes_all_f593f551f550041f5a2feb47872f92c6.bundle"
+ },
+ {
+  "name": "Sky_CloudPano_Alpha",
+  "w": 2048,
+  "h": 512,
+  "fmt": "63",
+  "bundle": "shared_assets_assets_shared_rendering_textures_cloud_fe029fc08b30dc9af7a982025f2831d9.bundle"
+ },
+ {
+  "name": "Cloud_Band_Atlas_SixWayNeg",
+  "w": 2048,
+  "h": 1024,
+  "fmt": "12",
+  "bundle": "shared_assets_assets_shared_rendering_textures_cloud_fe029fc08b30dc9af7a982025f2831d9.bundle"
+ },
+ {
+  "name": "Sky_CloudPano_Day",
+  "w": 2048,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "shared_assets_assets_shared_rendering_textures_cloud_fe029fc08b30dc9af7a982025f2831d9.bundle"
+ },
+ {
+  "name": "Sky_CloudPano_Dusk",
+  "w": 2048,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "shared_assets_assets_shared_rendering_textures_cloud_fe029fc08b30dc9af7a982025f2831d9.bundle"
+ },
+ {
+  "name": "Cloud_Band_Atlas_SixWayPos",
+  "w": 2048,
+  "h": 1024,
+  "fmt": "12",
+  "bundle": "shared_assets_assets_shared_rendering_textures_cloud_fe029fc08b30dc9af7a982025f2831d9.bundle"
+ },
+ {
+  "name": "Noise_Wind",
+  "w": 1024,
+  "h": 1024,
+  "fmt": "10",
+  "bundle": "shared_assets_assets_shared_rendering_textures_noise_efbfd98b97946fbf5c6367ff28ad68f2.bundle"
+ },
+ {
+  "name": "Noise_Macro",
+  "w": 1024,
+  "h": 1024,
+  "fmt": "63",
+  "bundle": "shared_assets_assets_shared_rendering_textures_noise_efbfd98b97946fbf5c6367ff28ad68f2.bundle"
+ },
+ {
+  "name": "Sky_Hdri_Day_Alpha",
+  "w": 2048,
+  "h": 512,
+  "fmt": "63",
+  "bundle": "shared_assets_assets_shared_rendering_textures_sky_sky_hdri_day_alpha.png_f820c3e5fa55a0b6c64ad76e1350941f.bundle"
+ },
+ {
+  "name": "Sky_Hdri_Day_CloudRing",
+  "w": 512,
+  "h": 1,
+  "fmt": "17",
+  "bundle": "shared_assets_assets_shared_rendering_textures_sky_sky_hdri_day_cloudring.exr_25b67245c8fe5f4c14eeb19a8e666a20.bundle"
+ },
+ {
+  "name": "Sky_Hdri_Day_Ring",
+  "w": 512,
+  "h": 1,
+  "fmt": "17",
+  "bundle": "shared_assets_assets_shared_rendering_textures_sky_sky_hdri_day_ring.exr_23bbc52142e4408f1ad62e6c86fe9567.bundle"
+ },
+ {
+  "name": "Sky_Hdri_Dusk",
+  "w": 2048,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "shared_assets_assets_shared_rendering_textures_sky_sky_hdri_dusk.exr_e56652cee29b7782594bc86c165f59a1.bundle"
+ },
+ {
+  "name": "Sky_Hdri_Dusk_Alpha",
+  "w": 2048,
+  "h": 512,
+  "fmt": "63",
+  "bundle": "shared_assets_assets_shared_rendering_textures_sky_sky_hdri_dusk_alpha.png_d30dd56e33672527710b033283f31bf6.bundle"
+ },
+ {
+  "name": "Sky_Hdri_Dusk_CloudRing",
+  "w": 512,
+  "h": 1,
+  "fmt": "17",
+  "bundle": "shared_assets_assets_shared_rendering_textures_sky_sky_hdri_dusk_cloudring.exr_508b08a438825e32fad4d4a05bee37eb.bundle"
+ },
+ {
+  "name": "Sky_Hdri_Dusk_Ring",
+  "w": 512,
+  "h": 1,
+  "fmt": "17",
+  "bundle": "shared_assets_assets_shared_rendering_textures_sky_sky_hdri_dusk_ring.exr_042c751eb78eb38735b8c42947ef7f3a.bundle"
+ },
+ {
+  "name": "Steam_Soft",
+  "w": 512,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "shared_assets_assets_shared_rendering_textures_steam_5ecc4f8fe9ec128488dfd264388aca60.bundle"
+ },
+ {
+  "name": "B612_FarTreeImpostor_Normal",
+  "w": 1024,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "shared_assets_assets_shared_rendering_textures_vegetation_d106e2db21b98f445ca39f7e0b072526.bundle"
+ },
+ {
+  "name": "B612_FarTreeImpostor_BaseColor",
+  "w": 1024,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "shared_assets_assets_shared_rendering_textures_vegetation_d106e2db21b98f445ca39f7e0b072526.bundle"
+ },
+ {
+  "name": "B612_FarTreeImpostor_Mask",
+  "w": 1024,
+  "h": 512,
+  "fmt": "12",
+  "bundle": "shared_assets_assets_shared_rendering_textures_vegetation_d106e2db21b98f445ca39f7e0b072526.bundle"
+ },
+ {
+  "name": "B612_BarkMain_Normal",
+  "w": 1024,
+  "h": 1024,
+  "fmt": "12",
+  "bundle": "shared_assets_assets_shared_rendering_textures_vegetation_d106e2db21b98f445ca39f7e0b072526.bundle"
+ },
+ {
+  "name": "B612_BarkSecondary_Mask",
+  "w": 1024,
+  "h": 1024,
+  "fmt": "12",
+  "bundle": "shared_assets_assets_shared_rendering_textures_vegetation_d106e2db21b98f445ca39f7e0b072526.bundle"
+ },
+ {
+  "name": "B612_BarkSecondary_BaseColor",
+  "w": 1024,
+  "h": 1024,
+  "fmt": "10",
+  "bundle": "shared_assets_assets_shared_rendering_textures_vegetation_d106e2db21b98f445ca39f7e0b072526.bundle"
+ },
+ {
+  "name": "B612_BarkSecondary_Normal",
+  "w": 1024,
+  "h": 1024,
+  "fmt": "12",
+  "bundle": "shared_assets_assets_shared_rendering_textures_vegetation_d106e2db21b98f445ca39f7e0b072526.bundle"
+ },
+ {
+  "name": "B612_BarkMain_BaseColor",
+  "w": 1024,
+  "h": 1024,
+  "fmt": "10",
+  "bundle": "shared_assets_assets_shared_rendering_textures_vegetation_d106e2db21b98f445ca39f7e0b072526.bundle"
+ },
+ {
+  "name": "B612_BarkMain_Mask",
+  "w": 1024,
+  "h": 1024,
+  "fmt": "12",
+  "bundle": "shared_assets_assets_shared_rendering_textures_vegetation_d106e2db21b98f445ca39f7e0b072526.bundle"
+ },
+ {
+  "name": "Water_Caustics",
+  "w": 512,
+  "h": 512,
+  "fmt": "63",
+  "bundle": "shared_assets_assets_shared_rendering_textures_water_aac5400ed65fd480cb12301dc2f45a0b.bundle"
+ },
+ {
+  "name": "Water_Foam",
+  "w": 1024,
+  "h": 1024,
+  "fmt": "63",
+  "bundle": "shared_assets_assets_shared_rendering_textures_water_aac5400ed65fd480cb12301dc2f45a0b.bundle"
+ },
+ {
+  "name": "LiberationSans SDF Atlas",
+  "w": 1024,
+  "h": 1024,
+  "fmt": "1",
+  "bundle": "shared_assets_assets_thirdparty_textmeshpro_shaders_470b2ed937dbe9df03ee6096f4629b34.bundle"
+ }
+]

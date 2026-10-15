@@ -14,10 +14,27 @@ references/pipeline-scene.md              # 段 4 场景构建：钉死主参考
 references/pipeline-character.md          # 角色构建：T-pose 四视图 → 图生 3D → 绑定蒙皮 → 动作重定向 → IK 精修
 references/quality-review-and-assets.md   # 独立审查协议 + 资产预算字段/阈值/命名约定
 references/tooling-and-setup.md           # 工具装什么、干什么、是否本机验证过
+references/case-littleprince-webgpu.md    # 案例校准：真实发布作的实测数字、look spec、工程陷阱
 scripts/asset_budget_check.py             # 资产清单预算校验
 assets/asset-manifest.example.json        # 资产清单模板
 assets/prd-seed-template.md               # PRD 种子模板
+case-study/littleprince-webgpu/           # 案例原始材料：逆向报告 + 37 个 WGSL 源码 + 提取脚本
 ```
+
+## 案例校准
+
+`case-study/littleprince-webgpu/` 是对 **`littleprince.dev`**（《小王子·星辰之旅》，已发布商业 Web 游戏，
+Unity 6000.3.25f1 + URP 17 + WebGPU + Addressables 分章）的完整静态逆向：
+
+- **37 个自定义着色器**的可读 WGSL 源码（天空 89 属性 / 水 28 / 体积蒸汽 32 步步进 / 草 35 / 枝叶 41 …）
+- **275 个自有 C# 类型**的命名面、12 个命名空间、146 张贴图规格、90 个材质的数值
+- 真实规模基线（单场景 1,924 GameObject、常规贴图 216–512px）——用来校准预算与工期直觉
+
+它证明这条流水线能产出真实商业作品，也暴露了若干工程陷阱（扩展名会说谎、大资产下载会静默截断、
+源工程不入库就只能逆向）。蒸馏结论见 `references/case-littleprince-webgpu.md`。
+
+> 出于 GitHub 单文件 100MB 硬限与**公开再分发游戏美术资产的版权风险**，726 MB 原始 AssetBundle
+> 等二进制未入库；每一项都记录了 SHA-256 与恢复命令，见 `case-study/.../MANIFEST-excluded.md`。
 
 ## 安装
 

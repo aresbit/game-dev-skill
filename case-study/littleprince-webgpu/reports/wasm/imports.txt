@@ -1,0 +1,1145 @@
+# WebAssembly import section: 564 function imports
+# module	field	kind	typeidx	category
+wasi_snapshot_preview1	fd_close	func	5	SYS_WASI
+wasi_snapshot_preview1	fd_write	func	8	SYS_WASI
+env	exit	func	7	SYS_WASI
+env	emscripten_get_now	func	138	EMSCRIPTEN
+env	emscripten_memcpy_big	func	2	EMSCRIPTEN
+env	emscripten_resize_heap	func	5	EMSCRIPTEN
+env	abort	func	13	SYS_WASI
+env	JS_Log_Dump	func	1	UNITY_JS
+env	invoke_iii	func	3	INVOKE
+env	invoke_iiiiii	func	10	INVOKE
+env	__cxa_find_matching_catch_3	func	5	CXX_ABI
+env	invoke_v	func	7	INVOKE
+env	invoke_vii	func	2	INVOKE
+env	__cxa_begin_catch	func	5	CXX_ABI
+env	invoke_iiii	func	8	INVOKE
+env	invoke_viii	func	4	INVOKE
+env	__cxa_end_catch	func	13	CXX_ABI
+env	invoke_iiiii	func	9	INVOKE
+env	__cxa_find_matching_catch_2	func	18	CXX_ABI
+env	__resumeException	func	7	OTHER
+env	invoke_fiii	func	36	INVOKE
+env	invoke_diii	func	149	INVOKE
+env	invoke_viiii	func	6	INVOKE
+env	invoke_viif	func	59	INVOKE
+env	invoke_ii	func	0	INVOKE
+env	invoke_vi	func	1	INVOKE
+env	__cxa_throw	func	2	CXX_ABI
+wasi_snapshot_preview1	environ_sizes_get	func	0	SYS_WASI
+wasi_snapshot_preview1	environ_get	func	0	SYS_WASI
+env	emscripten_date_now	func	138	EMSCRIPTEN
+env	_emscripten_get_now_is_monotonic	func	18	OTHER
+env	emscripten_get_now_res	func	138	EMSCRIPTEN
+env	emscripten_get_heap_max	func	18	EMSCRIPTEN
+env	invoke_i	func	5	INVOKE
+env	__cxa_rethrow	func	13	CXX_ABI
+env	__cxa_uncaught_exceptions	func	18	CXX_ABI
+env	__syscall_openat	func	8	SYS_WASI
+env	__syscall_fstat64	func	0	SYS_WASI
+env	__syscall_stat64	func	0	SYS_WASI
+env	__syscall_newfstatat	func	8	SYS_WASI
+env	__syscall_lstat64	func	0	SYS_WASI
+env	__syscall_connect	func	10	SYS_WASI
+env	__syscall_fcntl64	func	3	SYS_WASI
+env	__syscall_sendto	func	10	SYS_WASI
+env	__syscall_recvfrom	func	10	SYS_WASI
+env	__syscall__newselect	func	9	SYS_WASI
+env	__syscall_ioctl	func	3	SYS_WASI
+env	emscripten_log	func	2	EMSCRIPTEN
+wasi_snapshot_preview1	fd_read	func	8	SYS_WASI
+env	_tzset_js	func	2	OTHER
+env	_mktime_js	func	5	OTHER
+env	_localtime_js	func	1	OTHER
+env	_gmtime_js	func	1	OTHER
+env	strftime	func	8	SYS_WASI
+env	__syscall_faccessat	func	8	SYS_WASI
+env	__syscall_chmod	func	0	SYS_WASI
+env	__syscall_unlinkat	func	3	SYS_WASI
+env	__syscall_renameat	func	8	SYS_WASI
+env	__syscall_utimensat	func	8	SYS_WASI
+env	__syscall_getcwd	func	0	SYS_WASI
+env	__syscall_mkdirat	func	3	SYS_WASI
+env	__syscall_rmdir	func	5	SYS_WASI
+env	__syscall_getdents64	func	3	SYS_WASI
+env	__syscall_socket	func	10	SYS_WASI
+env	invoke_iiiiiii	func	16	INVOKE
+env	invoke_iiiiiiii	func	21	INVOKE
+env	llvm_eh_typeid_for	func	5	OTHER
+env	invoke_viiiiii	func	15	INVOKE
+env	invoke_viiiii	func	11	INVOKE
+env	invoke_iiiifii	func	145	INVOKE
+env	invoke_fii	func	20	INVOKE
+env	invoke_iiiidii	func	234	INVOKE
+env	invoke_vidi	func	182	INVOKE
+env	invoke_dii	func	54	INVOKE
+env	invoke_viidi	func	66	INVOKE
+env	invoke_viifi	func	26	INVOKE
+env	invoke_iiifii	func	50	INVOKE
+env	invoke_ddiii	func	579	INVOKE
+env	invoke_iiiiiiffiiiiiiiiiffffiii	func	580	INVOKE
+env	invoke_iiiiiiiiiiii	func	98	INVOKE
+env	invoke_iiiiiiiiiiiii	func	154	INVOKE
+env	invoke_vifi	func	23	INVOKE
+env	invoke_iiiiiiiiiii	func	81	INVOKE
+env	invoke_fi	func	12	INVOKE
+env	invoke_viiifii	func	76	INVOKE
+env	invoke_viiiidi	func	275	INVOKE
+env	invoke_iiiiiiidii	func	581	INVOKE
+env	invoke_iiiiiiiii	func	29	INVOKE
+env	invoke_viiiiiii	func	22	INVOKE
+env	invoke_viiidiii	func	582	INVOKE
+env	invoke_iiiiidii	func	583	INVOKE
+env	invoke_viiiiidi	func	584	INVOKE
+env	invoke_viifiii	func	130	INVOKE
+env	invoke_viiififiii	func	585	INVOKE
+env	invoke_viifii	func	58	INVOKE
+env	invoke_iifi	func	46	INVOKE
+env	invoke_viiffi	func	45	INVOKE
+env	invoke_viiifi	func	74	INVOKE
+env	invoke_iiiiiffiffiiiiiiiiiiii	func	586	INVOKE
+env	invoke_fifi	func	87	INVOKE
+env	invoke_fiiiii	func	183	INVOKE
+env	invoke_viiiiffiiiiiiii	func	587	INVOKE
+env	invoke_viiiiiiiiiiiii	func	150	INVOKE
+env	invoke_viiiiiiiii	func	31	INVOKE
+env	invoke_viiiiiiii	func	24	INVOKE
+env	invoke_vffiiiiiii	func	184	INVOKE
+env	invoke_viiiiiiiiiiii	func	62	INVOKE
+env	invoke_viiiifii	func	203	INVOKE
+env	invoke_iiiiiiiiiiifii	func	588	INVOKE
+env	invoke_viffi	func	57	INVOKE
+env	invoke_viiiiiiiiiii	func	64	INVOKE
+env	invoke_viifff	func	314	INVOKE
+env	invoke_viiidi	func	193	INVOKE
+env	invoke_iiifi	func	60	INVOKE
+env	invoke_viiiifi	func	88	INVOKE
+env	invoke_vffi	func	49	INVOKE
+env	invoke_vfffi	func	70	INVOKE
+env	invoke_iiiifiiiiiii	func	589	INVOKE
+env	invoke_vififiiii	func	194	INVOKE
+env	invoke_fiffi	func	109	INVOKE
+env	invoke_fiiffi	func	222	INVOKE
+env	invoke_viiiiiiiiii	func	38	INVOKE
+env	invoke_viiiiifi	func	211	INVOKE
+env	invoke_ffi	func	35	INVOKE
+env	invoke_dddi	func	315	INVOKE
+env	invoke_viiiiiiiiiiiffiiiiiiiiii	func	590	INVOKE
+env	invoke_iiiiiiiifiii	func	591	INVOKE
+env	invoke_iiiifiiii	func	251	INVOKE
+env	invoke_fiiii	func	68	INVOKE
+env	invoke_iifiii	func	71	INVOKE
+env	invoke_vfi	func	14	INVOKE
+env	invoke_di	func	34	INVOKE
+env	invoke_iif	func	110	INVOKE
+env	invoke_fif	func	252	INVOKE
+env	invoke_viiff	func	450	INVOKE
+env	__syscall_symlink	func	0	SYS_WASI
+env	__syscall_readlinkat	func	8	SYS_WASI
+env	invoke_iiiiiiiiii	func	39	INVOKE
+env	invoke_viiiffii	func	592	INVOKE
+env	invoke_iiiiiffi	func	451	INVOKE
+env	invoke_fiifi	func	171	INVOKE
+env	invoke_ifi	func	32	INVOKE
+env	invoke_viiiiffi	func	155	INVOKE
+env	invoke_viiffffii	func	593	INVOKE
+env	invoke_fiffiiiiiii	func	594	INVOKE
+env	invoke_iiiiffi	func	253	INVOKE
+env	invoke_iiiffii	func	316	INVOKE
+env	invoke_iiiifi	func	131	INVOKE
+env	invoke_ifffii	func	276	INVOKE
+env	invoke_iiiffi	func	212	INVOKE
+env	LPWebLoadMilestone	func	1	GAME_JS_LPWEB
+env	LPWebSetTextureDump	func	7	GAME_JS_LPWEB
+env	LPWebReportFrame	func	626	GAME_JS_LPWEB
+env	LPWebRecordFrame	func	195	GAME_JS_LPWEB
+env	LPWebCanvasScale	func	56	GAME_JS_LPWEB
+env	LPWebDevicePixelRatio	func	56	GAME_JS_LPWEB
+env	LPWebDownloadLoaded	func	17	GAME_JS_LPWEB
+env	LPWebDownloadPending	func	5	GAME_JS_LPWEB
+env	LPWebGetLang	func	18	GAME_JS_LPWEB
+env	LPWebSetLang	func	7	GAME_JS_LPWEB
+env	__cxa_find_matching_catch_4	func	0	CXX_ABI
+env	strftime_l	func	9	SYS_WASI
+env	invoke_viiiiiiiiiiiiiii	func	361	INVOKE
+env	JS_SystemInfo_GetStreamingAssetsURL	func	0	UNITY_JS
+env	__syscall_statfs64	func	3	SYS_WASI
+env	JS_FileSystem_Sync	func	13	UNITY_JS
+env	_emscripten_throw_longjmp	func	13	OTHER
+env	JS_Cursor_SetShow	func	7	UNITY_JS
+env	JS_Cursor_SetImage	func	1	UNITY_JS
+env	emscripten_set_keydown_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_keyup_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_keypress_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_mouseup_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_mousedown_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_mousemove_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_wheel_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_touchstart_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_touchend_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_touchmove_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_touchcancel_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_gamepadconnected_callback_on_thread	func	8	EMSCRIPTEN
+env	emscripten_set_gamepaddisconnected_callback_on_thread	func	8	EMSCRIPTEN
+env	JS_ScreenOrientation_Init	func	7	UNITY_JS
+env	JS_DOM_MapViewportCoordinateToElementLocalCoordinate	func	4	UNITY_JS
+env	JS_Sound_ResumeIfNeeded	func	13	UNITY_JS
+env	JS_RequestDeviceSensorPermissionsOnTouch	func	13	UNITY_JS
+env	emscripten_sample_gamepad_data	func	18	EMSCRIPTEN
+env	emscripten_get_num_gamepads	func	18	EMSCRIPTEN
+env	emscripten_get_gamepad_status	func	0	EMSCRIPTEN
+env	JS_OrientationSensor_Start	func	1	UNITY_JS
+env	JS_OrientationSensor_IsRunning	func	18	UNITY_JS
+env	JS_OrientationSensor_Stop	func	13	UNITY_JS
+env	JS_Accelerometer_Start	func	1	UNITY_JS
+env	JS_Accelerometer_IsRunning	func	18	UNITY_JS
+env	JS_Accelerometer_Stop	func	13	UNITY_JS
+env	JS_LinearAccelerationSensor_Start	func	1	UNITY_JS
+env	JS_LinearAccelerationSensor_IsRunning	func	18	UNITY_JS
+env	JS_LinearAccelerationSensor_Stop	func	13	UNITY_JS
+env	JS_GravitySensor_Start	func	1	UNITY_JS
+env	JS_GravitySensor_IsRunning	func	18	UNITY_JS
+env	JS_GravitySensor_Stop	func	13	UNITY_JS
+env	JS_Gyroscope_Start	func	1	UNITY_JS
+env	JS_Gyroscope_IsRunning	func	18	UNITY_JS
+env	JS_Gyroscope_Stop	func	13	UNITY_JS
+env	JS_ScreenOrientation_DeInit	func	13	UNITY_JS
+env	JS_MobileKeyboard_Hide	func	7	UNITY_JS
+env	JS_MobileKeyboard_Show	func	22	UNITY_JS
+env	JS_MobileKeyboard_GetKeyboardStatus	func	18	UNITY_JS
+env	JS_MobileKeyboard_GetText	func	0	UNITY_JS
+env	JS_MobileKeyboard_SetText	func	7	UNITY_JS
+env	JS_MobileKeyboard_SetCharacterLimit	func	7	UNITY_JS
+env	JS_MobileKeyboard_GetTextSelection	func	1	UNITY_JS
+env	JS_MobileKeyboard_SetTextSelection	func	1	UNITY_JS
+env	JS_Log_StackTrace	func	1	UNITY_JS
+env	JS_WebCamVideo_GetNativeWidth	func	5	UNITY_JS
+env	JS_WebCamVideo_GetNativeHeight	func	5	UNITY_JS
+env	wgpu_adapter_or_device_get_limits	func	1	WEBGPU
+env	wgpu_adapter_or_device_get_features	func	5	WEBGPU
+env	wgpu_object_set_label	func	1	WEBGPU
+env	wgpu_device_create_buffer	func	0	WEBGPU
+env	wgpu_device_get_queue	func	5	WEBGPU
+env	wgpu_queue_write_buffer	func	627	WEBGPU
+env	wgpu_device_create_command_encoder_simple	func	5	WEBGPU
+env	wgpu_command_encoder_copy_buffer_to_buffer	func	628	WEBGPU
+env	wgpu_encoder_finish	func	5	WEBGPU
+env	wgpu_queue_submit_one_and_destroy	func	1	WEBGPU
+env	wgpu_object_destroy	func	7	WEBGPU
+env	wgpu_buffer_map_async	func	595	WEBGPU
+env	wgpu_device_create_bind_group_layout	func	3	WEBGPU
+env	wgpu_device_create_sampler	func	0	WEBGPU
+env	wgpu_device_create_pipeline_layout	func	3	WEBGPU
+env	wgpu_device_create_bind_group	func	8	WEBGPU
+env	wgpu_command_encoder_begin_render_pass	func	0	WEBGPU
+env	wgpu_render_commands_mixin_set_vertex_buffer	func	317	WEBGPU
+env	wgpu_render_commands_mixin_set_index_buffer	func	317	WEBGPU
+env	wgpu_render_pass_encoder_set_stencil_reference	func	1	WEBGPU
+env	wgpu_encoder_set_pipeline	func	1	WEBGPU
+env	wgpu_encoder_set_bind_group	func	6	WEBGPU
+env	wgpu_render_commands_mixin_draw	func	6	WEBGPU
+env	wgpu_encoder_end	func	7	WEBGPU
+env	wgpu_device_create_shader_module	func	0	WEBGPU
+env	wgpu_device_create_render_pipeline	func	0	WEBGPU
+env	wgpu_command_encoder_copy_texture_to_texture	func	11	WEBGPU
+env	wgpu_device_push_error_scope	func	1	WEBGPU
+env	wgpu_device_pop_error_scope_async	func	2	WEBGPU
+env	wgpu_buffer_get_mapped_range	func	629	WEBGPU
+env	wgpu_buffer_read_mapped_range	func	630	WEBGPU
+env	wgpu_buffer_unmap	func	7	WEBGPU
+env	wgpu_command_encoder_copy_texture_to_buffer	func	11	WEBGPU
+env	wgpu_encoder_pop_debug_group	func	7	WEBGPU
+env	JS_WebGPU_SetCommandEncoder	func	7	WEBGPU
+env	wgpu_device_create_compute_pipeline	func	10	WEBGPU
+env	wgpu_command_encoder_begin_compute_pass	func	0	WEBGPU
+env	wgpu_is_valid_object	func	5	WEBGPU
+env	wgpu_compute_pass_encoder_dispatch_workgroups	func	4	WEBGPU
+env	wgpu_compute_pass_encoder_dispatch_workgroups_indirect	func	204	WEBGPU
+env	wgpu_canvas_get_webgpu_context	func	5	WEBGPU
+env	navigator_gpu_get_preferred_canvas_format	func	18	WEBGPU
+env	wgpu_device_set_uncapturederror_callback	func	2	WEBGPU
+env	wgpu_canvas_context_configure	func	1	WEBGPU
+env	wgpu_canvas_context_get_current_texture	func	5	WEBGPU
+env	wgpu_texture_create_view_simple	func	5	WEBGPU
+env	wgpu_device_create_command_encoder	func	0	WEBGPU
+env	wgpu_encoder_push_debug_group	func	1	WEBGPU
+env	wgpu_queue_submit_multiple_and_destroy	func	2	WEBGPU
+env	wgpu_texture_create_view	func	0	WEBGPU
+env	wgpu_render_pass_encoder_set_scissor_rect	func	6	WEBGPU
+env	wgpu_render_pass_encoder_set_viewport	func	452	WEBGPU
+env	JS_WebGPU_Setup	func	1	WEBGPU
+env	wgpu_render_commands_mixin_draw_indexed_indirect	func	204	WEBGPU
+env	wgpu_render_commands_mixin_draw_indirect	func	204	WEBGPU
+env	wgpu_render_commands_mixin_draw_indexed	func	11	WEBGPU
+env	wgpu_queue_write_texture	func	22	WEBGPU
+env	wgpu_device_create_texture	func	0	WEBGPU
+env	JS_WebCamVideo_GrabFrame	func	8	UNITY_JS
+env	JS_Sound_GetAudioContextSampleRate	func	18	UNITY_JS
+env	JS_Sound_ReleaseInstance	func	5	UNITY_JS
+env	JS_Sound_Stop	func	82	UNITY_JS
+env	JS_Sound_Create_Channel	func	0	UNITY_JS
+env	JS_Sound_GetPosition	func	83	UNITY_JS
+env	JS_Sound_SetPosition	func	631	UNITY_JS
+env	JS_Sound_SetVolume	func	82	UNITY_JS
+env	JS_Sound_Set3D	func	82	UNITY_JS
+env	JS_Sound_Play	func	632	UNITY_JS
+env	JS_Sound_SetPaused	func	1	UNITY_JS
+env	JS_Sound_GetAudioBufferSampleRate	func	5	UNITY_JS
+env	JS_Sound_SetPitch	func	82	UNITY_JS
+env	JS_Sound_SetLoop	func	1	UNITY_JS
+env	JS_Sound_GetLength	func	5	UNITY_JS
+env	JS_Sound_SetLoopPoints	func	633	UNITY_JS
+env	JS_Sound_GetMetaData	func	0	UNITY_JS
+env	JS_Sound_GetLoadState	func	5	UNITY_JS
+env	JS_Sound_GetData	func	3	UNITY_JS
+env	JS_Sound_Load_PCM	func	8	UNITY_JS
+env	JS_Sound_Load	func	8	UNITY_JS
+env	JS_Sound_Init	func	13	UNITY_JS
+env	JS_Sound_SetListenerPosition	func	634	UNITY_JS
+env	JS_Sound_SetListenerOrientation	func	635	UNITY_JS
+env	gethostbyname	func	5	SYS_WASI
+env	gethostbyaddr	func	3	SYS_WASI
+env	JS_WebRequest_Release	func	7	UNITY_JS
+env	JS_WebRequest_Abort	func	7	UNITY_JS
+env	JS_WebRequest_GetResponseMetaDataLengths	func	1	UNITY_JS
+env	JS_WebRequest_GetResponseMetaData	func	6	UNITY_JS
+env	JS_WebRequest_Create	func	0	UNITY_JS
+env	JS_WebRequest_SetTimeout	func	1	UNITY_JS
+env	JS_WebRequest_SetRedirectLimit	func	1	UNITY_JS
+env	JS_WebRequest_SetRequestHeader	func	2	UNITY_JS
+env	JS_WebRequest_Send	func	11	UNITY_JS
+env	glGetProgramiv	func	2	WEBGL_GL
+env	glGetActiveAttrib	func	15	WEBGL_GL
+env	glGetAttribLocation	func	0	WEBGL_GL
+env	glGetVertexAttribiv	func	2	WEBGL_GL
+env	glValidateProgram	func	7	WEBGL_GL
+env	glGetProgramInfoLog	func	4	WEBGL_GL
+env	glGetShaderiv	func	2	WEBGL_GL
+env	glGetIntegerv	func	1	WEBGL_GL
+env	glActiveTexture	func	7	WEBGL_GL
+env	glGetIntegeri_v	func	2	WEBGL_GL
+env	glIsEnabled	func	5	WEBGL_GL
+env	glAttachShader	func	1	WEBGL_GL
+env	glBindBuffer	func	1	WEBGL_GL
+env	glBindAttribLocation	func	2	WEBGL_GL
+env	glBindTexture	func	1	WEBGL_GL
+env	glBindRenderbuffer	func	1	WEBGL_GL
+env	glBindFramebuffer	func	1	WEBGL_GL
+env	glBufferSubData	func	4	WEBGL_GL
+env	glBufferData	func	4	WEBGL_GL
+env	glBlendFuncSeparate	func	4	WEBGL_GL
+env	glBlendEquationSeparate	func	1	WEBGL_GL
+env	glBlendEquation	func	7	WEBGL_GL
+env	glCheckFramebufferStatus	func	5	WEBGL_GL
+env	glClearStencil	func	7	WEBGL_GL
+env	glClearDepthf	func	92	WEBGL_GL
+env	glClearColor	func	223	WEBGL_GL
+env	glClear	func	7	WEBGL_GL
+env	glCompileShader	func	7	WEBGL_GL
+env	glColorMask	func	4	WEBGL_GL
+env	glCompressedTexSubImage2D	func	24	WEBGL_GL
+env	glCompressedTexImage2D	func	22	WEBGL_GL
+env	glCopyTexImage2D	func	22	WEBGL_GL
+env	glCopyTexSubImage2D	func	22	WEBGL_GL
+env	glCreateProgram	func	18	WEBGL_GL
+env	glCreateShader	func	5	WEBGL_GL
+env	glCullFace	func	7	WEBGL_GL
+env	glDeleteBuffers	func	1	WEBGL_GL
+env	glDeleteFramebuffers	func	1	WEBGL_GL
+env	glDeleteProgram	func	7	WEBGL_GL
+env	glDeleteRenderbuffers	func	1	WEBGL_GL
+env	glDeleteShader	func	7	WEBGL_GL
+env	glDeleteTextures	func	1	WEBGL_GL
+env	glDepthFunc	func	7	WEBGL_GL
+env	glDepthMask	func	7	WEBGL_GL
+env	glDetachShader	func	1	WEBGL_GL
+env	glDisable	func	7	WEBGL_GL
+env	glDisableVertexAttribArray	func	7	WEBGL_GL
+env	glEnable	func	7	WEBGL_GL
+env	glDrawElements	func	4	WEBGL_GL
+env	glDrawArrays	func	2	WEBGL_GL
+env	glEnableVertexAttribArray	func	7	WEBGL_GL
+env	glGetRenderbufferParameteriv	func	2	WEBGL_GL
+env	glFramebufferRenderbuffer	func	4	WEBGL_GL
+env	glFlush	func	13	WEBGL_GL
+env	glFinish	func	13	WEBGL_GL
+env	glFramebufferTexture2D	func	6	WEBGL_GL
+env	glFrontFace	func	7	WEBGL_GL
+env	glGenBuffers	func	1	WEBGL_GL
+env	glGenTextures	func	1	WEBGL_GL
+env	glGenerateMipmap	func	7	WEBGL_GL
+env	glGenRenderbuffers	func	1	WEBGL_GL
+env	glGenFramebuffers	func	1	WEBGL_GL
+env	glGetActiveUniform	func	15	WEBGL_GL
+env	glGetError	func	18	WEBGL_GL
+env	glGetFramebufferAttachmentParameteriv	func	4	WEBGL_GL
+env	glGetShaderSource	func	4	WEBGL_GL
+env	glGetShaderInfoLog	func	4	WEBGL_GL
+env	glGetString	func	5	WEBGL_GL
+env	glGetShaderPrecisionFormat	func	4	WEBGL_GL
+env	glGetUniformLocation	func	0	WEBGL_GL
+env	glGetUniformiv	func	2	WEBGL_GL
+env	glGetTexParameteriv	func	2	WEBGL_GL
+env	glLinkProgram	func	7	WEBGL_GL
+env	glPixelStorei	func	1	WEBGL_GL
+env	glRenderbufferStorage	func	4	WEBGL_GL
+env	glReadPixels	func	15	WEBGL_GL
+env	glPolygonOffset	func	362	WEBGL_GL
+env	glStencilFuncSeparate	func	4	WEBGL_GL
+env	glShaderSource	func	4	WEBGL_GL
+env	glScissor	func	4	WEBGL_GL
+env	glStencilOpSeparate	func	4	WEBGL_GL
+env	glStencilMask	func	7	WEBGL_GL
+env	glTexParameterf	func	33	WEBGL_GL
+env	glTexImage2D	func	24	WEBGL_GL
+env	glTexParameteriv	func	2	WEBGL_GL
+env	glTexParameteri	func	2	WEBGL_GL
+env	glTexSubImage2D	func	24	WEBGL_GL
+env	glVertexAttribPointer	func	11	WEBGL_GL
+env	glVertexAttrib4fv	func	1	WEBGL_GL
+env	glVertexAttrib4f	func	162	WEBGL_GL
+env	glUseProgram	func	7	WEBGL_GL
+env	glUniformMatrix4fv	func	4	WEBGL_GL
+env	glUniformMatrix3fv	func	4	WEBGL_GL
+env	glUniform4uiv	func	2	WEBGL_GL
+env	glUniform4iv	func	2	WEBGL_GL
+env	glUniform4fv	func	2	WEBGL_GL
+env	glUniform3uiv	func	2	WEBGL_GL
+env	glUniform3iv	func	2	WEBGL_GL
+env	glUniform3fv	func	2	WEBGL_GL
+env	glUniform2uiv	func	2	WEBGL_GL
+env	glUniform2iv	func	2	WEBGL_GL
+env	glUniform2fv	func	2	WEBGL_GL
+env	glUniform1uiv	func	2	WEBGL_GL
+env	glUniform1iv	func	2	WEBGL_GL
+env	glUniform1i	func	1	WEBGL_GL
+env	glUniform1fv	func	2	WEBGL_GL
+env	glViewport	func	4	WEBGL_GL
+env	glGetQueryObjectuiv	func	2	WEBGL_GL
+env	glGetQueryiv	func	2	WEBGL_GL
+env	glEndQuery	func	7	WEBGL_GL
+env	glBeginQuery	func	1	WEBGL_GL
+env	glDeleteQueries	func	1	WEBGL_GL
+env	glGenQueries	func	1	WEBGL_GL
+env	glGenVertexArrays	func	1	WEBGL_GL
+env	glDeleteVertexArrays	func	1	WEBGL_GL
+env	glIsVertexArray	func	5	WEBGL_GL
+env	glBindVertexArray	func	7	WEBGL_GL
+env	glCompressedTexSubImage3D	func	38	WEBGL_GL
+env	glTexSubImage3D	func	38	WEBGL_GL
+env	glTexImage3D	func	31	WEBGL_GL
+env	glCompressedTexImage3D	func	24	WEBGL_GL
+env	glTexStorage3D	func	11	WEBGL_GL
+env	glTexStorage2D	func	6	WEBGL_GL
+env	glGetStringi	func	0	WEBGL_GL
+env	glRenderbufferStorageMultisample	func	6	WEBGL_GL
+env	glBlitFramebuffer	func	31	WEBGL_GL
+env	glFlushMappedBufferRange	func	2	WEBGL_GL
+env	glUnmapBuffer	func	5	WEBGL_GL
+env	glMapBufferRange	func	8	WEBGL_GL
+env	glInvalidateFramebuffer	func	2	WEBGL_GL
+env	glDrawArraysInstanced	func	4	WEBGL_GL
+env	glDrawElementsInstanced	func	6	WEBGL_GL
+env	glCopyBufferSubData	func	6	WEBGL_GL
+env	glDrawBuffers	func	1	WEBGL_GL
+env	glBindBufferBase	func	2	WEBGL_GL
+env	glReadBuffer	func	7	WEBGL_GL
+env	glFramebufferTextureLayer	func	6	WEBGL_GL
+env	glVertexAttribIPointer	func	6	WEBGL_GL
+env	glBindBufferRange	func	6	WEBGL_GL
+env	glUniformBlockBinding	func	2	WEBGL_GL
+env	glGetActiveUniformBlockName	func	6	WEBGL_GL
+env	glGetActiveUniformBlockiv	func	4	WEBGL_GL
+env	glGetUniformIndices	func	4	WEBGL_GL
+env	glGetUniformBlockIndex	func	0	WEBGL_GL
+env	glGetActiveUniformsiv	func	6	WEBGL_GL
+env	glGetInternalformativ	func	6	WEBGL_GL
+env	glSamplerParameteri	func	2	WEBGL_GL
+env	glBindSampler	func	1	WEBGL_GL
+env	glDeleteSamplers	func	1	WEBGL_GL
+env	glGenSamplers	func	1	WEBGL_GL
+env	glProgramParameteri	func	2	WEBGL_GL
+env	glProgramBinary	func	4	WEBGL_GL
+env	glGetProgramBinary	func	6	WEBGL_GL
+env	glClearBufferfi	func	23	WEBGL_GL
+env	glClearBufferfv	func	2	WEBGL_GL
+env	glClearBufferuiv	func	2	WEBGL_GL
+env	glDeleteSync	func	7	WEBGL_GL
+env	glFenceSync	func	0	WEBGL_GL
+env	JS_SystemInfo_HasWebGL	func	18	UNITY_JS
+env	emscripten_webgl_init_context_attributes	func	7	WEBGL_GL
+env	JS_Module_WebGLContextAttributes_PremultipliedAlpha	func	18	UNITY_JS
+env	JS_Module_WebGLContextAttributes_PreserveDrawingBuffer	func	18	UNITY_JS
+env	JS_Module_WebGLContextAttributes_PowerPreference	func	18	UNITY_JS
+env	emscripten_webgl_create_context	func	0	WEBGL_GL
+env	emscripten_webgl_make_context_current	func	5	WEBGL_GL
+env	emscripten_webgl_enable_extension	func	0	WEBGL_GL
+env	emscripten_webgl_destroy_context	func	5	WEBGL_GL
+env	emscripten_is_webgl_context_lost	func	5	EMSCRIPTEN
+env	emscripten_webgl_get_current_context	func	18	WEBGL_GL
+env	glGetBufferSubData	func	4	WEBGL_GL
+env	JS_SystemInfo_HasAstcHdr	func	18	UNITY_JS
+env	JS_SystemInfo_GetDocumentURL	func	0	UNITY_JS
+env	JS_SystemInfo_IsMobile	func	18	UNITY_JS
+env	JS_DOM_UnityCanvasSelector	func	18	UNITY_JS
+env	JS_CallAsLongAsNoExceptionsSeen	func	7	UNITY_JS
+env	JS_SetMainLoop	func	2	UNITY_JS
+env	JS_FileSystem_Initialize	func	13	UNITY_JS
+env	emscripten_set_interval	func	63	EMSCRIPTEN
+env	JS_WebPlayer_FinishInitialization	func	13	UNITY_JS
+env	emscripten_set_fullscreenchange_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_focus_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_blur_callback_on_thread	func	9	EMSCRIPTEN
+env	emscripten_set_pointerlockchange_callback_on_thread	func	9	EMSCRIPTEN
+env	JS_SystemInfo_HasWebGPU	func	18	UNITY_JS
+env	navigator_gpu_request_adapter_async	func	3	WEBGPU
+env	JS_SystemInfo_GetGPUInfo	func	0	UNITY_JS
+env	wgpu_adapter_request_device_async	func	4	WEBGPU
+env	emscripten_performance_now	func	138	EMSCRIPTEN
+env	emscripten_get_fullscreen_status	func	5	EMSCRIPTEN
+env	emscripten_set_canvas_element_size	func	3	EMSCRIPTEN
+env	JS_SystemInfo_HasFullscreen	func	18	UNITY_JS
+env	emscripten_request_fullscreen	func	0	EMSCRIPTEN
+env	emscripten_exit_fullscreen	func	18	EMSCRIPTEN
+env	JS_SystemInfo_GetMatchWebGLToCanvasSize	func	18	UNITY_JS
+env	JS_MobileKeybard_GetIgnoreBlurEvent	func	18	UNITY_JS
+env	JS_SystemInfo_GetPreferredDevicePixelRatio	func	138	UNITY_JS
+env	JS_SystemInfo_HasCursorLock	func	18	UNITY_JS
+env	emscripten_request_pointerlock	func	0	EMSCRIPTEN
+env	emscripten_exit_pointerlock	func	18	EMSCRIPTEN
+env	JS_SystemInfo_GetScreenSize	func	1	UNITY_JS
+env	emscripten_get_canvas_element_size	func	3	EMSCRIPTEN
+env	JS_ScreenOrientation_Lock	func	7	UNITY_JS
+env	JS_UnityEngineShouldQuit	func	18	UNITY_JS
+env	emscripten_html5_remove_all_event_listeners	func	13	EMSCRIPTEN
+env	emscripten_cancel_main_loop	func	13	EMSCRIPTEN
+env	JS_RunQuitCallbacks	func	13	UNITY_JS
+env	emscripten_clear_interval	func	7	EMSCRIPTEN
+env	JS_SystemInfo_GetAnimationFrameRate	func	18	UNITY_JS
+env	emscripten_set_main_loop_timing	func	0	EMSCRIPTEN
+env	JS_Init_ContextMenuHandler	func	13	UNITY_JS
+env	JS_Init_CopyPaste	func	13	UNITY_JS
+env	JS_SystemInfo_GetCanvasClientSize	func	2	UNITY_JS
+env	GetJSMemoryInfo	func	1	OTHER
+env	GetJSLoadTimeInfo	func	7	OTHER
+env	JS_GetRandomBytes	func	0	UNITY_JS
+env	JS_SystemInfo_GetOS	func	0	UNITY_JS
+env	JS_Get_WASM_Size	func	18	UNITY_JS
+env	JS_SystemInfo_GetLanguage	func	0	UNITY_JS
+env	JS_Eval_OpenURL	func	7	UNITY_JS
+env	emscripten_debugger	func	13	EMSCRIPTEN
+wasi_snapshot_preview1	fd_seek	func	9	SYS_WASI
+env	invoke_jiiii	func	9	INVOKE
+env	invoke_ji	func	0	INVOKE
+env	invoke_jii	func	3	INVOKE
+env	invoke_iij	func	8	INVOKE
+env	invoke_iiijiii	func	21	INVOKE
+env	invoke_viijii	func	15	INVOKE
+env	invoke_j	func	5	INVOKE
+env	invoke_iiiijii	func	21	INVOKE
+env	invoke_jiii	func	8	INVOKE
+env	invoke_iji	func	8	INVOKE
+env	invoke_viji	func	6	INVOKE
+env	invoke_iiij	func	9	INVOKE
+env	invoke_viiji	func	11	INVOKE
+env	invoke_iiijii	func	16	INVOKE
+env	invoke_jiiiiiiiiii	func	81	INVOKE
+env	invoke_viidiji	func	363	INVOKE
+env	invoke_vji	func	4	INVOKE
+env	invoke_iijii	func	10	INVOKE
+env	invoke_vijii	func	11	INVOKE
+env	invoke_iiji	func	9	INVOKE
+env	invoke_ijiii	func	10	INVOKE
+env	invoke_iijiii	func	16	INVOKE
+env	invoke_iiiiiiiiiji	func	98	INVOKE
+env	invoke_ijji	func	10	INVOKE
+env	invoke_jiji	func	9	INVOKE
+env	invoke_iijji	func	16	INVOKE
+env	invoke_vijiii	func	15	INVOKE
+env	invoke_vjjjiiii	func	38	INVOKE
+env	invoke_vjiiiii	func	22	INVOKE
+env	invoke_jjji	func	10	INVOKE
+env	invoke_jiiiii	func	10	INVOKE
+env	invoke_jijii	func	10	INVOKE
+env	__syscall_truncate64	func	3	SYS_WASI
+env	glClientWaitSync	func	8	WEBGL_GL
+
+# ---- category summary ----
+# WEBGL_GL         166
+# INVOKE           130
+# UNITY_JS         101
+# WEBGPU           60
+# EMSCRIPTEN       42
+# SYS_WASI         37
+# OTHER            10
+# GAME_JS_LPWEB    10
+# CXX_ABI          8
+
+[wasi_snapshot_preview1] (6 imports)
+  fd_close	func	SYS_WASI
+  fd_write	func	SYS_WASI
+  environ_sizes_get	func	SYS_WASI
+  environ_get	func	SYS_WASI
+  fd_read	func	SYS_WASI
+  fd_seek	func	SYS_WASI
+
+[env] (558 imports)
+  exit	func	SYS_WASI
+  emscripten_get_now	func	EMSCRIPTEN
+  emscripten_memcpy_big	func	EMSCRIPTEN
+  emscripten_resize_heap	func	EMSCRIPTEN
+  abort	func	SYS_WASI
+  JS_Log_Dump	func	UNITY_JS
+  invoke_iii	func	INVOKE
+  invoke_iiiiii	func	INVOKE
+  __cxa_find_matching_catch_3	func	CXX_ABI
+  invoke_v	func	INVOKE
+  invoke_vii	func	INVOKE
+  __cxa_begin_catch	func	CXX_ABI
+  invoke_iiii	func	INVOKE
+  invoke_viii	func	INVOKE
+  __cxa_end_catch	func	CXX_ABI
+  invoke_iiiii	func	INVOKE
+  __cxa_find_matching_catch_2	func	CXX_ABI
+  __resumeException	func	OTHER
+  invoke_fiii	func	INVOKE
+  invoke_diii	func	INVOKE
+  invoke_viiii	func	INVOKE
+  invoke_viif	func	INVOKE
+  invoke_ii	func	INVOKE
+  invoke_vi	func	INVOKE
+  __cxa_throw	func	CXX_ABI
+  emscripten_date_now	func	EMSCRIPTEN
+  _emscripten_get_now_is_monotonic	func	OTHER
+  emscripten_get_now_res	func	EMSCRIPTEN
+  emscripten_get_heap_max	func	EMSCRIPTEN
+  invoke_i	func	INVOKE
+  __cxa_rethrow	func	CXX_ABI
+  __cxa_uncaught_exceptions	func	CXX_ABI
+  __syscall_openat	func	SYS_WASI
+  __syscall_fstat64	func	SYS_WASI
+  __syscall_stat64	func	SYS_WASI
+  __syscall_newfstatat	func	SYS_WASI
+  __syscall_lstat64	func	SYS_WASI
+  __syscall_connect	func	SYS_WASI
+  __syscall_fcntl64	func	SYS_WASI
+  __syscall_sendto	func	SYS_WASI
+  __syscall_recvfrom	func	SYS_WASI
+  __syscall__newselect	func	SYS_WASI
+  __syscall_ioctl	func	SYS_WASI
+  emscripten_log	func	EMSCRIPTEN
+  _tzset_js	func	OTHER
+  _mktime_js	func	OTHER
+  _localtime_js	func	OTHER
+  _gmtime_js	func	OTHER
+  strftime	func	SYS_WASI
+  __syscall_faccessat	func	SYS_WASI
+  __syscall_chmod	func	SYS_WASI
+  __syscall_unlinkat	func	SYS_WASI
+  __syscall_renameat	func	SYS_WASI
+  __syscall_utimensat	func	SYS_WASI
+  __syscall_getcwd	func	SYS_WASI
+  __syscall_mkdirat	func	SYS_WASI
+  __syscall_rmdir	func	SYS_WASI
+  __syscall_getdents64	func	SYS_WASI
+  __syscall_socket	func	SYS_WASI
+  invoke_iiiiiii	func	INVOKE
+  invoke_iiiiiiii	func	INVOKE
+  llvm_eh_typeid_for	func	OTHER
+  invoke_viiiiii	func	INVOKE
+  invoke_viiiii	func	INVOKE
+  invoke_iiiifii	func	INVOKE
+  invoke_fii	func	INVOKE
+  invoke_iiiidii	func	INVOKE
+  invoke_vidi	func	INVOKE
+  invoke_dii	func	INVOKE
+  invoke_viidi	func	INVOKE
+  invoke_viifi	func	INVOKE
+  invoke_iiifii	func	INVOKE
+  invoke_ddiii	func	INVOKE
+  invoke_iiiiiiffiiiiiiiiiffffiii	func	INVOKE
+  invoke_iiiiiiiiiiii	func	INVOKE
+  invoke_iiiiiiiiiiiii	func	INVOKE
+  invoke_vifi	func	INVOKE
+  invoke_iiiiiiiiiii	func	INVOKE
+  invoke_fi	func	INVOKE
+  invoke_viiifii	func	INVOKE
+  invoke_viiiidi	func	INVOKE
+  invoke_iiiiiiidii	func	INVOKE
+  invoke_iiiiiiiii	func	INVOKE
+  invoke_viiiiiii	func	INVOKE
+  invoke_viiidiii	func	INVOKE
+  invoke_iiiiidii	func	INVOKE
+  invoke_viiiiidi	func	INVOKE
+  invoke_viifiii	func	INVOKE
+  invoke_viiififiii	func	INVOKE
+  invoke_viifii	func	INVOKE
+  invoke_iifi	func	INVOKE
+  invoke_viiffi	func	INVOKE
+  invoke_viiifi	func	INVOKE
+  invoke_iiiiiffiffiiiiiiiiiiii	func	INVOKE
+  invoke_fifi	func	INVOKE
+  invoke_fiiiii	func	INVOKE
+  invoke_viiiiffiiiiiiii	func	INVOKE
+  invoke_viiiiiiiiiiiii	func	INVOKE
+  invoke_viiiiiiiii	func	INVOKE
+  invoke_viiiiiiii	func	INVOKE
+  invoke_vffiiiiiii	func	INVOKE
+  invoke_viiiiiiiiiiii	func	INVOKE
+  invoke_viiiifii	func	INVOKE
+  invoke_iiiiiiiiiiifii	func	INVOKE
+  invoke_viffi	func	INVOKE
+  invoke_viiiiiiiiiii	func	INVOKE
+  invoke_viifff	func	INVOKE
+  invoke_viiidi	func	INVOKE
+  invoke_iiifi	func	INVOKE
+  invoke_viiiifi	func	INVOKE
+  invoke_vffi	func	INVOKE
+  invoke_vfffi	func	INVOKE
+  invoke_iiiifiiiiiii	func	INVOKE
+  invoke_vififiiii	func	INVOKE
+  invoke_fiffi	func	INVOKE
+  invoke_fiiffi	func	INVOKE
+  invoke_viiiiiiiiii	func	INVOKE
+  invoke_viiiiifi	func	INVOKE
+  invoke_ffi	func	INVOKE
+  invoke_dddi	func	INVOKE
+  invoke_viiiiiiiiiiiffiiiiiiiiii	func	INVOKE
+  invoke_iiiiiiiifiii	func	INVOKE
+  invoke_iiiifiiii	func	INVOKE
+  invoke_fiiii	func	INVOKE
+  invoke_iifiii	func	INVOKE
+  invoke_vfi	func	INVOKE
+  invoke_di	func	INVOKE
+  invoke_iif	func	INVOKE
+  invoke_fif	func	INVOKE
+  invoke_viiff	func	INVOKE
+  __syscall_symlink	func	SYS_WASI
+  __syscall_readlinkat	func	SYS_WASI
+  invoke_iiiiiiiiii	func	INVOKE
+  invoke_viiiffii	func	INVOKE
+  invoke_iiiiiffi	func	INVOKE
+  invoke_fiifi	func	INVOKE
+  invoke_ifi	func	INVOKE
+  invoke_viiiiffi	func	INVOKE
+  invoke_viiffffii	func	INVOKE
+  invoke_fiffiiiiiii	func	INVOKE
+  invoke_iiiiffi	func	INVOKE
+  invoke_iiiffii	func	INVOKE
+  invoke_iiiifi	func	INVOKE
+  invoke_ifffii	func	INVOKE
+  invoke_iiiffi	func	INVOKE
+  LPWebLoadMilestone	func	GAME_JS_LPWEB
+  LPWebSetTextureDump	func	GAME_JS_LPWEB
+  LPWebReportFrame	func	GAME_JS_LPWEB
+  LPWebRecordFrame	func	GAME_JS_LPWEB
+  LPWebCanvasScale	func	GAME_JS_LPWEB
+  LPWebDevicePixelRatio	func	GAME_JS_LPWEB
+  LPWebDownloadLoaded	func	GAME_JS_LPWEB
+  LPWebDownloadPending	func	GAME_JS_LPWEB
+  LPWebGetLang	func	GAME_JS_LPWEB
+  LPWebSetLang	func	GAME_JS_LPWEB
+  __cxa_find_matching_catch_4	func	CXX_ABI
+  strftime_l	func	SYS_WASI
+  invoke_viiiiiiiiiiiiiii	func	INVOKE
+  JS_SystemInfo_GetStreamingAssetsURL	func	UNITY_JS
+  __syscall_statfs64	func	SYS_WASI
+  JS_FileSystem_Sync	func	UNITY_JS
+  _emscripten_throw_longjmp	func	OTHER
+  JS_Cursor_SetShow	func	UNITY_JS
+  JS_Cursor_SetImage	func	UNITY_JS
+  emscripten_set_keydown_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_keyup_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_keypress_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_mouseup_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_mousedown_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_mousemove_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_wheel_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_touchstart_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_touchend_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_touchmove_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_touchcancel_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_gamepadconnected_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_gamepaddisconnected_callback_on_thread	func	EMSCRIPTEN
+  JS_ScreenOrientation_Init	func	UNITY_JS
+  JS_DOM_MapViewportCoordinateToElementLocalCoordinate	func	UNITY_JS
+  JS_Sound_ResumeIfNeeded	func	UNITY_JS
+  JS_RequestDeviceSensorPermissionsOnTouch	func	UNITY_JS
+  emscripten_sample_gamepad_data	func	EMSCRIPTEN
+  emscripten_get_num_gamepads	func	EMSCRIPTEN
+  emscripten_get_gamepad_status	func	EMSCRIPTEN
+  JS_OrientationSensor_Start	func	UNITY_JS
+  JS_OrientationSensor_IsRunning	func	UNITY_JS
+  JS_OrientationSensor_Stop	func	UNITY_JS
+  JS_Accelerometer_Start	func	UNITY_JS
+  JS_Accelerometer_IsRunning	func	UNITY_JS
+  JS_Accelerometer_Stop	func	UNITY_JS
+  JS_LinearAccelerationSensor_Start	func	UNITY_JS
+  JS_LinearAccelerationSensor_IsRunning	func	UNITY_JS
+  JS_LinearAccelerationSensor_Stop	func	UNITY_JS
+  JS_GravitySensor_Start	func	UNITY_JS
+  JS_GravitySensor_IsRunning	func	UNITY_JS
+  JS_GravitySensor_Stop	func	UNITY_JS
+  JS_Gyroscope_Start	func	UNITY_JS
+  JS_Gyroscope_IsRunning	func	UNITY_JS
+  JS_Gyroscope_Stop	func	UNITY_JS
+  JS_ScreenOrientation_DeInit	func	UNITY_JS
+  JS_MobileKeyboard_Hide	func	UNITY_JS
+  JS_MobileKeyboard_Show	func	UNITY_JS
+  JS_MobileKeyboard_GetKeyboardStatus	func	UNITY_JS
+  JS_MobileKeyboard_GetText	func	UNITY_JS
+  JS_MobileKeyboard_SetText	func	UNITY_JS
+  JS_MobileKeyboard_SetCharacterLimit	func	UNITY_JS
+  JS_MobileKeyboard_GetTextSelection	func	UNITY_JS
+  JS_MobileKeyboard_SetTextSelection	func	UNITY_JS
+  JS_Log_StackTrace	func	UNITY_JS
+  JS_WebCamVideo_GetNativeWidth	func	UNITY_JS
+  JS_WebCamVideo_GetNativeHeight	func	UNITY_JS
+  wgpu_adapter_or_device_get_limits	func	WEBGPU
+  wgpu_adapter_or_device_get_features	func	WEBGPU
+  wgpu_object_set_label	func	WEBGPU
+  wgpu_device_create_buffer	func	WEBGPU
+  wgpu_device_get_queue	func	WEBGPU
+  wgpu_queue_write_buffer	func	WEBGPU
+  wgpu_device_create_command_encoder_simple	func	WEBGPU
+  wgpu_command_encoder_copy_buffer_to_buffer	func	WEBGPU
+  wgpu_encoder_finish	func	WEBGPU
+  wgpu_queue_submit_one_and_destroy	func	WEBGPU
+  wgpu_object_destroy	func	WEBGPU
+  wgpu_buffer_map_async	func	WEBGPU
+  wgpu_device_create_bind_group_layout	func	WEBGPU
+  wgpu_device_create_sampler	func	WEBGPU
+  wgpu_device_create_pipeline_layout	func	WEBGPU
+  wgpu_device_create_bind_group	func	WEBGPU
+  wgpu_command_encoder_begin_render_pass	func	WEBGPU
+  wgpu_render_commands_mixin_set_vertex_buffer	func	WEBGPU
+  wgpu_render_commands_mixin_set_index_buffer	func	WEBGPU
+  wgpu_render_pass_encoder_set_stencil_reference	func	WEBGPU
+  wgpu_encoder_set_pipeline	func	WEBGPU
+  wgpu_encoder_set_bind_group	func	WEBGPU
+  wgpu_render_commands_mixin_draw	func	WEBGPU
+  wgpu_encoder_end	func	WEBGPU
+  wgpu_device_create_shader_module	func	WEBGPU
+  wgpu_device_create_render_pipeline	func	WEBGPU
+  wgpu_command_encoder_copy_texture_to_texture	func	WEBGPU
+  wgpu_device_push_error_scope	func	WEBGPU
+  wgpu_device_pop_error_scope_async	func	WEBGPU
+  wgpu_buffer_get_mapped_range	func	WEBGPU
+  wgpu_buffer_read_mapped_range	func	WEBGPU
+  wgpu_buffer_unmap	func	WEBGPU
+  wgpu_command_encoder_copy_texture_to_buffer	func	WEBGPU
+  wgpu_encoder_pop_debug_group	func	WEBGPU
+  JS_WebGPU_SetCommandEncoder	func	WEBGPU
+  wgpu_device_create_compute_pipeline	func	WEBGPU
+  wgpu_command_encoder_begin_compute_pass	func	WEBGPU
+  wgpu_is_valid_object	func	WEBGPU
+  wgpu_compute_pass_encoder_dispatch_workgroups	func	WEBGPU
+  wgpu_compute_pass_encoder_dispatch_workgroups_indirect	func	WEBGPU
+  wgpu_canvas_get_webgpu_context	func	WEBGPU
+  navigator_gpu_get_preferred_canvas_format	func	WEBGPU
+  wgpu_device_set_uncapturederror_callback	func	WEBGPU
+  wgpu_canvas_context_configure	func	WEBGPU
+  wgpu_canvas_context_get_current_texture	func	WEBGPU
+  wgpu_texture_create_view_simple	func	WEBGPU
+  wgpu_device_create_command_encoder	func	WEBGPU
+  wgpu_encoder_push_debug_group	func	WEBGPU
+  wgpu_queue_submit_multiple_and_destroy	func	WEBGPU
+  wgpu_texture_create_view	func	WEBGPU
+  wgpu_render_pass_encoder_set_scissor_rect	func	WEBGPU
+  wgpu_render_pass_encoder_set_viewport	func	WEBGPU
+  JS_WebGPU_Setup	func	WEBGPU
+  wgpu_render_commands_mixin_draw_indexed_indirect	func	WEBGPU
+  wgpu_render_commands_mixin_draw_indirect	func	WEBGPU
+  wgpu_render_commands_mixin_draw_indexed	func	WEBGPU
+  wgpu_queue_write_texture	func	WEBGPU
+  wgpu_device_create_texture	func	WEBGPU
+  JS_WebCamVideo_GrabFrame	func	UNITY_JS
+  JS_Sound_GetAudioContextSampleRate	func	UNITY_JS
+  JS_Sound_ReleaseInstance	func	UNITY_JS
+  JS_Sound_Stop	func	UNITY_JS
+  JS_Sound_Create_Channel	func	UNITY_JS
+  JS_Sound_GetPosition	func	UNITY_JS
+  JS_Sound_SetPosition	func	UNITY_JS
+  JS_Sound_SetVolume	func	UNITY_JS
+  JS_Sound_Set3D	func	UNITY_JS
+  JS_Sound_Play	func	UNITY_JS
+  JS_Sound_SetPaused	func	UNITY_JS
+  JS_Sound_GetAudioBufferSampleRate	func	UNITY_JS
+  JS_Sound_SetPitch	func	UNITY_JS
+  JS_Sound_SetLoop	func	UNITY_JS
+  JS_Sound_GetLength	func	UNITY_JS
+  JS_Sound_SetLoopPoints	func	UNITY_JS
+  JS_Sound_GetMetaData	func	UNITY_JS
+  JS_Sound_GetLoadState	func	UNITY_JS
+  JS_Sound_GetData	func	UNITY_JS
+  JS_Sound_Load_PCM	func	UNITY_JS
+  JS_Sound_Load	func	UNITY_JS
+  JS_Sound_Init	func	UNITY_JS
+  JS_Sound_SetListenerPosition	func	UNITY_JS
+  JS_Sound_SetListenerOrientation	func	UNITY_JS
+  gethostbyname	func	SYS_WASI
+  gethostbyaddr	func	SYS_WASI
+  JS_WebRequest_Release	func	UNITY_JS
+  JS_WebRequest_Abort	func	UNITY_JS
+  JS_WebRequest_GetResponseMetaDataLengths	func	UNITY_JS
+  JS_WebRequest_GetResponseMetaData	func	UNITY_JS
+  JS_WebRequest_Create	func	UNITY_JS
+  JS_WebRequest_SetTimeout	func	UNITY_JS
+  JS_WebRequest_SetRedirectLimit	func	UNITY_JS
+  JS_WebRequest_SetRequestHeader	func	UNITY_JS
+  JS_WebRequest_Send	func	UNITY_JS
+  glGetProgramiv	func	WEBGL_GL
+  glGetActiveAttrib	func	WEBGL_GL
+  glGetAttribLocation	func	WEBGL_GL
+  glGetVertexAttribiv	func	WEBGL_GL
+  glValidateProgram	func	WEBGL_GL
+  glGetProgramInfoLog	func	WEBGL_GL
+  glGetShaderiv	func	WEBGL_GL
+  glGetIntegerv	func	WEBGL_GL
+  glActiveTexture	func	WEBGL_GL
+  glGetIntegeri_v	func	WEBGL_GL
+  glIsEnabled	func	WEBGL_GL
+  glAttachShader	func	WEBGL_GL
+  glBindBuffer	func	WEBGL_GL
+  glBindAttribLocation	func	WEBGL_GL
+  glBindTexture	func	WEBGL_GL
+  glBindRenderbuffer	func	WEBGL_GL
+  glBindFramebuffer	func	WEBGL_GL
+  glBufferSubData	func	WEBGL_GL
+  glBufferData	func	WEBGL_GL
+  glBlendFuncSeparate	func	WEBGL_GL
+  glBlendEquationSeparate	func	WEBGL_GL
+  glBlendEquation	func	WEBGL_GL
+  glCheckFramebufferStatus	func	WEBGL_GL
+  glClearStencil	func	WEBGL_GL
+  glClearDepthf	func	WEBGL_GL
+  glClearColor	func	WEBGL_GL
+  glClear	func	WEBGL_GL
+  glCompileShader	func	WEBGL_GL
+  glColorMask	func	WEBGL_GL
+  glCompressedTexSubImage2D	func	WEBGL_GL
+  glCompressedTexImage2D	func	WEBGL_GL
+  glCopyTexImage2D	func	WEBGL_GL
+  glCopyTexSubImage2D	func	WEBGL_GL
+  glCreateProgram	func	WEBGL_GL
+  glCreateShader	func	WEBGL_GL
+  glCullFace	func	WEBGL_GL
+  glDeleteBuffers	func	WEBGL_GL
+  glDeleteFramebuffers	func	WEBGL_GL
+  glDeleteProgram	func	WEBGL_GL
+  glDeleteRenderbuffers	func	WEBGL_GL
+  glDeleteShader	func	WEBGL_GL
+  glDeleteTextures	func	WEBGL_GL
+  glDepthFunc	func	WEBGL_GL
+  glDepthMask	func	WEBGL_GL
+  glDetachShader	func	WEBGL_GL
+  glDisable	func	WEBGL_GL
+  glDisableVertexAttribArray	func	WEBGL_GL
+  glEnable	func	WEBGL_GL
+  glDrawElements	func	WEBGL_GL
+  glDrawArrays	func	WEBGL_GL
+  glEnableVertexAttribArray	func	WEBGL_GL
+  glGetRenderbufferParameteriv	func	WEBGL_GL
+  glFramebufferRenderbuffer	func	WEBGL_GL
+  glFlush	func	WEBGL_GL
+  glFinish	func	WEBGL_GL
+  glFramebufferTexture2D	func	WEBGL_GL
+  glFrontFace	func	WEBGL_GL
+  glGenBuffers	func	WEBGL_GL
+  glGenTextures	func	WEBGL_GL
+  glGenerateMipmap	func	WEBGL_GL
+  glGenRenderbuffers	func	WEBGL_GL
+  glGenFramebuffers	func	WEBGL_GL
+  glGetActiveUniform	func	WEBGL_GL
+  glGetError	func	WEBGL_GL
+  glGetFramebufferAttachmentParameteriv	func	WEBGL_GL
+  glGetShaderSource	func	WEBGL_GL
+  glGetShaderInfoLog	func	WEBGL_GL
+  glGetString	func	WEBGL_GL
+  glGetShaderPrecisionFormat	func	WEBGL_GL
+  glGetUniformLocation	func	WEBGL_GL
+  glGetUniformiv	func	WEBGL_GL
+  glGetTexParameteriv	func	WEBGL_GL
+  glLinkProgram	func	WEBGL_GL
+  glPixelStorei	func	WEBGL_GL
+  glRenderbufferStorage	func	WEBGL_GL
+  glReadPixels	func	WEBGL_GL
+  glPolygonOffset	func	WEBGL_GL
+  glStencilFuncSeparate	func	WEBGL_GL
+  glShaderSource	func	WEBGL_GL
+  glScissor	func	WEBGL_GL
+  glStencilOpSeparate	func	WEBGL_GL
+  glStencilMask	func	WEBGL_GL
+  glTexParameterf	func	WEBGL_GL
+  glTexImage2D	func	WEBGL_GL
+  glTexParameteriv	func	WEBGL_GL
+  glTexParameteri	func	WEBGL_GL
+  glTexSubImage2D	func	WEBGL_GL
+  glVertexAttribPointer	func	WEBGL_GL
+  glVertexAttrib4fv	func	WEBGL_GL
+  glVertexAttrib4f	func	WEBGL_GL
+  glUseProgram	func	WEBGL_GL
+  glUniformMatrix4fv	func	WEBGL_GL
+  glUniformMatrix3fv	func	WEBGL_GL
+  glUniform4uiv	func	WEBGL_GL
+  glUniform4iv	func	WEBGL_GL
+  glUniform4fv	func	WEBGL_GL
+  glUniform3uiv	func	WEBGL_GL
+  glUniform3iv	func	WEBGL_GL
+  glUniform3fv	func	WEBGL_GL
+  glUniform2uiv	func	WEBGL_GL
+  glUniform2iv	func	WEBGL_GL
+  glUniform2fv	func	WEBGL_GL
+  glUniform1uiv	func	WEBGL_GL
+  glUniform1iv	func	WEBGL_GL
+  glUniform1i	func	WEBGL_GL
+  glUniform1fv	func	WEBGL_GL
+  glViewport	func	WEBGL_GL
+  glGetQueryObjectuiv	func	WEBGL_GL
+  glGetQueryiv	func	WEBGL_GL
+  glEndQuery	func	WEBGL_GL
+  glBeginQuery	func	WEBGL_GL
+  glDeleteQueries	func	WEBGL_GL
+  glGenQueries	func	WEBGL_GL
+  glGenVertexArrays	func	WEBGL_GL
+  glDeleteVertexArrays	func	WEBGL_GL
+  glIsVertexArray	func	WEBGL_GL
+  glBindVertexArray	func	WEBGL_GL
+  glCompressedTexSubImage3D	func	WEBGL_GL
+  glTexSubImage3D	func	WEBGL_GL
+  glTexImage3D	func	WEBGL_GL
+  glCompressedTexImage3D	func	WEBGL_GL
+  glTexStorage3D	func	WEBGL_GL
+  glTexStorage2D	func	WEBGL_GL
+  glGetStringi	func	WEBGL_GL
+  glRenderbufferStorageMultisample	func	WEBGL_GL
+  glBlitFramebuffer	func	WEBGL_GL
+  glFlushMappedBufferRange	func	WEBGL_GL
+  glUnmapBuffer	func	WEBGL_GL
+  glMapBufferRange	func	WEBGL_GL
+  glInvalidateFramebuffer	func	WEBGL_GL
+  glDrawArraysInstanced	func	WEBGL_GL
+  glDrawElementsInstanced	func	WEBGL_GL
+  glCopyBufferSubData	func	WEBGL_GL
+  glDrawBuffers	func	WEBGL_GL
+  glBindBufferBase	func	WEBGL_GL
+  glReadBuffer	func	WEBGL_GL
+  glFramebufferTextureLayer	func	WEBGL_GL
+  glVertexAttribIPointer	func	WEBGL_GL
+  glBindBufferRange	func	WEBGL_GL
+  glUniformBlockBinding	func	WEBGL_GL
+  glGetActiveUniformBlockName	func	WEBGL_GL
+  glGetActiveUniformBlockiv	func	WEBGL_GL
+  glGetUniformIndices	func	WEBGL_GL
+  glGetUniformBlockIndex	func	WEBGL_GL
+  glGetActiveUniformsiv	func	WEBGL_GL
+  glGetInternalformativ	func	WEBGL_GL
+  glSamplerParameteri	func	WEBGL_GL
+  glBindSampler	func	WEBGL_GL
+  glDeleteSamplers	func	WEBGL_GL
+  glGenSamplers	func	WEBGL_GL
+  glProgramParameteri	func	WEBGL_GL
+  glProgramBinary	func	WEBGL_GL
+  glGetProgramBinary	func	WEBGL_GL
+  glClearBufferfi	func	WEBGL_GL
+  glClearBufferfv	func	WEBGL_GL
+  glClearBufferuiv	func	WEBGL_GL
+  glDeleteSync	func	WEBGL_GL
+  glFenceSync	func	WEBGL_GL
+  JS_SystemInfo_HasWebGL	func	UNITY_JS
+  emscripten_webgl_init_context_attributes	func	WEBGL_GL
+  JS_Module_WebGLContextAttributes_PremultipliedAlpha	func	UNITY_JS
+  JS_Module_WebGLContextAttributes_PreserveDrawingBuffer	func	UNITY_JS
+  JS_Module_WebGLContextAttributes_PowerPreference	func	UNITY_JS
+  emscripten_webgl_create_context	func	WEBGL_GL
+  emscripten_webgl_make_context_current	func	WEBGL_GL
+  emscripten_webgl_enable_extension	func	WEBGL_GL
+  emscripten_webgl_destroy_context	func	WEBGL_GL
+  emscripten_is_webgl_context_lost	func	EMSCRIPTEN
+  emscripten_webgl_get_current_context	func	WEBGL_GL
+  glGetBufferSubData	func	WEBGL_GL
+  JS_SystemInfo_HasAstcHdr	func	UNITY_JS
+  JS_SystemInfo_GetDocumentURL	func	UNITY_JS
+  JS_SystemInfo_IsMobile	func	UNITY_JS
+  JS_DOM_UnityCanvasSelector	func	UNITY_JS
+  JS_CallAsLongAsNoExceptionsSeen	func	UNITY_JS
+  JS_SetMainLoop	func	UNITY_JS
+  JS_FileSystem_Initialize	func	UNITY_JS
+  emscripten_set_interval	func	EMSCRIPTEN
+  JS_WebPlayer_FinishInitialization	func	UNITY_JS
+  emscripten_set_fullscreenchange_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_focus_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_blur_callback_on_thread	func	EMSCRIPTEN
+  emscripten_set_pointerlockchange_callback_on_thread	func	EMSCRIPTEN
+  JS_SystemInfo_HasWebGPU	func	UNITY_JS
+  navigator_gpu_request_adapter_async	func	WEBGPU
+  JS_SystemInfo_GetGPUInfo	func	UNITY_JS
+  wgpu_adapter_request_device_async	func	WEBGPU
+  emscripten_performance_now	func	EMSCRIPTEN
+  emscripten_get_fullscreen_status	func	EMSCRIPTEN
+  emscripten_set_canvas_element_size	func	EMSCRIPTEN
+  JS_SystemInfo_HasFullscreen	func	UNITY_JS
+  emscripten_request_fullscreen	func	EMSCRIPTEN
+  emscripten_exit_fullscreen	func	EMSCRIPTEN
+  JS_SystemInfo_GetMatchWebGLToCanvasSize	func	UNITY_JS
+  JS_MobileKeybard_GetIgnoreBlurEvent	func	UNITY_JS
+  JS_SystemInfo_GetPreferredDevicePixelRatio	func	UNITY_JS
+  JS_SystemInfo_HasCursorLock	func	UNITY_JS
+  emscripten_request_pointerlock	func	EMSCRIPTEN
+  emscripten_exit_pointerlock	func	EMSCRIPTEN
+  JS_SystemInfo_GetScreenSize	func	UNITY_JS
+  emscripten_get_canvas_element_size	func	EMSCRIPTEN
+  JS_ScreenOrientation_Lock	func	UNITY_JS
+  JS_UnityEngineShouldQuit	func	UNITY_JS
+  emscripten_html5_remove_all_event_listeners	func	EMSCRIPTEN
+  emscripten_cancel_main_loop	func	EMSCRIPTEN
+  JS_RunQuitCallbacks	func	UNITY_JS
+  emscripten_clear_interval	func	EMSCRIPTEN
+  JS_SystemInfo_GetAnimationFrameRate	func	UNITY_JS
+  emscripten_set_main_loop_timing	func	EMSCRIPTEN
+  JS_Init_ContextMenuHandler	func	UNITY_JS
+  JS_Init_CopyPaste	func	UNITY_JS
+  JS_SystemInfo_GetCanvasClientSize	func	UNITY_JS
+  GetJSMemoryInfo	func	OTHER
+  GetJSLoadTimeInfo	func	OTHER
+  JS_GetRandomBytes	func	UNITY_JS
+  JS_SystemInfo_GetOS	func	UNITY_JS
+  JS_Get_WASM_Size	func	UNITY_JS
+  JS_SystemInfo_GetLanguage	func	UNITY_JS
+  JS_Eval_OpenURL	func	UNITY_JS
+  emscripten_debugger	func	EMSCRIPTEN
+  invoke_jiiii	func	INVOKE
+  invoke_ji	func	INVOKE
+  invoke_jii	func	INVOKE
+  invoke_iij	func	INVOKE
+  invoke_iiijiii	func	INVOKE
+  invoke_viijii	func	INVOKE
+  invoke_j	func	INVOKE
+  invoke_iiiijii	func	INVOKE
+  invoke_jiii	func	INVOKE
+  invoke_iji	func	INVOKE
+  invoke_viji	func	INVOKE
+  invoke_iiij	func	INVOKE
+  invoke_viiji	func	INVOKE
+  invoke_iiijii	func	INVOKE
+  invoke_jiiiiiiiiii	func	INVOKE
+  invoke_viidiji	func	INVOKE
+  invoke_vji	func	INVOKE
+  invoke_iijii	func	INVOKE
+  invoke_vijii	func	INVOKE
+  invoke_iiji	func	INVOKE
+  invoke_ijiii	func	INVOKE
+  invoke_iijiii	func	INVOKE
+  invoke_iiiiiiiiiji	func	INVOKE
+  invoke_ijji	func	INVOKE
+  invoke_jiji	func	INVOKE
+  invoke_iijji	func	INVOKE
+  invoke_vijiii	func	INVOKE
+  invoke_vjjjiiii	func	INVOKE
+  invoke_vjiiiii	func	INVOKE
+  invoke_jjji	func	INVOKE
+  invoke_jiiiii	func	INVOKE
+  invoke_jijii	func	INVOKE
+  __syscall_truncate64	func	SYS_WASI
+  glClientWaitSync	func	WEBGL_GL

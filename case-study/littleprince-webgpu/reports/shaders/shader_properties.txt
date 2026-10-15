@@ -1,0 +1,543 @@
+### B612/Sky
+properties (89):
+  - Cloud Mode
+  - Day Clouds (premultiplied HDR, elevation 0..90)
+  - Day Cloud Coverage (R)
+  - Dusk Clouds (premultiplied HDR, elevation 0..90)
+  - Dusk Cloud Coverage (R)
+  - Day Cloud Horizon Ring (512x1, rgb premult, a coverage)
+  - Dusk Cloud Horizon Ring (512x1)
+  - Cloud Plane Height (m)
+  - Cloud Wind Speed (m/s, along the global wind)
+  - Flow Period (s)
+  - Flow Crossfade (share of the period)
+  - Flow Phase Noise Scale (m)
+  - Drift Damping (x none below, y full above, deg)
+  - Cloud Horizon Fade (x start, y full, deg)
+  - Cloud Haze Toward The Horizon
+  - Day Clouds At Dusk (rgb tint ^dusk, a brightness)
+  - Sun Disk Flattening At The Horizon
+  - Day Relight: brightness vs angle to the sun (x floor, y peak, z width deg, w de-yellow)
+  - Day Silver Lining (x strength, y width deg); z cloud-core luminance for the photo-sun repair
+  - Evolution (x size m, y period s); edge softness of the rigid flow (z overhead, w near the horizon)
+  - Cloud LOD From The View Ray (0 = off; > 0 = on, value = extra blur, 1 = none)
+  - Photo Cloud Cut (x day layer, y dusk layer, z extra dusk cut at the horizon, w its fade elev deg; 0 = off)
+  - Cirrus (x opacity, 0 = off; y scale 1/m on the plane; z streak stretch; w drift)
+  - Cirrus Shape (x cover from, y cover to, z sun forward, w sky brightness)
+  - Cirrus Tint (rgb)
+  - Sun Disk (x limb darkening, y edge softness share, z bloom core, w bloom exponent)
+  - Crepuscular Rays (x strength, y count, z sharpness, w reach deg)
+  - Rays Colour (rgb, a max sun elevation deg)
+  - Dusk Sun (x strength, y halo strength, z halo width deg, w max sun el deg; 0 = off)
+  - Dusk Sun Disk (rgb HDR, after exposure)
+  - Dusk Halo (rgb HDR, after exposure)
+  - Star Brightness
+  - Star Radius (deg)
+  - Star Density (x bright layer, y faint layer, z faint boost in the Milky Way)
+  - Star Twinkle
+  - Star Fade Near The Horizon (deg)
+  - Milky Way (rgb colour, a half width)
+  - Milky Way Pole (star frame)
+  - Moon Disc (rgb radiance, a radius deg)
+  - Moon Halo (x tight, y tight exponent, z wide, w wide exponent)
+  - Moon Halo Colour (rgb), a moonlit cloud edges
+  - Day Sky (HDR equirect, elevation 0..90)
+  - Dusk Sky (HDR equirect, elevation 0..90)
+  - Day Horizon Ring (512x1)
+  - Dusk Horizon Ring (512x1)
+  - Panorama Bottom Latitude (deg)
+  - Horizon Blend (x photo starts, y photo full, deg)
+  - Ring Elevation For Grading (deg)
+  - Sunset Yaw Drift (deg over the transition)
+  - Ground Blend Below Horizon (deg)
+  - Day Exposure
+  - Day Tint (rgb multiplier)
+  - Day Saturation
+  - Day Horizon Multiplier (rgb)
+  - Day Horizon Range (deg)
+  - Day Zenith Multiplier (rgb)
+  - Day Zenith Start (deg)
+  - Day Yaw (deg, clockwise)
+  - Day Sun Disk Scale
+  - Day Halo Scale
+  - Day Highlight Knee (x threshold, y range; y 0 = off)
+  - Day Circumsolar Dim (x strength, y exponent, z sun az, w sun el)
+  - Dusk Exposure
+  - Dusk Tint (rgb multiplier)
+  - Dusk Saturation
+  - Dusk Horizon Multiplier (rgb)
+  - Dusk Horizon Range (deg)
+  - Dusk Zenith Multiplier (rgb)
+  - Dusk Zenith Start (deg)
+  - Dusk Yaw (deg, clockwise)
+  - Dusk Sun Disk Scale
+  - Dusk Halo Scale
+  - Dusk Highlight Knee (x threshold, y range; y 0 = off)
+  - Dusk Circumsolar Dim (x strength, y exponent, z sun az, w sun el)
+  - Day Radiance (RGB, premultiplied HDR)
+  - Dusk Radiance (RGB, premultiplied HDR)
+  - Coverage (R)
+  - Panorama Bottom Latitude (deg)
+  - Day Radiance Scale
+  - Dusk Radiance Scale
+  - Drift Period (s, back-and-forth)
+  - Sun Glow In Front Of Clouds
+  - Cumulus Atlas Six-Way +
+  - Cumulus Atlas Six-Way -
+  - Band Atlas Six-Way +
+  - Band Atlas Six-Way -
+  - Cloud Edge Softness
+  - Cloud Light Contrast
+  - Sun Dimmed Behind Clouds
+
+### B612/Steam
+properties (10):
+  - Six-Way + (Steam_Sheet_SixWayPos)
+  - Six-Way - (Steam_Sheet_SixWayNeg)
+  - Tint
+  - Opacity
+  - Sun Light
+  - Sky Light
+  - Back-light Boost
+  - Light Contrast
+  - Soft Particle Distance (m)
+  - Near Camera Fade (m)
+
+### B612/Glow
+properties (6):
+  - Glow Colour (HDR)
+  - Radial Falloff
+  - Flicker Amount
+  - Flicker Speed
+  - Flicker Seed
+  - Soft Distance (m)
+
+### B612/Water
+properties (28):
+  - Normal A (Water_NormalA, broad swell)
+  - Normal B (Water_NormalB, ripples)
+  - Normal A Tile (m)
+  - Normal B Tile (m)
+  - Normal A Strength
+  - Normal B Strength
+  - Ribbon Width For UV u (m)
+  - Flow Speed Multiplier
+  - Flow (m/s) if the mesh has no UV1
+  - In-scatter Colour
+  - In-scatter Density (1/m)
+  - Absorption (1/m, rgb)
+  - Deep Tint
+  - Refraction
+  - Reflection Strength
+  - Fresnel F0
+  - Surface Roughness
+  - Sun Glint
+  - Foam (Water_Foam)
+  - Foam Tile (m)
+  - Foam Colour
+  - Foam Where Shallower Than (m)
+  - Foam Near Bank Within (m)
+  - Foam Amount
+  - Edge Softness (m of depth)
+  - Caustics (Water_Caustics)
+  - Caustics Tile (m)
+  - Caustics Strength
+
+### B612/FarLandscape
+properties (15):
+  - Base Colour
+  - Warm Variation
+  - Cool Variation
+  - Macro Noise (Noise_Macro)
+  - Macro Tiling (1/m)
+  - Colour Variation
+  - Diffuse Wrap
+  - Normal Softening (toward up)
+  - Ambient
+  - Cloud Shadows (x preset strength)
+  - Haze Density (1/m)
+  - Haze Start (m)
+  - Haze Falloff Power (1 exp, 2 exp2)
+  - Mist Top Height (world y)
+  - Mist Density (1/m)
+
+### B612/Grass
+properties (35):
+  - Root
+  - Mid
+  - Tip
+  - Mid Point
+  - Translucency
+  - Translucency Amount
+  - Lush Patch (cool)
+  - Sunny Patch (yellow)
+  - Dry / Straw
+  - Macro Noise (Noise_Macro)
+  - Macro Tiling (1/m)
+  - Lush Patch Amount
+  - Sunny Patch Amount
+  - Warm Dry Patch Amount
+  - Straw Blades
+  - Per-Instance Sunny
+  - Per-Instance Brightness
+  - Per-Instance Hue Jitter (toward Lush cool / Sunny warm)
+  - Sunlit Tip Desaturation
+  - Per-Blade Brightness (G)
+  - Blade Variation Fade Distance (m)
+  - Flower Colour On Grass Tips
+  - Flower Tips From (m)
+  - Flower Tips Full At (m)
+  - Gust Brightening
+  - Gust Toward Sunny Tint
+  - Clump Occlusion (vertex B)
+  - Diffuse Wrap
+  - Normal Toward Up
+  - Received Shadow Strength
+  - Specular
+  - Smoothness
+  - Ambient Multiplier
+  - Tip Displacement (m)
+  - Player Push
+
+### B612/SteamPlume
+properties (13):
+  - Noise 3D (R billows, G detail; tileable)
+  - Shape (x base radius m, y spread per m, z visible height m, w dilution power)
+  - Flow (x rise m/s, y bend m^-0.5, z boil speed, w sway)
+  - Noise (x billow size m, y detail size m, z billow erosion low / high, w detail erosion)
+  - Billow Erosion At The Top
+  - Core Extinction (1/m)
+  - Albedo (rgb)
+  - Lighting (x sun, y ambient, z forward g, w multiple-scatter floor)
+  - Ray Steps
+  - Vent (xyz world, w seed)
+  - Wind (xy unit dir in xz, z bend scale, w unused)
+  - Vent Glow (rgb HDR, a height m)
+  - Break-up (x start share of height, y puff size m, z strength, w softness)
+
+### B612/Bark
+properties (13):
+  - Albedo
+  - Tint
+  - Normal
+  - Normal Strength
+  - Mask (R metal, G AO, B height, A smoothness)
+  - AO Strength
+  - Smoothness Multiplier
+  - Detail Normal (Detail_Bark_Normal)
+  - Detail Normal Strength
+  - Wind Mode
+  - Crown Bend (m)
+  - Branch Sway (m)
+  - Branch Frequency
+
+### B612/Foliage
+properties (41):
+  - Albedo (A = alpha)
+  - Tint
+  - Alpha Clip
+  - Alpha Cutoff
+  - Alpha To Coverage (MSAA)
+  - Normal
+  - Normal Strength
+  - Mask (R metal, G AO, B translucency, A smoothness)
+  - Shell Normal Weight
+  - Mask AO Strength
+  - Crown Occlusion (vertex B)
+  - Back Face Tint
+  - Diffuse Wrap
+  - Terminator Sharpness
+  - Direct Light Inside Crown
+  - Backlit Edge Glow
+  - Received Shadow Strength
+  - Translucency Tint (x albedo)
+  - Translucency
+  - Translucency Focus
+  - Specular
+  - Ambient Multiplier
+  - Per-Plant Hue Variation
+  - Per-Plant Brightness Variation
+  - Per-Cluster Hue / Value (vertex G)
+  - Saturation (1 = as authored)
+  - Fade Cards Seen Edge-On
+  - Wind Mode
+  - Tree: Crown Bend (m)
+  - Tree: Branch Sway (m)
+  - Leaf Flutter (m)
+  - Tree: Branch Frequency
+  - Plant: Tip Displacement (m)
+  - Plant: Player Push
+  - Haze Density (1/m)
+  - Haze Start (m)
+  - Haze Falloff Power
+  - Mist Top Height (world y)
+  - Mist Density (1/m)
+  - Cull
+  - Debug View
+
+### B612/Fabric
+properties (54):
+  - Sheen Color
+  - Sheen
+  - Sheen Falloff
+  - Shadow Warmth (rgb, a = amount)
+  - WorkflowMode
+  - Albedo
+  - Color
+  - Alpha Cutoff
+  - Smoothness
+  - Smoothness texture channel
+  - Metallic
+  - Metallic
+  - Specular
+  - Specular
+  - Specular Highlights
+  - Environment Reflections
+  - Scale
+  - Normal Map
+  - Scale
+  - Height Map
+  - Strength
+  - Occlusion
+  - Color
+  - Emission
+  - Detail Mask
+  - Scale
+  - Detail Albedo x2
+  - Scale
+  - Normal Map
+  - _ClearCoatMask
+  - _ClearCoatSmoothness
+  - __surface
+  - __blend
+  - __cull
+  - __clip
+  - __src
+  - __dst
+  - __srcA
+  - __dstA
+  - __zw
+  - _BlendModePreserveSpecular
+  - __alphaToMask
+  - _AddPrecomputedVelocity
+  - _XRMotionVectorsPass
+  - Receive Shadows
+  - Queue offset
+  - BaseMap
+  - Base Color
+  - Smoothness
+  - Smoothness
+  - EnvironmentReflections
+  - unity_Lightmaps
+  - unity_LightmapsInd
+  - unity_ShadowMasks
+
+### Hidden/Universal Render Pipeline/FallbackError
+properties (0):
+
+### Hidden/Core/FallbackError
+properties (0):
+
+### B612/Pond
+properties (40):
+  - Normal (Water_NormalA, broad swell)
+  - Normal (Water_NormalB, catspaw)
+  - Swell Tile (m)
+  - Catspaw Tile (m)
+  - Swell Strength
+  - Catspaw Strength
+  - Wind Drift (m/s)
+  - Vent (world xz)
+  - Boil Radius At The Surface (m)
+  - Boil Dome Height (x dome sigma; 0.06 = 8.6 mm, 2.5x the physical 3.5 mm)
+  - Boil Churn
+  - Boil Pulse (Hz)
+  - Wavelength (m)
+  - Phase Speed c (m/s)
+  - Group Speed cg (m/s)
+  - Packets per Second
+  - Ring Slope
+  - Rings Fade Out By (m)
+  - Vent Image (world xz)
+  - Overflow Notch (world xz)
+  - Source Strength Q / 2 pi h (m2/s)
+  - Drift Readability Boost
+  - Flecks (R flecks, G fine bubbles, B streaks)
+  - Fleck Tile (m)
+  - Fleck Amount
+  - Tongue Streaks
+  - Draw-down Turbulence Near The Outlet (review 2026-10-01)
+  - In-scatter Colour
+  - In-scatter Density (1/m)
+  - Absorption (1/m, rgb)
+  - Deep Tint
+  - Refraction
+  - Reflection Strength
+  - Fresnel F0
+  - Surface Roughness
+  - Sun Glint
+  - Edge Softness (m of depth)
+  - Caustics (Water_Caustics)
+  - Caustics Tile (m)
+  - Caustics Strength
+
+### B612/Stream
+properties (36):
+  - Flow Map (generated, RGBAHalf)
+  - Flow Map Transform (u scale, s scale, u offset, s offset)
+  - Phase Noise (Noise_Macro)
+  - Flow Cycle (s)
+  - Advection Speed Scale
+  - Normal A (Water_NormalA)
+  - Normal B (Water_NormalB)
+  - Normal A Tile (m)
+  - Normal B Tile (m)
+  - Normal Strength (x chop)
+  - Standing Waves In Runs
+  - Streaks (Water_Flecks, B = lines along v)
+  - Streak Tile (m across, m along)
+  - Current Lines (normal ridges)
+  - Foam Lines Trailing Downstream
+  - Sun Sparkle On Fast Water
+  - Whitewater Churn
+  - In-scatter Colour
+  - In-scatter Density (1/m)
+  - Absorption (1/m, rgb)
+  - Deep Tint
+  - Refraction
+  - Reflection Strength
+  - Fresnel F0
+  - Surface Roughness
+  - Sun Glint
+  - Foam (Water_Foam)
+  - Foam Tile (m)
+  - Foam Colour
+  - Foam Amount
+  - Foam Where Shallower Than (m)
+  - Whitewater Opacity
+  - Edge Softness (m of depth)
+  - Caustics (Water_Caustics)
+  - Caustics Tile (m)
+  - Caustics Strength
+
+### B612/PlanetRock
+properties (26):
+  - Rock Albedo (tileable)
+  - Detail Normal (tileable)
+  - Macro Noise
+  - Triplanar Tile (m)
+  - Detail Normal Tile (m)
+  - Detail Normal Strength
+  - Rock Tint
+  - Rock Tint B (macro variation)
+  - Strata Bands (x strength, y spacing m)
+  - Moss
+  - Moss Amount
+  - Moss Fades Below World y
+  - Underside Tint
+  - Underside Starts Below World y (x start, y full)
+  - Smoothness
+  - Grass Cap (vertex colour B: the lip shoulder)
+  - Grass Cap Variation
+  - Warm Lichen
+  - Lichen Amount
+  - Moss On Up-Facing Rock At Any Height
+  - Cloud Mist Where The Cloud Tops Hug The Rock (x strength, y height m)
+  - Vertex AO Strength
+  - Sky Fill (lifts the shaded side, far bodies)
+  - Rim Light (x strength, y power; backlit edge glow)
+  - Haze Density (1/m, 0 = off)
+  - Haze Start (m)
+
+### B612/CloudPuff
+properties (14):
+  - Cumulus Six-Way + (rgb +x +y +z, a coverage)
+  - Cumulus Six-Way -
+  - Atlas Cell (0..3, +4 = mirror)
+  - Opacity
+  - Coverage Exponent
+  - Light Contrast
+  - Sun Scale
+  - Ambient Scale
+  - Backlit Silver Lining
+  - Depth Fade (m)
+  - Near Fade (x hidden, y full, m)
+  - Haze Density (1/m)
+  - Haze Start (m)
+  - Bottom Fade (share of the card height)
+
+### B612/Waterfall
+properties (12):
+  - Foam (Water_Foam, legacy)
+  - Streaks (R streaks, G strands, B drops, A spray)
+  - Water Colour
+  - Legacy Fall Speed (m/s, no UV1)
+  - Streak Tile (x across 1/u, y seconds of flight)
+  - Opacity
+  - Fall Length (m)
+  - Bottom Fade (share of the length)
+  - Sheet Thickness At The Lip (m)
+  - Zone Drops (nappe end, strands start, spray start, m)
+  - Wind Drift Acceleration (m/s2)
+  - Sheet Reflection
+
+### B612/SandBoil
+properties (12):
+  - Sand (SandBoil_Sand, sRGB)
+  - Sand Normal (SandBoil_Normal)
+  - Sand Tile (m)
+  - Sand Tint
+  - Vent (world xz, w = throat radius)
+  - Cone Radius (m)
+  - Churn In The Throat
+  - Churn Speed
+  - Lifted Sand Haze
+  - Normal Strength
+  - Under-water Tint (the shallow pool over the cone)
+  - Throat Darkness
+
+### B612/CloudLayer
+properties (43):
+  - Weather (r coverage, g swell, b puffiness, a cell dome)
+  - Base Noise 3D (r Perlin-Worley, gba Worley fBm)
+  - Detail Noise 3D (rgb Worley fBm, a twist)
+  - Blue Noise (R8, point, repeat)
+  - Layer (x mean top y, y cap height m, z body ramp m, w swell amplitude m)
+  - Weather (x tile m, y wind m/s, z coverage bias, w coverage contrast)
+  - Shape (x base noise tile m, y detail tile m, z erosion, w density 1/m)
+  - Shape B (x cell dome relief m, y thinning start smooth, z thinning start heaped, w crown carve m)
+  - Heaped Crown Carve Scale
+  - Open cloud lanes (x strength, y coverage clear, z coverage full, w body depth m)
+  - Thin lower wisps in open lanes
+  - Broken banks (x broad coverage blend, y thin-edge density, z start m, w full m)
+  - Broad banks (x scale, yz tile offset, w coverage centre)
+  - Base Shape Vertical Scale
+  - Structure (x organic body blend, y shape warp m, z detailed sun shadow, w cap profile exponent)
+  - Motion (x boil m/s, y detail speed x, z unused, w unused)
+  - Calm Zone (xy planet centre xz, z inner radius m, w outer radius m)
+  - Calm Shape (x top drop m, y puffiness x, z coverage floor, w cap height x)
+  - Far Flattening (x from m, y full at m, z cap height x, w swell / dome x) round the planet
+  - March (x max steps, y min step m, z step per m, w max distance m)
+  - March B (x far LOD from m, y detail within m, z empty step x, w opacity cutoff)
+  - Light March (x steps near, y first step m, z growth, w density x)
+  - Light March Far (x steps far, y reuse light below transmittance, z in-cloud step growth, w growth max)
+  - Planet Shadow Ellipsoid (x centre y, y radius xz, z radius y, w softness)
+  - Planet Shadow (x strength)
+  - Horizon Band (x top deg, y power, z max alpha, w far deck line deg)
+  - Sun Disk At The Horizon (x scale, y deck line softness deg)
+  - Dusk Sun (x strength, y halo strength, z halo width deg, w max sun el deg)
+  - Dusk Sun Disk (HDR, exposed)
+  - Dusk Halo (HDR, exposed)
+  - Temporal (x history weight, y variance clip gamma, z depth reject, w history cubic blend)
+  - Debug View
+  - Composite Depth Test (LessEqual: scenery hides the clouds)
+  - Sun (x scale, y whiten, z albedo, w ambient scale)
+  - Phase (x g forward, y g back, z forward weight, w clamp)
+  - Multiple Scattering (x a, y b, z c, w powder)
+  - Ambient (x trough sky visibility min, y bounce, z up occlusion, w bottom cool)
+  - Haze (x density 1/m, y start m, z horizon fog from deg, w in-scatter)
+  - Haze B (x in-scatter g, y low sun boost, z unused, w unused)
+  - Dusk Grade (x strength)
+  - Dusk: toward the sun
+  - Dusk: lit broadside
+  - Dusk: shade

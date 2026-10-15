@@ -1,0 +1,19 @@
+# name custom section: ABSENT
+
+The module contains ZERO custom sections (section id 0). The section walk in
+wasm_parse.py consumes all 51,769,628 bytes with p==N and no leftover, and
+enumerates exactly 10 sections: type,import,function,table,memory,global,
+export,element,code,data. No id-0 section exists.
+
+Raw byte search for the literal custom-section names:
+  'producers'        -> 0 occurrences
+  'target_features'  -> 0 occurrences
+  'build_id'         -> 0 occurrences
+  'linking'/'dylink' -> 0 occurrences
+  'sourceMappingURL' -> 0 occurrences
+  'name'             -> 153 occurrences, ALL inside data-section text
+                        (the common English/NET substring), none as a section.
+
+Consequence: internal function/local names are STRIPPED (built -g0 / stripped).
+The externally visible API survives only through the export section (594 named
+functions) and the data section string blob (managed assembly + type names).

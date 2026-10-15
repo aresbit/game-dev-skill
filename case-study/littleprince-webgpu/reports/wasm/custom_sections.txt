@@ -1,0 +1,20 @@
+# Custom sections (section id 0): NONE
+
+The module contains zero custom sections. Evidence from wasm_parse.py:
+
+* The section walk enumerates exactly 10 sections and consumes all 51,769,628
+  bytes (p == N, no trailing bytes):
+    type, import, function, table, memory, global, export, element, code, data
+* No section with id 0 exists anywhere in the file.
+* Raw byte search for the literal custom-section names:
+    'name'             -> 153 occurrences, ALL inside data-section text
+                          (ordinary English/NET substring) -- not a section
+    'producers'        -> 0
+    'target_features'  -> 0
+    'build_id'         -> 0
+    'linking'          -> 0
+    'dylink'           -> 0
+    'sourceMappingURL' -> 0
+
+Therefore there is no 'name', no 'producers', no 'target_features', and no
+'build_id' custom section. This build was stripped.
